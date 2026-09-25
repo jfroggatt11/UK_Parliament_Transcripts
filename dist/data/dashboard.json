@@ -7,7 +7,7 @@
     "parliament_confidence": 0.98,
     "start_time": "2026-03-31T08:43:50.314437+00:00",
     "end_time": "2026-03-31T10:44:09.470272+00:00",
-    "generated_at": "2026-09-25T14:45:21.926891+00:00",
+    "generated_at": "2026-09-25T15:20:17.250031+00:00",
     "source_session": "/Users/jonahfroggatt/Documents/Tortoise/subtitles/Live_Subtitle_Scraper/analysis/bbc_news_channel",
     "method": "Local lexical topic signals over 15-minute bins"
   },
