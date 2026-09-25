@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.docx
+output/
+.browser_profile/
+.browser_profile_itv/
+.browser_profile_c4/
+.browser_profile_amazon/
+analysis/**/subs/
+analysis/**/*.wav
+analysis/**/dash_audio/
+analysis/**/audio_segments/
+
+

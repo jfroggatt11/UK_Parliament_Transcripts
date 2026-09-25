@@ -1,0 +1,5511 @@
+{
+  "meta": {
+    "session_id": "20260331_084350",
+    "channel": "bbc_news_channel_hd",
+    "channel_label": "Bbc News Channel Hd",
+    "parliament": "UK Parliament",
+    "parliament_confidence": 0.98,
+    "start_time": "2026-03-31T08:43:50.314437+00:00",
+    "end_time": "2026-03-31T10:44:09.470272+00:00",
+    "generated_at": "2026-09-25T14:45:21.926891+00:00",
+    "source_session": "/Users/jonahfroggatt/Documents/Tortoise/subtitles/Live_Subtitle_Scraper/analysis/bbc_news_channel",
+    "method": "Local lexical topic signals over 15-minute bins"
+  },
+  "summary": {
+    "words": 9311,
+    "chunks": 1029,
+    "duration_minutes": 119,
+    "top_topic": "Security & foreign affairs"
+  },
+  "word_cloud": [
+    {
+      "word": "now",
+      "count": 110
+    },
+    {
+      "word": "know",
+      "count": 72
+    },
+    {
+      "word": "bbc",
+      "count": 65
+    },
+    {
+      "word": "people",
+      "count": 63
+    },
+    {
+      "word": "not",
+      "count": 62
+    },
+    {
+      "word": "war",
+      "count": 60
+    },
+    {
+      "word": "well",
+      "count": 55
+    },
+    {
+      "word": "iran",
+      "count": 45
+    },
+    {
+      "word": "very",
+      "count": 44
+    },
+    {
+      "word": "minister",
+      "count": 44
+    },
+    {
+      "word": "going",
+      "count": 42
+    },
+    {
+      "word": "government",
+      "count": 41
+    },
+    {
+      "word": "time",
+      "count": 40
+    },
+    {
+      "word": "prime",
+      "count": 39
+    },
+    {
+      "word": "news",
+      "count": 36
+    },
+    {
+      "word": "israel",
+      "count": 36
+    },
+    {
+      "word": "because",
+      "count": 33
+    },
+    {
+      "word": "think",
+      "count": 33
+    },
+    {
+      "word": "around",
+      "count": 32
+    },
+    {
+      "word": "fuel",
+      "count": 31
+    },
+    {
+      "word": "course",
+      "count": 30
+    },
+    {
+      "word": "oil",
+      "count": 30
+    },
+    {
+      "word": "really",
+      "count": 29
+    },
+    {
+      "word": "we've",
+      "count": 28
+    },
+    {
+      "word": "over",
+      "count": 28
+    },
+    {
+      "word": "those",
+      "count": 27
+    },
+    {
+      "word": "lebanon",
+      "count": 27
+    },
+    {
+      "word": "any",
+      "count": 26
+    },
+    {
+      "word": "like",
+      "count": 26
+    },
+    {
+      "word": "way",
+      "count": 26
+    },
+    {
+      "word": "see",
+      "count": 26
+    },
+    {
+      "word": "impact",
+      "count": 25
+    },
+    {
+      "word": "already",
+      "count": 25
+    },
+    {
+      "word": "police",
+      "count": 25
+    },
+    {
+      "word": "across",
+      "count": 25
+    },
+    {
+      "word": "other",
+      "count": 24
+    }
+  ],
+  "topic_series": [
+    {
+      "label": "00:00",
+      "values": {
+        "Economy & cost of living": 9,
+        "Health & public services": 6,
+        "Security & foreign affairs": 13,
+        "Parliament & government": 24
+      }
+    },
+    {
+      "label": "00:15",
+      "values": {
+        "Economy & cost of living": 3,
+        "Health & public services": 0,
+        "Security & foreign affairs": 48,
+        "Parliament & government": 9
+      }
+    },
+    {
+      "label": "00:30",
+      "values": {
+        "Economy & cost of living": 10,
+        "Health & public services": 4,
+        "Security & foreign affairs": 14,
+        "Parliament & government": 16
+      }
+    },
+    {
+      "label": "00:45",
+      "values": {
+        "Economy & cost of living": 11,
+        "Health & public services": 0,
+        "Security & foreign affairs": 43,
+        "Parliament & government": 14
+      }
+    },
+    {
+      "label": "01:00",
+      "values": {
+        "Economy & cost of living": 6,
+        "Health & public services": 22,
+        "Security & foreign affairs": 3,
+        "Parliament & government": 9
+      }
+    },
+    {
+      "label": "01:15",
+      "values": {
+        "Economy & cost of living": 4,
+        "Health & public services": 2,
+        "Security & foreign affairs": 61,
+        "Parliament & government": 24
+      }
+    },
+    {
+      "label": "01:30",
+      "values": {
+        "Economy & cost of living": 18,
+        "Health & public services": 0,
+        "Security & foreign affairs": 23,
+        "Parliament & government": 18
+      }
+    },
+    {
+      "label": "01:45",
+      "values": {
+        "Economy & cost of living": 21,
+        "Health & public services": 2,
+        "Security & foreign affairs": 24,
+        "Parliament & government": 12
+      }
+    }
+  ],
+  "word_series": [
+    {
+      "label": "00:00",
+      "values": {
+        "now": 21,
+        "know": 6,
+        "bbc": 7,
+        "people": 7,
+        "not": 4,
+        "war": 3,
+        "well": 9,
+        "iran": 0
+      }
+    },
+    {
+      "label": "00:15",
+      "values": {
+        "now": 6,
+        "know": 9,
+        "bbc": 2,
+        "people": 6,
+        "not": 10,
+        "war": 13,
+        "well": 7,
+        "iran": 9
+      }
+    },
+    {
+      "label": "00:30",
+      "values": {
+        "now": 16,
+        "know": 5,
+        "bbc": 18,
+        "people": 3,
+        "not": 11,
+        "war": 3,
+        "well": 11,
+        "iran": 2
+      }
+    },
+    {
+      "label": "00:45",
+      "values": {
+        "now": 13,
+        "know": 4,
+        "bbc": 9,
+        "people": 6,
+        "not": 2,
+        "war": 4,
+        "well": 5,
+        "iran": 10
+      }
+    },
+    {
+      "label": "01:00",
+      "values": {
+        "now": 11,
+        "know": 9,
+        "bbc": 9,
+        "people": 9,
+        "not": 9,
+        "war": 0,
+        "well": 7,
+        "iran": 0
+      }
+    },
+    {
+      "label": "01:15",
+      "values": {
+        "now": 12,
+        "know": 15,
+        "bbc": 5,
+        "people": 16,
+        "not": 8,
+        "war": 16,
+        "well": 4,
+        "iran": 17
+      }
+    },
+    {
+      "label": "01:30",
+      "values": {
+        "now": 17,
+        "know": 9,
+        "bbc": 11,
+        "people": 12,
+        "not": 5,
+        "war": 10,
+        "well": 7,
+        "iran": 5
+      }
+    },
+    {
+      "label": "01:45",
+      "values": {
+        "now": 14,
+        "know": 15,
+        "bbc": 4,
+        "people": 4,
+        "not": 13,
+        "war": 11,
+        "well": 5,
+        "iran": 2
+      }
+    }
+  ],
+  "topics": [
+    {
+      "name": "Economy & cost of living",
+      "colour": "#e9b949"
+    },
+    {
+      "name": "Health & public services",
+      "colour": "#57c7b6"
+    },
+    {
+      "name": "Security & foreign affairs",
+      "colour": "#ec7b60"
+    },
+    {
+      "name": "Parliament & government",
+      "colour": "#8ca8ff"
+    }
+  ],
+  "transcript": [
+    {
+      "time": "00:00:00",
+      "end": "00:00:07",
+      "text": "in Myanmar because electricitysupplies here are so erratic, many households rely on generators for which they can no longer get the fuel needed to power them."
+    },
+    {
+      "time": "00:00:07",
+      "end": "00:00:13",
+      "text": "Jonathan Head there in Bangkok, we can talk more about the impact of the war around the world."
+    },
+    {
+      "time": "00:00:13",
+      "end": "00:00:16",
+      "text": "We can bring in our correspondent in Seoul now."
+    },
+    {
+      "time": "00:00:16",
+      "end": "00:00:18",
+      "text": "Jake Kwon J-Tech always really good to have you with us."
+    },
+    {
+      "time": "00:00:18",
+      "end": "00:00:24",
+      "text": "I understand that Korean Air is also taking emergency action in light of rising fuel prices."
+    },
+    {
+      "time": "00:00:24",
+      "end": "00:00:27",
+      "text": "Tell us more about that."
+    },
+    {
+      "time": "00:00:27",
+      "end": "00:00:32",
+      "text": "Yes. The fuel, as you can imagine, is a big part of the aircraft airliner's cost."
+    },
+    {
+      "time": "00:00:32",
+      "end": "00:00:46",
+      "text": "And the Korean Air said that they're entering an emergency running of their company as these rise in fuel costs as well as aviation fuel, of course, iseating into their overhead."
+    },
+    {
+      "time": "00:00:46",
+      "end": "00:00:48",
+      "text": "And this is not just the Korean Air."
+    },
+    {
+      "time": "00:00:48",
+      "end": "00:00:52",
+      "text": "Korean Air also owns Asiana and other more low cost carrier airlines."
+    },
+    {
+      "time": "00:00:52",
+      "end": "00:00:58",
+      "text": "And this is just one of the corporations in South Korea that is turning on the red light."
+    },
+    {
+      "time": "00:00:58",
+      "end": "00:01:03",
+      "text": "Now, the government has also been taking steps to limit the impact of the oil crunch."
+    },
+    {
+      "time": "00:01:03",
+      "end": "00:01:12",
+      "text": "Last week they have asked its civil servants to leave their cars at home, turns and take the publictransportation."
+    },
+    {
+      "time": "00:01:12",
+      "end": "00:01:16",
+      "text": "Now they're mulling options to expand that policy to the rest of the public."
+    },
+    {
+      "time": "00:01:16",
+      "end": "00:01:24",
+      "text": "And as well as we've heard from the government also stopping the export of a critical component called NAFTA."
+    },
+    {
+      "time": "00:01:24",
+      "end": "00:01:36",
+      "text": "Now this is a substance that is crucial in making plastics, including plastic bags and other kind of lighter, more flexible plastic."
+    },
+    {
+      "time": "00:01:36",
+      "end": "00:01:40",
+      "text": "And the governmentsaid that even if a company has an export deal, they can no longer take that substance outside the country."
+    },
+    {
+      "time": "00:01:40",
+      "end": "00:02:03",
+      "text": "And this really brings attention to this worst case scenario that the economist has been pointing out, saying that what if what happens if all the countries around the world start putting up barriers to exporting any kind of petroleum substances and start hoarding thesesupplies to help its domestic supply, then we're really making what is already a bad situation into a worse one."
+    },
+    {
+      "time": "00:02:03",
+      "end": "00:02:12",
+      "text": "And more broadly than Jake, you mentioned there some of the actions from the government, but how is this registering with people in South Korea?"
+    },
+    {
+      "time": "00:02:12",
+      "end": "00:02:16",
+      "text": "How concerned are they by what they're seeing on the markets?"
+    },
+    {
+      "time": "00:02:16",
+      "end": "00:02:22",
+      "text": "Well, certainly there lot of fear in the market."
+    },
+    {
+      "time": "00:02:22",
+      "end": "00:02:24",
+      "text": "We saw asharp sell off on the Korea's stock market today this morning."
+    },
+    {
+      "time": "00:02:24",
+      "end": "00:02:26",
+      "text": "And this is the second day in a row."
+    },
+    {
+      "time": "00:02:26",
+      "end": "00:02:36",
+      "text": "And then you know I think there is a sense that this the public there's a sense that there might be a real danger, a risk coming next month."
+    },
+    {
+      "time": "00:02:36",
+      "end": "00:02:42",
+      "text": "There has been people voicing concerns that these plastic bags might run out."
+    },
+    {
+      "time": "00:02:42",
+      "end": "00:02:48",
+      "text": "There are these plastic bags that the government o throw out their general waste in."
+    },
+    {
+      "time": "00:02:48",
+      "end": "00:02:56",
+      "text": "And some people have been talking about certainly going to the stores and buying up all the diapers there or any other materials that requires these plastic wrappings."
+    },
+    {
+      "time": "00:02:56",
+      "end": "00:03:00",
+      "text": "Now, the government has been trying to nip this fear in the bud."
+    },
+    {
+      "time": "00:03:00",
+      "end": "00:03:06",
+      "text": "We saw the government holding emergency meetings almost daily and really communicating to the public that there is enough supply."
+    },
+    {
+      "time": "00:03:06",
+      "end": "00:03:12",
+      "text": "Please do not run to the store and engage inthis."
+    },
+    {
+      "time": "00:03:12",
+      "end": "00:03:24",
+      "text": "This practices. The government has also installed price caps, so a lot of the messaging coming from the government has been to calm down, you know, but we also heard from President Lee Jae Myung saying that the problem is actually could be a lot worse than we imagined."
+    },
+    {
+      "time": "00:03:24",
+      "end": "00:03:35",
+      "text": "And he said the real solution here, real long-term permanent solution here is to wean off the country from oil andgas."
+    },
+    {
+      "time": "00:03:35",
+      "end": "00:03:36",
+      "text": "Jake, really interesting to get insights from South Korea."
+    },
+    {
+      "time": "00:03:36",
+      "end": "00:03:45",
+      "text": "In the meantime, we can head over now to speak to our BBC reporter Katty Kay Massoumeh in Singapore, also reporting on the situation in Sri Lanka."
+    },
+    {
+      "time": "00:03:45",
+      "end": "00:03:51",
+      "text": "Just talk to us about the impact there in the region where you are."
+    },
+    {
+      "time": "00:03:51",
+      "end": "00:03:58",
+      "text": "The. Helena relies heavily on imported energy."
+    },
+    {
+      "time": "00:03:58",
+      "end": "00:04:03",
+      "text": "It makes up almost 60% of the energy is imported and much of it through that Hormuz Strait."
+    },
+    {
+      "time": "00:04:03",
+      "end": "00:04:05",
+      "text": "So they've been heavily impacted."
+    },
+    {
+      "time": "00:04:05",
+      "end": "00:04:12",
+      "text": "Of course, we've been reporting about how the country has declared Wednesdays to be a holiday for government institutes."
+    },
+    {
+      "time": "00:04:12",
+      "end": "00:04:16",
+      "text": "That includes the judiciary, state run schools."
+    },
+    {
+      "time": "00:04:16",
+      "end": "00:04:20",
+      "text": "But added to that a raft of extra restrictions overnight."
+    },
+    {
+      "time": "00:04:20",
+      "end": "00:04:24",
+      "text": "will be restricted."
+    },
+    {
+      "time": "00:04:24",
+      "end": "00:04:26",
+      "text": "They'll now onlyturn on at around 10 pm."
+    },
+    {
+      "time": "00:04:26",
+      "end": "00:04:43",
+      "text": "Those government institutes, when they can operate, will have to turn off their air conditioning by 3pm a whole host of restrictions like this, for example, if there's a gathering of more than 100 people, events like concerts, they can no longer plug into that national grid."
+    },
+    {
+      "time": "00:04:43",
+      "end": "00:04:49",
+      "text": "Of course, the country can also only store upto a month's worth of that energy as well."
+    },
+    {
+      "time": "00:04:49",
+      "end": "00:04:51",
+      "text": "There are, of course, restrictions on the fuel itself."
+    },
+    {
+      "time": "00:04:51",
+      "end": "00:04:59",
+      "text": "Now if you're lining up, there's a QR system that the country's familiar with already and restrictions on a weekly basis."
+    },
+    {
+      "time": "00:04:59",
+      "end": "00:05:05",
+      "text": "Cars, for instance, can only fuel up to 25l for a week."
+    },
+    {
+      "time": "00:05:05",
+      "end": "00:05:13",
+      "text": "Even a fewer litres if And of course, if you're lining upfor that fuel, you're paying more at the pump."
+    },
+    {
+      "time": "00:05:13",
+      "end": "00:05:18",
+      "text": "The cost of petrol and fuel in general has gone up 33% since the start of this war."
+    },
+    {
+      "time": "00:05:18",
+      "end": "00:05:27",
+      "text": "I mean, Katty Kay you mentioned there measures which are clearly changing the way people go about their everyday lives in terms of a timeline."
+    },
+    {
+      "time": "00:05:27",
+      "end": "00:05:39",
+      "text": "President Trump, for example, has said, you know, perhaps 4 to 6 weeks in all of this, if thisgoes on longer, what does this mean for Sri Lankans when they've already changed their lives considerably?"
+    },
+    {
+      "time": "00:05:39",
+      "end": "00:05:44",
+      "text": "It's certainly causing a lot of stress on the country."
+    },
+    {
+      "time": "00:05:44",
+      "end": "00:05:53",
+      "text": "We are seeing the impact of what fuel is having, but also keep in mind that they import a lot of other things, including fertiliser for food production."
+    },
+    {
+      "time": "00:05:53",
+      "end": "00:06:02",
+      "text": "And so domino effect of things is how muchfood will be available in the country."
+    },
+    {
+      "time": "00:06:02",
+      "end": "00:06:07",
+      "text": "It's really adding a lot of stress to the people there who are already, you know, finding it tough."
+    },
+    {
+      "time": "00:06:07",
+      "end": "00:06:15",
+      "text": "They've had back to back economic crises with Covid and then an economic crisis before this war occurred."
+    },
+    {
+      "time": "00:06:15",
+      "end": "00:06:24",
+      "text": "BBC reporter E Musulmani there in Singapore with the latest Really interesting reporting there."
+    },
+    {
+      "time": "00:06:24",
+      "end": "00:06:25",
+      "text": "Thank you so very much."
+    },
+    {
+      "time": "00:06:25",
+      "end": "00:06:26",
+      "text": "We can just bring you some live pictures."
+    },
+    {
+      "time": "00:06:26",
+      "end": "00:06:36",
+      "text": "Now these are coming from the Kennedy Space Centre in Cape Canaveral, Florida, where the countdown has begun for the launch of NASA's Artemis II mission that is around the moon."
+    },
+    {
+      "time": "00:06:36",
+      "end": "00:06:41",
+      "text": "It is the first crew of astronauts towards the moon in over 53 years."
+    },
+    {
+      "time": "00:06:41",
+      "end": "00:06:52",
+      "text": "Now, Nasa is launch on Wednesday, and the missionis set to last about ten days and will take its astronauts further into space than anyone has been before."
+    },
+    {
+      "time": "00:06:52",
+      "end": "00:07:02",
+      "text": "It aims to set the stage for an eventual human landing on the lunar surface for the first time since the Apollo missions of the 1960s and 70s."
+    },
+    {
+      "time": "00:07:02",
+      "end": "00:07:10",
+      "text": "Now Artemis II's crew involves four will be blasting off very soon."
+    },
+    {
+      "time": "00:07:10",
+      "end": "00:07:13",
+      "text": "Youare watching BBC News more on the way."
+    },
+    {
+      "time": "00:07:13",
+      "end": "00:07:30",
+      "text": "Now the Prime Minister has given the British Medical Association 48 hours to call off a six day strike plan for next week, threatening to withdraw his offer of creating extra training places for resident doctors if they fail to do so."
+    },
+    {
+      "time": "00:07:30",
+      "end": "00:07:32",
+      "text": "Our health editor, Hugh Pym, has more now."
+    },
+    {
+      "time": "00:07:32",
+      "end": "00:07:36",
+      "text": "What do we want?"
+    },
+    {
+      "time": "00:07:36",
+      "end": "00:07:36",
+      "text": "Fair pay. When do we want it?"
+    },
+    {
+      "time": "00:07:36",
+      "end": "00:07:47",
+      "text": "Now? Exchanges between the doctors union and ministers have tended to get more acrimonious as a strike gets nearer and the Prime Minister has intervened before to criticise the BMA for staging walkouts."
+    },
+    {
+      "time": "00:07:47",
+      "end": "00:07:53",
+      "text": "This time there's a threat to ditch part of a proposed pay deal if the strike isn't called off."
+    },
+    {
+      "time": "00:07:53",
+      "end": "00:08:00",
+      "text": "Writing in The Times, Sir Keir Starmer said away from this deal is the wrongdecision."
+    },
+    {
+      "time": "00:08:00",
+      "end": "00:08:16",
+      "text": "It's a reckless decision and doing so without even giving resident doctors themselves the chance to vote on it makes it even worse because the truth is this no one benefits from rejecting this deal as well as an average 4.9% pay increase, including changes to pay scales."
+    },
+    {
+      "time": "00:08:16",
+      "end": "00:08:23",
+      "text": "The government promised to create extra training places fordoctors to advance their careers."
+    },
+    {
+      "time": "00:08:23",
+      "end": "00:08:29",
+      "text": "Implementation of 1000 of these was due to start in April, but the Prime Minister says this won't happen if the strike goes ahead."
+    },
+    {
+      "time": "00:08:29",
+      "end": "00:08:32",
+      "text": "The British Medical Association gave its reaction."
+    },
+    {
+      "time": "00:08:32",
+      "end": "00:08:46",
+      "text": "What we want to see is a deal that brings together jobs as well as pay and fixes those two problems together, and I don't think that threatening to cut right way to go about it."
+    },
+    {
+      "time": "00:08:46",
+      "end": "00:08:53",
+      "text": "We stillbelieve that we could get a negotiated settlement and we'd encourage the government to come back to the table to talk to us about what that would look like."
+    },
+    {
+      "time": "00:08:53",
+      "end": "00:08:58",
+      "text": "If the strike takes place, it'll be one of the longest staged in this three-year dispute."
+    },
+    {
+      "time": "00:08:58",
+      "end": "00:09:00",
+      "text": "The last walkout was in December."
+    },
+    {
+      "time": "00:09:00",
+      "end": "00:09:05",
+      "text": "Since then, there have been several weeks of talks but still no agreement."
+    },
+    {
+      "time": "00:09:05",
+      "end": "00:09:07",
+      "text": "Hugh Pym, BBC News."
+    },
+    {
+      "time": "00:09:07",
+      "end": "00:09:12",
+      "text": "Police will no longer be required toattend."
+    },
+    {
+      "time": "00:09:12",
+      "end": "00:09:19",
+      "text": "Non-crime hate incidents after a report found officers were being unnecessarily called out to deal with family rows and disagreements online."
+    },
+    {
+      "time": "00:09:19",
+      "end": "00:09:22",
+      "text": "Here's Sam Harrison."
+    },
+    {
+      "time": "00:09:22",
+      "end": "00:09:30",
+      "text": "It was a landmark case which propelled the issue of non-crime hate incidents into the mainstream."
+    },
+    {
+      "time": "00:09:30",
+      "end": "00:09:40",
+      "text": "officer Harry Miller was visited byhis then employer, Humberside Police, after a complaint about his tweets on transgender issues."
+    },
+    {
+      "time": "00:09:40",
+      "end": "00:09:53",
+      "text": "He was deemed to have done nothing illegal but a non-crime hate incident was recorded, something which could have shown up in numerous employer background checks in the future."
+    },
+    {
+      "time": "00:09:53",
+      "end": "00:09:59",
+      "text": "Mr Miller claimed the police responsewas unlawful and he won."
+    },
+    {
+      "time": "00:09:59",
+      "end": "00:10:10",
+      "text": "Women comedians, students, even politicians rediscover what it's like to think, then go forth and tweet without fear."
+    },
+    {
+      "time": "00:10:10",
+      "end": "00:10:23",
+      "text": "Non-crime hate incidents have seen police attend and record issues from everyday roles to online criticised as a waste of resourceand now change is on the way."
+    },
+    {
+      "time": "00:10:23",
+      "end": "00:10:33",
+      "text": "This guidance is being scrapped on the advice of the College of Policing, the government has confirmed Non-crime hate incidents will no longer be recorded."
+    },
+    {
+      "time": "00:10:33",
+      "end": "00:10:48",
+      "text": "Instead, it says a new common sense approach will be taken where responses will only be triggered for core police work, such as detecting crime, protecting life and property and order."
+    },
+    {
+      "time": "00:10:48",
+      "end": "00:11:05",
+      "text": "The recommendations thatwe've made recommend that there's additional training and resource goes into investigating and identifying hate crime and how policing responds to it, ensuring that that's timely and appropriate, but it also empowers officers and staff to have the confidence to say that that is not a policing matter."
+    },
+    {
+      "time": "00:11:05",
+      "end": "00:11:12",
+      "text": "So where it is freedom of expression, policing won't berecording that information."
+    },
+    {
+      "time": "00:11:12",
+      "end": "00:11:24",
+      "text": "The new guidelines will essentially narrow the threshold for police involvement, and the government hopes that will lead to greater efficiency across the board and will more closely align police to their core work."
+    },
+    {
+      "time": "00:11:24",
+      "end": "00:11:40",
+      "text": "In a statement, the Home Secretary said that under these reforms, forces will no longer be policing perfectly legal Instead, they will be doing whatthey do best patrolling our streets, catching criminals and keeping communities safe."
+    },
+    {
+      "time": "00:11:40",
+      "end": "00:11:47",
+      "text": "Work between government and police forces will now begin to put these new recommendations in place."
+    },
+    {
+      "time": "00:11:47",
+      "end": "00:11:52",
+      "text": "A major change for policing and the end of a highly controversial strategy."
+    },
+    {
+      "time": "00:11:52",
+      "end": "00:11:58",
+      "text": "Sam Harrison, BBC News."
+    },
+    {
+      "time": "00:11:58",
+      "end": "00:11:58",
+      "text": "You're watching BBC News."
+    },
+    {
+      "time": "00:11:58",
+      "end": "00:11:59",
+      "text": "I'm Helena Humphrey in London."
+    },
+    {
+      "time": "00:11:59",
+      "end": "00:12:02",
+      "text": "I'll have more for you at the top of the hour, so do stay with us if you can."
+    },
+    {
+      "time": "00:12:02",
+      "end": "00:12:05",
+      "text": "Bye for now."
+    },
+    {
+      "time": "00:12:05",
+      "end": "00:12:11",
+      "text": "Hello. the top of the hour, so do stay withus if you can."
+    },
+    {
+      "time": "00:12:11",
+      "end": "00:12:11",
+      "text": "Bye for now."
+    },
+    {
+      "time": "00:12:11",
+      "end": "00:12:18",
+      "text": "Hello. Monday was quite a windy day with a number of showers into the north and east, but we'll see some further changes in our weather pattern for Tuesday."
+    },
+    {
+      "time": "00:12:18",
+      "end": "00:12:26",
+      "text": "The cloud on the re offshore of St Ives in Cornwallis going to be working its way in behind this warm front."
+    },
+    {
+      "time": "00:12:26",
+      "end": "00:12:31",
+      "text": "And so as we go on through the next few hours, you'll notice the cloud tending to thicken up across western areas."
+    },
+    {
+      "time": "00:12:31",
+      "end": "00:12:48",
+      "text": "Light patches of rain and drizzle for Northern Ireland, West Scotland reaching the north of both England and Wales as we head towards dawn eastern areas, getting off to a chilly start in the West though it will be quite Tuesday morning."
+    },
+    {
+      "time": "00:12:48",
+      "end": "00:12:56",
+      "text": "Now may well startoff with a few brighter moments across eastern areas, but ultimately I think for most of the day it's going to be quite cloudy and patchy drizzle for East Anglia in southeast England as we head into the afternoon."
+    },
+    {
+      "time": "00:12:56",
+      "end": "00:13:05",
+      "text": "Best chance of seeing a bit of sunshine East Scotland, north-east England probably into the Midlands as well as we go on through the course of the afternoon there could be a few sunny spells elsewhere."
+    },
+    {
+      "time": "00:13:05",
+      "end": "00:13:15",
+      "text": "It's on the temperatures reaching a high ofaround 1416 degrees pretty widely now into Wednesday, another mild day for most areas."
+    },
+    {
+      "time": "00:13:15",
+      "end": "00:13:18",
+      "text": "However, we've got this weather front for Scotland and Northern Ireland bringing outbreaks of rain."
+    },
+    {
+      "time": "00:13:18",
+      "end": "00:13:34",
+      "text": "There is a chance of seeing some quite heavy snow across some of the highest Scottish mountains at lower elevations for the far north of Scotland, you may well start to see some hail and then as we get towards Good weekend's unsettled weather."
+    },
+    {
+      "time": "00:13:34",
+      "end": "00:13:36",
+      "text": "Yes, but we could have some very strong winds across northern areas."
+    },
+    {
+      "time": "00:13:36",
+      "end": "00:13:44",
+      "text": "This is Zoe."
+    },
+    {
+      "time": "00:13:44",
+      "end": "00:13:46",
+      "text": "She is my eldest daughter."
+    },
+    {
+      "time": "00:13:46",
+      "end": "00:13:52",
+      "text": "She was a forcefully removed when she was nine years old."
+    },
+    {
+      "time": "00:13:52",
+      "end": "00:13:54",
+      "text": "Who else is this going to happen to?"
+    },
+    {
+      "time": "00:13:54",
+      "end": "00:14:01",
+      "text": "We didn't know whether we had clean any of the places where thepoison had been."
+    },
+    {
+      "time": "00:14:01",
+      "end": "00:14:04",
+      "text": "There's a number of casualties that were discovered when they built the highway."
+    },
+    {
+      "time": "00:14:04",
+      "end": "00:14:12",
+      "text": "We're doing this not for medical legal reasons, but for remembrance, for memories, for families."
+    },
+    {
+      "time": "00:14:12",
+      "end": "00:14:24",
+      "text": "Sport is out of reach for many girls in India, but it holds the promise of a different life and identity."
+    },
+    {
+      "time": "00:14:24",
+      "end": "00:14:26",
+      "text": "Documentariesfrom around the world on BBC News."
+    },
+    {
+      "time": "00:14:26",
+      "end": "00:14:39",
+      "text": "It's a short tram ride out of town to the hemicycle, where more than 700 MEPs gather."
+    },
+    {
+      "time": "00:14:39",
+      "end": "00:14:40",
+      "text": "So here we have the plenary."
+    },
+    {
+      "time": "00:14:40",
+      "end": "00:14:42",
+      "text": "This is where all members of the parliament sit."
+    },
+    {
+      "time": "00:14:42",
+      "end": "00:14:47",
+      "text": "You can This is where EU laws are passed."
+    },
+    {
+      "time": "00:14:47",
+      "end": "00:14:49",
+      "text": "And so members of this Parliament have a vote on EU laws."
+    },
+    {
+      "time": "00:14:49",
+      "end": "00:14:51",
+      "text": "And so they have power."
+    },
+    {
+      "time": "00:14:51",
+      "end": "00:14:57",
+      "text": "It means that it's quite an attractive place for people to try and influence things."
+    },
+    {
+      "time": "00:14:57",
+      "end": "00:15:10",
+      "text": "But this is where Gill would have been seated and including when he made two speeches in 2018 and 2019 that we now know he was bribed to give."
+    },
+    {
+      "time": "00:15:10",
+      "end": "00:15:12",
+      "text": "Andthere's a tantalising paper trail to the man accused of bribing him."
+    },
+    {
+      "time": "00:15:12",
+      "end": "00:15:20",
+      "text": "These are details from the parliament's own website detailing Nathan Gill's trips in 2018."
+    },
+    {
+      "time": "00:15:20",
+      "end": "00:15:26",
+      "text": "Watch on BBC i Player."
+    },
+    {
+      "time": "00:15:26",
+      "end": "00:16:11",
+      "text": "Live from London."
+    },
+    {
+      "time": "00:16:11",
+      "end": "00:16:13",
+      "text": "This is BBC News."
+    },
+    {
+      "time": "00:16:13",
+      "end": "00:16:23",
+      "text": "Israel's Prime Minister says the US-Israeli war with Iran has achieved more than half but declines to give a timeline forending the conflict."
+    },
+    {
+      "time": "00:16:23",
+      "end": "00:16:30",
+      "text": "Iranian drone and missile attacks continue across the Gulf, with a giant Kuwaiti oil tanker struck near Dubai."
+    },
+    {
+      "time": "00:16:30",
+      "end": "00:16:40",
+      "text": "Dubai's port. Prime Minister Keir Starmer is to meet with senior ministers to discuss the ongoing economic impact of the Iran war here in the UK."
+    },
+    {
+      "time": "00:16:40",
+      "end": "00:16:59",
+      "text": "Just entering. Sacked Radio 2 presenter Scott Mills was questioned by police in 2018 in relation to allegations of serious sexual offences against a teenage boy and after four years Celine Dion will return to the stage with ten shows in Paris in September."
+    },
+    {
+      "time": "00:16:59",
+      "end": "00:17:12",
+      "text": "to have you with us."
+    },
+    {
+      "time": "00:17:12",
+      "end": "00:17:21",
+      "text": "Israel's Prime Minister Benjamin Netanyahu says that more than half of his military aims over Iran have been achieved, but that he doesn't want to put a schedule on the timeline for ending the conflict."
+    },
+    {
+      "time": "00:17:21",
+      "end": "00:17:36",
+      "text": "Well, the Israeli leader told US media that the attacks by the US and Israel were weakening Iran's leadership by degrading the country's military missile and nuclear capabilities."
+    },
+    {
+      "time": "00:17:36",
+      "end": "00:17:42",
+      "text": "His comments follow those by President Trump threatening to, quote, obliterate Iran's energy structure if a deal is not reached shortly."
+    },
+    {
+      "time": "00:17:42",
+      "end": "00:17:49",
+      "text": "Our Middle East correspondent Yolande Knell, is in Jerusalem and has been giving me her analysis of the Israeli Prime Minister's comments."
+    },
+    {
+      "time": "00:17:49",
+      "end": "00:18:03",
+      "text": "He looks like he's choosing his words very carefully, not wanting to contradict things that might be said US Secretary of State, Marco Rubio, said that the war would be finished in weeks and not months."
+    },
+    {
+      "time": "00:18:03",
+      "end": "00:18:14",
+      "text": "So here the Israeli Prime Minister, speaking to the US cable channel Newsmax, knowing, of course, that there is growing domestic opposition in the US to the war in Iran."
+    },
+    {
+      "time": "00:18:14",
+      "end": "00:18:22",
+      "text": "He said it's definitely beyond the halfway schedule on it."
+    },
+    {
+      "time": "00:18:22",
+      "end": "00:18:31",
+      "text": "And then he went onto clarify that he meant that the war was more than halfway in terms of the missions that it had carried out, not necessarily in terms of the timing."
+    },
+    {
+      "time": "00:18:31",
+      "end": "00:18:36",
+      "text": "And he listed what he said were the goals of the war that were being achieved."
+    },
+    {
+      "time": "00:18:36",
+      "end": "00:18:48",
+      "text": "When it came to the Iranian Revolutionary Guards, he said thousands of their members had been killed by the joint US Israeli operations."
+    },
+    {
+      "time": "00:18:48",
+      "end": "00:19:05",
+      "text": "He said thatbasically when it comes to the arms industry, they're close to finishing the arms industry in Iran that they were tackling the ballistic missile sites and wiping out the nuclear programme, which has of course, been seen as an existential threat by Israel."
+    },
+    {
+      "time": "00:19:05",
+      "end": "00:19:14",
+      "text": "Although Iran said it had only peaceful programme, the Israeli Prime Minister said that regime change was not necessarily the goal."
+    },
+    {
+      "time": "00:19:14",
+      "end": "00:19:25",
+      "text": "But he did say that he thought that because of the pressure that was now being put on the Iranian regime, that it was weakening it internally and that it would collapse internally."
+    },
+    {
+      "time": "00:19:25",
+      "end": "00:19:35",
+      "text": "And you learned you have on one hand those comments from the Israeli Prime Minister saying that he believes half of those war aims have beenachieved."
+    },
+    {
+      "time": "00:19:35",
+      "end": "00:19:41",
+      "text": "At the same time in southern Lebanon, he's been ordering an expansion of the invasion there."
+    },
+    {
+      "time": "00:19:41",
+      "end": "00:20:06",
+      "text": "Yes. On Sunday he ordered this expansion going deep into southern Lebanon, saying that already that Israeli forces had penetrated deep into three areas of the south of Lebanon where they are fighting against the Iran-backed Hezbollah, which came into this war a day after Israel and the US launched their attacks on Tehran."
+    },
+    {
+      "time": "00:20:06",
+      "end": "00:20:24",
+      "text": "He said really, that what they're aiming for there is they are trying to stop the possibility of a Hezbollah invasion of northern Israel in the same way that Hamas attacked southern Israelin the 7th of October."
+    },
+    {
+      "time": "00:20:24",
+      "end": "00:20:34",
+      "text": "And also the aim of Israel is to stop what could be sort of anti-tank fire across the border into the north of Israel."
+    },
+    {
+      "time": "00:20:34",
+      "end": "00:20:38",
+      "text": "But there is a bit of a contradiction in terms of what the military is suggesting."
+    },
+    {
+      "time": "00:20:38",
+      "end": "00:20:48",
+      "text": "Its aims are and the aims of the Israeli Prime Minister and Defence Minister, as outlined there, suggesting that theywant to hold for a longer period."
+    },
+    {
+      "time": "00:20:48",
+      "end": "00:20:50",
+      "text": "That's occupation of southern Lebanon."
+    },
+    {
+      "time": "00:20:50",
+      "end": "00:21:15",
+      "text": "The military have been suggesting it's more of a sort of temporary situation, and there has been, again, overnight more soldiers who have been killed, four Israeli soldiers killed in close contact with Hezbollah in fighting that's going on in southern Lebanon, a reminder of the costs of this war for Israel as it widens its offensive against Hezbollah."
+    },
+    {
+      "time": "00:21:15",
+      "end": "00:21:23",
+      "text": "And we've also had three Unifil peacekeepers who have been killed in the past couple of days."
+    },
+    {
+      "time": "00:21:23",
+      "end": "00:21:28",
+      "text": "You know, just showing the dangers of this of this operation."
+    },
+    {
+      "time": "00:21:28",
+      "end": "00:21:31",
+      "text": "Yolande Knell they're reporting from Jerusalem."
+    },
+    {
+      "time": "00:21:31",
+      "end": "00:21:34",
+      "text": "Meanwhile, missile attacks continue across the Gulf."
+    },
+    {
+      "time": "00:21:34",
+      "end": "00:21:40",
+      "text": "A Kuwaiti oil tanker in the port of Dubai has been hit in an Iranian air attack, sparking a huge fire."
+    },
+    {
+      "time": "00:21:40",
+      "end": "00:21:43",
+      "text": "Well, the vessel was reportedly en route to China."
+    },
+    {
+      "time": "00:21:43",
+      "end": "00:21:48",
+      "text": "All 24 crew members are reported to be safe and the blaze is under control."
+    },
+    {
+      "time": "00:21:48",
+      "end": "00:21:55",
+      "text": "Our correspondent Lorna Gordon is in Dubai and has been giving us the latest updates following the attack."
+    },
+    {
+      "time": "00:21:55",
+      "end": "00:22:08",
+      "text": "That was a drone authorities here say it occurredjust after midnight on a very large oil tanker at Anchorage in the waters off of Dubai."
+    },
+    {
+      "time": "00:22:08",
+      "end": "00:22:14",
+      "text": "As you said, none of the crew on board are the 24 strong crew were injured in that attack."
+    },
+    {
+      "time": "00:22:14",
+      "end": "00:22:33",
+      "text": "There were initially concerns of a potential oil spill in the Gulf, but the authorities here say that has been averted within the last hour here in Dubai, we've heard a number of explosions, perhaps as many as half a dozen."
+    },
+    {
+      "time": "00:22:33",
+      "end": "00:22:43",
+      "text": "When that happens, alerts are sent out to the phones of everybody here in the area warning them to seek shelter and stay inside."
+    },
+    {
+      "time": "00:22:43",
+      "end": "00:22:46",
+      "text": "The all clear has now been given."
+    },
+    {
+      "time": "00:22:46",
+      "end": "00:22:58",
+      "text": "The authorities generally say that most of the explosions heard are interceptions and they said of this last attack that their defence systems were responding to a missile threat."
+    },
+    {
+      "time": "00:22:58",
+      "end": "00:23:02",
+      "text": "As I said, they say most of the attacks are intercepted."
+    },
+    {
+      "time": "00:23:02",
+      "end": "00:23:12",
+      "text": "But of course that drone attack on that tanker in the waters off of Dubai is evidence that some of them do get through."
+    },
+    {
+      "time": "00:23:12",
+      "end": "00:23:17",
+      "text": "Lordy, you were just mentioning there that people receive alerts on their phones."
+    },
+    {
+      "time": "00:23:17",
+      "end": "00:23:18",
+      "text": "What do all of this mean."
+    },
+    {
+      "time": "00:23:18",
+      "end": "00:23:21",
+      "text": "For people going about their daily lives?"
+    },
+    {
+      "time": "00:23:21",
+      "end": "00:23:25",
+      "text": "How much of a consideration is it for them?"
+    },
+    {
+      "time": "00:23:25",
+      "end": "00:23:31",
+      "text": "Well. Those alerts tell people to seek shelter and stay inside."
+    },
+    {
+      "time": "00:23:31",
+      "end": "00:23:38",
+      "text": "For the most part, the alerts appear to come at night time rather than during the day."
+    },
+    {
+      "time": "00:23:38",
+      "end": "00:23:45",
+      "text": "And certainly if you look around this part of Dubai to a degree, life is continuing as normal."
+    },
+    {
+      "time": "00:23:45",
+      "end": "00:23:52",
+      "text": "There is building work, continuing, there are people heading out in and out of their offices."
+    },
+    {
+      "time": "00:23:52",
+      "end": "00:24:05",
+      "text": "The traffic in and out of Dubai Airport is also continuing, albeit at a reduced level compared to normal, but it has picked up since this situation."
+    },
+    {
+      "time": "00:24:05",
+      "end": "00:24:08",
+      "text": "These attacks started just over a month ago."
+    },
+    {
+      "time": "00:24:08",
+      "end": "00:24:23",
+      "text": "If evidence was needed of how busy the airport is starting to become, the flight I took in was almost completely full a couple of days ago, so a lot of people still transiting through Dubai Airport, albeit at a much reduced level."
+    },
+    {
+      "time": "00:24:23",
+      "end": "00:24:26",
+      "text": "And life here is continuing."
+    },
+    {
+      "time": "00:24:26",
+      "end": "00:24:33",
+      "text": "Although people who know the city well say it is far from normal and much quieter than usual."
+    },
+    {
+      "time": "00:24:33",
+      "end": "00:24:35",
+      "text": "Lorna Gordon there in Dubai."
+    },
+    {
+      "time": "00:24:35",
+      "end": "00:24:45",
+      "text": "Well, Israel says that it's investigating the circumstances surrounding the deaths of three UN peacekeepers in southern Lebanon, where Israeli forces have been fighting Hezbollah."
+    },
+    {
+      "time": "00:24:45",
+      "end": "00:24:50",
+      "text": "Two Indonesian personnel were killed on Monday when an explosion destroyed their vehicle."
+    },
+    {
+      "time": "00:24:50",
+      "end": "00:24:54",
+      "text": "Our correspondent Lina Sinjab has more now from Beirut."
+    },
+    {
+      "time": "00:24:54",
+      "end": "00:25:08",
+      "text": "What we know from Unifil is that, you know, the attack yesterday was, you know, with an explosion in, in a car, the vehicle that the peacekeepers were driving during a patrol."
+    },
+    {
+      "time": "00:25:08",
+      "end": "00:25:10",
+      "text": "They're conducting in the south of Lebanon."
+    },
+    {
+      "time": "00:25:10",
+      "end": "00:25:21",
+      "text": "That's only 24 hours after, you know, another incident where one peacekeeper also was killed when a projectile exploded in their base."
+    },
+    {
+      "time": "00:25:21",
+      "end": "00:25:29",
+      "text": "This is an area that is really under the control of the Israelis at the moment, because Unifil is based in Naqoura, Naqoura is right."
+    },
+    {
+      "time": "00:25:29",
+      "end": "00:25:41",
+      "text": "The last point of, you know, on the border between Israel and Lebanon, which is, you know, the blue line, as they call it, where they are stationed there to monitor."
+    },
+    {
+      "time": "00:25:41",
+      "end": "00:25:48",
+      "text": "They've been established there since 1987 and since 1978."
+    },
+    {
+      "time": "00:25:48",
+      "end": "00:26:09",
+      "text": "I'm sorry. And they've been there since then monitoring the situation with the forces and with the clashes between Israel and Hezbollah and now with the Israelis expanding their boots on the ground, taking control of large swathes of the south of Lebanon and what they say efforts to eliminate threats from Israel."
+    },
+    {
+      "time": "00:26:09",
+      "end": "00:26:12",
+      "text": "They are the ones who are in control of this area."
+    },
+    {
+      "time": "00:26:12",
+      "end": "00:26:26",
+      "text": "And as you said, they are investigating the case while the Unifil did not clarify the Who is behind these attacks that made them lose three members of the peacekeepers within the course of two days."
+    },
+    {
+      "time": "00:26:26",
+      "end": "00:26:28",
+      "text": "Lina Sinjab in Beirut."
+    },
+    {
+      "time": "00:26:28",
+      "end": "00:26:38",
+      "text": "Now for the past month, British jets have been operating over Cyprus, Jordan, Qatar and Bahrain after the US and Israel began their bombing campaign against Iran."
+    },
+    {
+      "time": "00:26:38",
+      "end": "00:26:43",
+      "text": "RAF pilots have clocked up more than a thousand flying hours during that time, shooting down several drones."
+    },
+    {
+      "time": "00:26:43",
+      "end": "00:26:53",
+      "text": "Our defence correspondent Jonathan Beale, is one of the first journalists to join an RAF refuelling tanker on a mission, and he sent this report from RAF Akrotiri in Cyprus."
+    },
+    {
+      "time": "00:26:53",
+      "end": "00:26:58",
+      "text": "Straight level on this track 4 to 5 minutes."
+    },
+    {
+      "time": "00:26:58",
+      "end": "00:27:01",
+      "text": "British jets are on a mission to hunt down Iranian drones."
+    },
+    {
+      "time": "00:27:01",
+      "end": "00:27:17",
+      "text": "Roger. We joined a refuelling flight from RAF Akrotiri, the petrol station in the sky, to fuel these fighters protecting Cyprus and already in the distance, signs of the war still raging."
+    },
+    {
+      "time": "00:27:17",
+      "end": "00:27:19",
+      "text": "Over in that direction."
+    },
+    {
+      "time": "00:27:19",
+      "end": "00:27:28",
+      "text": "You've got the Israel Lebanon coast, so quite often you can see either incoming missiles from Iran or the Israeli response going up to that as well."
+    },
+    {
+      "time": "00:27:28",
+      "end": "00:27:33",
+      "text": "So we just saw a flash of orange there that could have been a missile going up or going down potentially."
+    },
+    {
+      "time": "00:27:33",
+      "end": "00:27:35",
+      "text": "Yep. We are studying the."
+    },
+    {
+      "time": "00:27:35",
+      "end": "00:27:41",
+      "text": "Proof. Iran's still a threat even after a month of heavy bombing."
+    },
+    {
+      "time": "00:27:41",
+      "end": "00:27:42",
+      "text": "Yeah, we're safe here."
+    },
+    {
+      "time": "00:27:42",
+      "end": "00:27:43",
+      "text": "We're safe here."
+    },
+    {
+      "time": "00:27:43",
+      "end": "00:27:50",
+      "text": "That's it's very much targeted at that that area as opposed to the Isle of Cyprus."
+    },
+    {
+      "time": "00:27:50",
+      "end": "00:27:51",
+      "text": "Yeah. It might be."
+    },
+    {
+      "time": "00:27:51",
+      "end": "00:27:54",
+      "text": "It might be the Iron Dome from Israel or something else."
+    },
+    {
+      "time": "00:27:54",
+      "end": "00:28:01",
+      "text": "So we don't necessarily know that there's just a lot of kinetic things happening in the area at the moment."
+    },
+    {
+      "time": "00:28:01",
+      "end": "00:28:06",
+      "text": "British jets have been patrolling over Cyprus and Jordan since the war started."
+    },
+    {
+      "time": "00:28:06",
+      "end": "00:28:17",
+      "text": "F-35s and typhoons armed with sophisticated air-to-air missiles, an expensive golden bullet to shoot down cheap Iranian drones."
+    },
+    {
+      "time": "00:28:17",
+      "end": "00:28:21",
+      "text": "This time no targets."
+    },
+    {
+      "time": "00:28:21",
+      "end": "00:28:27",
+      "text": "But over the past few weeks they have taken down several drones and working in congested airspace."
+    },
+    {
+      "time": "00:28:27",
+      "end": "00:28:28",
+      "text": "It's no easy task."
+    },
+    {
+      "time": "00:28:28",
+      "end": "00:28:30",
+      "text": "There are lots of risks."
+    },
+    {
+      "time": "00:28:30",
+      "end": "00:28:51",
+      "text": "As you might expect as operating a fast jet is a dangerous business, let alone if you're trying to do targeting close to the surface of the land or the sea and integrate with a lot of other assets in what might be a complicated scenario, that's evolving very rapidly."
+    },
+    {
+      "time": "00:28:51",
+      "end": "00:29:01",
+      "text": "RAF Akrotiri defences were bolstered before the war started, but they've been reinforcements after a drone hit the base."
+    },
+    {
+      "time": "00:29:01",
+      "end": "00:29:08",
+      "text": "Helicopters fitted with air defence missiles in addition to the armoured vehicles with the same."
+    },
+    {
+      "time": "00:29:08",
+      "end": "00:29:11",
+      "text": "So will Iran tried to target the base again."
+    },
+    {
+      "time": "00:29:11",
+      "end": "00:29:15",
+      "text": "The Iranians. Have said publicly that they are."
+    },
+    {
+      "time": "00:29:15",
+      "end": "00:29:17",
+      "text": "So I'd be a fool not to take them at their."
+    },
+    {
+      "time": "00:29:17",
+      "end": "00:29:27",
+      "text": "At their word and all I say is that the amount of capability that we have got deployed out here means that I am as sure as I can be that we're in a good place."
+    },
+    {
+      "time": "00:29:27",
+      "end": "00:29:30",
+      "text": "You do not think this base will be attacked again by."
+    },
+    {
+      "time": "00:29:30",
+      "end": "00:29:36",
+      "text": "It could easily be attacked again, so I'm not saying it's been attacked once, so I'd be a fool to say it's not going to be attacked again."
+    },
+    {
+      "time": "00:29:36",
+      "end": "00:29:42",
+      "text": "What I'm saying is that given the amount of warning out there and the air defence assets we've got in place, we're as well protected as we can be."
+    },
+    {
+      "time": "00:29:42",
+      "end": "00:29:44",
+      "text": "You two go echelon, right?"
+    },
+    {
+      "time": "00:29:44",
+      "end": "00:29:46",
+      "text": "You've had \u00a38,800."
+    },
+    {
+      "time": "00:29:46",
+      "end": "00:29:49",
+      "text": "Two two disconnect."
+    },
+    {
+      "time": "00:29:49",
+      "end": "00:30:06",
+      "text": "22 two. British jets have been flying these defensive missions for over a month now, and no one knows how long they'll be on this heightened state of alert when and how this war ends is still out of their control."
+    },
+    {
+      "time": "00:30:06",
+      "end": "00:30:09",
+      "text": "Jonathan Beale, BBC News RAF Akrotiri."
+    },
+    {
+      "time": "00:30:09",
+      "end": "00:30:16",
+      "text": "Around the world and across the UK you're watching BBC News."
+    },
+    {
+      "time": "00:30:16",
+      "end": "00:31:24",
+      "text": "You're watching BBC News."
+    },
+    {
+      "time": "00:31:24",
+      "end": "00:31:33",
+      "text": "Well, here in the UK, the British Prime Minister will chair a Cobra meeting later with senior ministers to discuss the ongoing economic impact of the Iraq war."
+    },
+    {
+      "time": "00:31:33",
+      "end": "00:31:45",
+      "text": "It comes after he told energy bosses that tackling the cost of living crisis must be a joint effort, and our chief political correspondent, Henry Zeffman told me what we can expect from that Cobra meeting."
+    },
+    {
+      "time": "00:31:45",
+      "end": "00:31:48",
+      "text": "I'm not sure we are going to find out much about today's meeting."
+    },
+    {
+      "time": "00:31:48",
+      "end": "00:31:56",
+      "text": "In that sense, it's like yesterday's meeting where the Prime Minister convened various business leaders and their representatives in Downing Street."
+    },
+    {
+      "time": "00:31:56",
+      "end": "00:31:59",
+      "text": "But it wasn't a prelude to some big public announcement."
+    },
+    {
+      "time": "00:31:59",
+      "end": "00:32:04",
+      "text": "It was more an opportunity for the Prime Minister to hear from them about their take on the situation."
+    },
+    {
+      "time": "00:32:04",
+      "end": "00:32:12",
+      "text": "It's kind of the same today, except this time it's the Prime Minister convening ministers whose briefs are relevant to the situation."
+    },
+    {
+      "time": "00:32:12",
+      "end": "00:32:19",
+      "text": "So in particular the Chancellor Rachel Reeves, because sure, the Prime Minister is spending plenty of time on the diplomatic side of this."
+    },
+    {
+      "time": "00:32:19",
+      "end": "00:32:29",
+      "text": "But I think when it comes to the domestic politics, what concerns the government most is the economic impact of this conflict, the fact that it's a Cobra meeting."
+    },
+    {
+      "time": "00:32:29",
+      "end": "00:32:31",
+      "text": "By the way, we should just explain what that means."
+    },
+    {
+      "time": "00:32:31",
+      "end": "00:32:34",
+      "text": "I mean, actually Cobra is a mundane acronym."
+    },
+    {
+      "time": "00:32:34",
+      "end": "00:32:38",
+      "text": "It stands for Cabinet Office Briefing Room A, which is where these meetings take place."
+    },
+    {
+      "time": "00:32:38",
+      "end": "00:32:42",
+      "text": "But it has come to be a signifier of a crisis meeting."
+    },
+    {
+      "time": "00:32:42",
+      "end": "00:32:48",
+      "text": "So calling this a Cobra is the government essentially knowing that we will describe this as a crisis meeting."
+    },
+    {
+      "time": "00:32:48",
+      "end": "00:32:51",
+      "text": "So it is a signifier that they see it in those terms."
+    },
+    {
+      "time": "00:32:51",
+      "end": "00:32:58",
+      "text": "But it's unusual in that it's a crisis that the government still does not know the full extent of, or perhaps even close to it."
+    },
+    {
+      "time": "00:32:58",
+      "end": "00:33:04",
+      "text": "As you point out, Henry, this is a meeting which will be taking place behind closed doors."
+    },
+    {
+      "time": "00:33:04",
+      "end": "00:33:10",
+      "text": "The UK could take one of the biggest economic hits of any G7 countries from the war in Iran."
+    },
+    {
+      "time": "00:33:10",
+      "end": "00:33:16",
+      "text": "I just wonder how is that playing out when it comes to how voters feel about all of this?"
+    },
+    {
+      "time": "00:33:16",
+      "end": "00:33:17",
+      "text": "I think it's too soon to say."
+    },
+    {
+      "time": "00:33:17",
+      "end": "00:33:29",
+      "text": "But the omens aren't great in history for governments who have been in government during periods of economic crisis and in particular inflation."
+    },
+    {
+      "time": "00:33:29",
+      "end": "00:33:32",
+      "text": "That is that's just a historical fact."
+    },
+    {
+      "time": "00:33:32",
+      "end": "00:33:40",
+      "text": "I mean, you know, you can have a debate about the reasons why the UK might or might not be better or worse prepared than other countries."
+    },
+    {
+      "time": "00:33:40",
+      "end": "00:33:50",
+      "text": "And I think from what I've seen, there's a kind of spread of economic opinion on whether the UK is better prepared or worse prepared, and the reasons why that might be."
+    },
+    {
+      "time": "00:33:50",
+      "end": "00:33:57",
+      "text": "But fundamentally no government would be feeling good in this scenario and speaking to people around this government."
+    },
+    {
+      "time": "00:33:57",
+      "end": "00:34:03",
+      "text": "You know, they are pretty gloomy about the economic impact and what that could mean politically for them."
+    },
+    {
+      "time": "00:34:03",
+      "end": "00:34:14",
+      "text": "Henry Zeffman they're speaking to me a short while ago now, the Syrian president Ahmed al-Sharaa is visiting the UK and was today received by Sir Keir Starmer in Downing Street."
+    },
+    {
+      "time": "00:34:14",
+      "end": "00:34:19",
+      "text": "President Charles visit comes at a difficult time for both the Middle East and Syria."
+    },
+    {
+      "time": "00:34:19",
+      "end": "00:34:25",
+      "text": "Ongoing tensions with Iran are adding economic strain to a country still recovering from civil war."
+    },
+    {
+      "time": "00:34:25",
+      "end": "00:34:35",
+      "text": "Airspace closures, gas supply disruptions and the sudden return of refugees from Lebanon are complicating recovery efforts to attract foreign investment."
+    },
+    {
+      "time": "00:34:35",
+      "end": "00:34:48",
+      "text": "Now the former BBC presenter Scott Mills was questioned under caution in 2018 over allegations of serious sexual offences against a teenage boy between 1997 and the year 2000."
+    },
+    {
+      "time": "00:34:48",
+      "end": "00:34:56",
+      "text": "The Metropolitan Police has released a statement saying that a man in his 40s was investigated a decade ago but that no charges were brought."
+    },
+    {
+      "time": "00:34:56",
+      "end": "00:35:02",
+      "text": "The former Radio 2 breakfast show host was sacked at the weekend following allegations about his personal conduct."
+    },
+    {
+      "time": "00:35:02",
+      "end": "00:35:05",
+      "text": "He's been approached for comment."
+    },
+    {
+      "time": "00:35:05",
+      "end": "00:35:08",
+      "text": "Well, our entertainment correspondent Lizo Mzimba has more details now."
+    },
+    {
+      "time": "00:35:08",
+      "end": "00:35:22",
+      "text": "It's emerged that in 2018 he was questioned by police, but we do not know if that was connected in any way to the BBC's decision to sack him from his contract at the weekend."
+    },
+    {
+      "time": "00:35:22",
+      "end": "00:35:37",
+      "text": "He was questioned by police over allegations, as you say, against a teenage boy, but a police spokesperson said in December 2016, the Met began an investigation following a referral from another police force."
+    },
+    {
+      "time": "00:35:37",
+      "end": "00:35:43",
+      "text": "The investigation related to allegations of serious sexual offences against a teenage boy."
+    },
+    {
+      "time": "00:35:43",
+      "end": "00:35:48",
+      "text": "These were reported to have taken place between 1997 and 2000."
+    },
+    {
+      "time": "00:35:48",
+      "end": "00:36:08",
+      "text": "As part of these enquiries, a man who is in his 40s at the time of the interview was questioned by police under caution in July 2018, a full file of evidence was submitted to the Crown Prosecution Service, who determined the evidential threshold had not been met to bring charges."
+    },
+    {
+      "time": "00:36:08",
+      "end": "00:36:17",
+      "text": "Following this advice, the investigation was closed in May 2019, so Scott Mills wasn't charged and no further action was taken."
+    },
+    {
+      "time": "00:36:17",
+      "end": "00:36:23",
+      "text": "Now it's not clear what, if any, role this police investigation had in his sacking by the BBC."
+    },
+    {
+      "time": "00:36:23",
+      "end": "00:36:26",
+      "text": "But of course Scott Mills was one of the most popular presenters."
+    },
+    {
+      "time": "00:36:26",
+      "end": "00:36:34",
+      "text": "His voice, his face known to millions of listeners and viewers of the BBC here in the UK."
+    },
+    {
+      "time": "00:36:34",
+      "end": "00:36:39",
+      "text": "Indeed, Liza a more broadly, what does this mean for the BBC?"
+    },
+    {
+      "time": "00:36:39",
+      "end": "00:36:52",
+      "text": "Well, the BBC inevitably it will be seen as a crisis by many people in the public because one of their most popular and high profile presenters has been sacked because of personal conduct issues."
+    },
+    {
+      "time": "00:36:52",
+      "end": "00:36:57",
+      "text": "Even if we do not know exactly what those personal conduct issues are."
+    },
+    {
+      "time": "00:36:57",
+      "end": "00:37:10",
+      "text": "But what feels different about this particular instance of a crisis at the BBC is that in the past you've had a drip drip of allegations from people saying, what is the BBC doing day after day to deal with all of this right now?"
+    },
+    {
+      "time": "00:37:10",
+      "end": "00:37:25",
+      "text": "The first we heard about all this was when the BBC had already taken action, and I'm sure the BBC will want to be seen as having done what it's promised to do on so many occasions and said that no matter what the position of somebody is within the corporation from the very lowest to the very highest."
+    },
+    {
+      "time": "00:37:25",
+      "end": "00:37:35",
+      "text": "If the BBC decides the circumstances warrant it, it will take firm, swift and decisive action up to dismissal."
+    },
+    {
+      "time": "00:37:35",
+      "end": "00:37:50",
+      "text": "Our entertainment correspondent there Lizo Mzimba now the independent inquiry into grooming gangs in England and Wales will examine whether ethnicity, culture or religion played a part in the abuse of children and shaped the way that authorities responded to it."
+    },
+    {
+      "time": "00:37:50",
+      "end": "00:37:53",
+      "text": "Inquiries terms of reference have been published this morning."
+    },
+    {
+      "time": "00:37:53",
+      "end": "00:37:57",
+      "text": "It will begin its full investigation next month."
+    },
+    {
+      "time": "00:37:57",
+      "end": "00:38:01",
+      "text": "Here's our social affairs editor, Alison Holt, with more on the government's response to the inquiry."
+    },
+    {
+      "time": "00:38:01",
+      "end": "00:38:11",
+      "text": "The government has welcomed the inquiry, saying that it is something that is going to be pursuing the truth and certainly that's the message from Baroness Anne Longfield."
+    },
+    {
+      "time": "00:38:11",
+      "end": "00:38:19",
+      "text": "She's emphasised the independence of the inquiry but also she says it will be unflinching in its pursuit of the truth."
+    },
+    {
+      "time": "00:38:19",
+      "end": "00:38:27",
+      "text": "It has legal powers so it can compel witnesses to give evidence, it can compel institutions to hand over documents."
+    },
+    {
+      "time": "00:38:27",
+      "end": "00:38:31",
+      "text": "And she says that she will be guided."
+    },
+    {
+      "time": "00:38:31",
+      "end": "00:38:35",
+      "text": "The inquiry will be shaped by the voice of survivors."
+    },
+    {
+      "time": "00:38:35",
+      "end": "00:38:54",
+      "text": "She also says that there's been deep scepticism among those same survivors, often girls who experienced sexual exploitation in their early teens at the hands of grooming gangs and found that they were ignored by police, by councils, by health services."
+    },
+    {
+      "time": "00:38:54",
+      "end": "00:39:14",
+      "text": "The inquiry team also says these are questions that it will examine the ethnicity, culture or religion of either perpetrators or victims and whether or not that influence patterns of offending and the response of institutions to that offending."
+    },
+    {
+      "time": "00:39:14",
+      "end": "00:39:23",
+      "text": "The inquiry says these are questions that previous reviews chose not to address, but this inquiry will not avoid them and that is really important for survivors."
+    },
+    {
+      "time": "00:39:23",
+      "end": "00:39:32",
+      "text": "It is indeed in talking about those terms of reference that have now been set up, will they go far enough to satisfy critics?"
+    },
+    {
+      "time": "00:39:32",
+      "end": "00:39:54",
+      "text": "I think we're going to have to wait and see because again, Baroness Longfield is stressing that they've listened to the critics, that they understand the deep scepticism and one of the things they have said to respond, if you like to the consultation that's gone is gone on is they're going to look at what's happened over a longer period than originally planned."
+    },
+    {
+      "time": "00:39:54",
+      "end": "00:40:06",
+      "text": "So they will look back over 30 years to look at the patterns of abuse and how things were established and also that they will publish reports as they go on."
+    },
+    {
+      "time": "00:40:06",
+      "end": "00:40:11",
+      "text": "So they're not going to wait till the end of the three years and publish one big report in a fanfare."
+    },
+    {
+      "time": "00:40:11",
+      "end": "00:40:12",
+      "text": "They're looking at local areas."
+    },
+    {
+      "time": "00:40:12",
+      "end": "00:40:15",
+      "text": "They will publish those reports as they finish them."
+    },
+    {
+      "time": "00:40:15",
+      "end": "00:40:18",
+      "text": "As far as it is possible."
+    },
+    {
+      "time": "00:40:18",
+      "end": "00:40:22",
+      "text": "And they say they will hold those authorities to account."
+    },
+    {
+      "time": "00:40:22",
+      "end": "00:40:26",
+      "text": "They don't want them hiding away or saying that's something that happened in the past."
+    },
+    {
+      "time": "00:40:26",
+      "end": "00:40:28",
+      "text": "Alison Holt they're now."
+    },
+    {
+      "time": "00:40:28",
+      "end": "00:40:38",
+      "text": "Celine Dion has announced her return to the stage four years after she was diagnosed with an incurable condition that affected her singing voice, as well as her ability to walk."
+    },
+    {
+      "time": "00:40:38",
+      "end": "00:40:56",
+      "text": "Now, the official announcement was beamed onto the Eiffel Tower in Paris, accompanied by a light display playing the artist's biggest hits, including My Heart Will Go On, We Can Take You now to the Kennedy Space Centre, where the countdown is on for the first crewed mission."
+    },
+    {
+      "time": "00:40:56",
+      "end": "00:41:01",
+      "text": "This is a crewed mission around the moon in more than 50 years now."
+    },
+    {
+      "time": "00:41:01",
+      "end": "00:41:10",
+      "text": "The Artemis II mission, which will last about ten days, well, it will take its astronauts further into space than anyone has ever been before."
+    },
+    {
+      "time": "00:41:10",
+      "end": "00:41:20",
+      "text": "It aims to set the stage for an eventual human landing on the lunar surface for the first time since the Apollo missions of the 1960s and 70s."
+    },
+    {
+      "time": "00:41:20",
+      "end": "00:41:30",
+      "text": "Well, Artemis II's crew of four is made up of the Nasa commander Reid Wiseman pilot Victor Glover and mission specialist Christina Koch."
+    },
+    {
+      "time": "00:41:30",
+      "end": "00:41:32",
+      "text": "A second mission specialist."
+    },
+    {
+      "time": "00:41:32",
+      "end": "00:41:43",
+      "text": "Jeremy Hansen from the Canadian Space Agency will also be on board and we will have full coverage here on BBC News Live from Florida."
+    },
+    {
+      "time": "00:41:43",
+      "end": "00:41:47",
+      "text": "All of that taking place tomorrow for lift-off."
+    },
+    {
+      "time": "00:41:47",
+      "end": "00:41:52",
+      "text": "Plenty of coverage on the way, including on our BBC News Live page as well."
+    },
+    {
+      "time": "00:41:52",
+      "end": "00:41:53",
+      "text": "I'm Helena Humphrey in London."
+    },
+    {
+      "time": "00:41:53",
+      "end": "00:41:55",
+      "text": "I'll have more for you on the way."
+    },
+    {
+      "time": "00:41:55",
+      "end": "00:41:57",
+      "text": "On the other side of a very short break."
+    },
+    {
+      "time": "00:41:57",
+      "end": "00:41:59",
+      "text": "So do stay with us here if you can."
+    },
+    {
+      "time": "00:41:59",
+      "end": "00:42:01",
+      "text": "Bye for now."
+    },
+    {
+      "time": "00:42:01",
+      "end": "00:42:12",
+      "text": "Hello. short break."
+    },
+    {
+      "time": "00:42:12",
+      "end": "00:42:12",
+      "text": "So do stay with us hereif you can."
+    },
+    {
+      "time": "00:42:12",
+      "end": "00:42:12",
+      "text": "Bye for now."
+    },
+    {
+      "time": "00:42:12",
+      "end": "00:42:18",
+      "text": "Hello. Monday was quite a windy day with a number of showers into the north and east, but we'll see some further changes in our weather pattern for Tuesday."
+    },
+    {
+      "time": "00:42:18",
+      "end": "00:42:26",
+      "text": "The cloud on the horizon here offshore of St Ives in Cornwall, is going to be working its way in behind this warm front."
+    },
+    {
+      "time": "00:42:26",
+      "end": "00:42:31",
+      "text": "And so as we go on through the next few hours, you'll notice the cloud tending to thicken up across western areas."
+    },
+    {
+      "time": "00:42:31",
+      "end": "00:42:45",
+      "text": "Light patches of rain and drizzle for Northern Ireland, West Scotland reaching the north-west of both England and Wales as we head towards dawn eastern areas, getting off to a chilly start in the west though it will be quite a mild start to your Tuesday morning."
+    },
+    {
+      "time": "00:42:45",
+      "end": "00:42:53",
+      "text": "Now may well start off with a few brighter moments across eastern areas, but ultimately I think for most of the day it's going to be quite cloudy and patchy."
+    },
+    {
+      "time": "00:42:53",
+      "end": "00:42:57",
+      "text": "Drizzle for East Anglia in southeast England as we head into the afternoon."
+    },
+    {
+      "time": "00:42:57",
+      "end": "00:43:06",
+      "text": "Best chance of seeing a bit of sunshine East Scotland, north-east England probably into the Midlands as well as we go on through the course of the afternoon there could be a few sunny spells elsewhere."
+    },
+    {
+      "time": "00:43:06",
+      "end": "00:43:15",
+      "text": "It's on the mild side, temperatures reaching a high of around 1416 degrees pretty widely now into Wednesday, another mild day for most areas."
+    },
+    {
+      "time": "00:43:15",
+      "end": "00:43:18",
+      "text": "However, we've got this weather front for Scotland and Northern Ireland bringing outbreaks of rain."
+    },
+    {
+      "time": "00:43:18",
+      "end": "00:43:31",
+      "text": "There is a chance of seeing some quite heavy snow across some of the highest Scottish mountains at lower elevations for the far north of Scotland, you may well start to see some hail and then as we get towards Good Friday and the weekend's unsettled weather."
+    },
+    {
+      "time": "00:43:31",
+      "end": "00:43:36",
+      "text": "Yes, but we could have some very strong winds across northern areas."
+    },
+    {
+      "time": "00:43:36",
+      "end": "00:43:50",
+      "text": "We are in Edinburgh meeting the innovators, finding new ways to detect and treat cancer."
+    },
+    {
+      "time": "00:43:50",
+      "end": "00:43:56",
+      "text": "But how do they go from an idea into something that could revolutionise healthcare around the world?"
+    },
+    {
+      "time": "00:43:56",
+      "end": "00:44:02",
+      "text": "Join me Alasdair Keane for tech now on BBC News."
+    },
+    {
+      "time": "00:44:02",
+      "end": "00:44:09",
+      "text": "I'm Dwayne Fields and I'm on an epic adventure in Zambia."
+    },
+    {
+      "time": "00:44:09",
+      "end": "00:44:13",
+      "text": "Join me as I take on the power of the Zambezi River."
+    },
+    {
+      "time": "00:44:13",
+      "end": "00:44:23",
+      "text": "Get River. Get up close with incredible wildlife and make a splash on the edge of the mighty Victoria Falls."
+    },
+    {
+      "time": "00:44:23",
+      "end": "00:44:24",
+      "text": "That's The Travel Show in Zambia."
+    },
+    {
+      "time": "00:44:24",
+      "end": "00:44:25",
+      "text": "Watch on BBC i Player."
+    },
+    {
+      "time": "00:44:25",
+      "end": "00:44:34",
+      "text": "We've reached the quarter-finals of the Champions League as eight of the best European teams try to reach the final in Budapest at the end of May."
+    },
+    {
+      "time": "00:44:34",
+      "end": "00:44:42",
+      "text": "We'll have all the latest results, features and interviews right here on BBC News as well as online on the website and app."
+    },
+    {
+      "time": "00:44:42",
+      "end": "00:44:48",
+      "text": "I promise this isn't how I drive."
+    },
+    {
+      "time": "00:44:48",
+      "end": "00:44:53",
+      "text": "The director can come over to me and say, hey, I just want to add a little jerk here or an extra bump there."
+    },
+    {
+      "time": "00:44:53",
+      "end": "00:44:56",
+      "text": "And in a few clicks of a button, I can do that."
+    },
+    {
+      "time": "00:44:56",
+      "end": "00:44:57",
+      "text": "This is the forefront of the technology."
+    },
+    {
+      "time": "00:44:57",
+      "end": "00:45:00",
+      "text": "Why do we want a cell phone network on the moon?"
+    },
+    {
+      "time": "00:45:00",
+      "end": "00:45:01",
+      "text": "There are no people there."
+    },
+    {
+      "time": "00:45:01",
+      "end": "00:45:02",
+      "text": "There are no people yet."
+    },
+    {
+      "time": "00:45:02",
+      "end": "00:45:05",
+      "text": "What's in my hands are tiny lab grown brains."
+    },
+    {
+      "time": "00:45:05",
+      "end": "00:45:07",
+      "text": "This is what everybody wants to get their hands on."
+    },
+    {
+      "time": "00:45:07",
+      "end": "00:45:08",
+      "text": "Oh, I've dropped it."
+    },
+    {
+      "time": "00:45:08",
+      "end": "00:45:11",
+      "text": "This is. A really significant change in the game."
+    },
+    {
+      "time": "00:45:11",
+      "end": "00:45:12",
+      "text": "What have. You found already?"
+    },
+    {
+      "time": "00:45:12",
+      "end": "00:45:14",
+      "text": "10 billion new genes."
+    },
+    {
+      "time": "00:45:14",
+      "end": "00:45:15",
+      "text": "There are currently."
+    },
+    {
+      "time": "00:45:15",
+      "end": "00:45:18",
+      "text": "Tens of thousands of untreatable diseases with existing tools."
+    },
+    {
+      "time": "00:45:18",
+      "end": "00:45:19",
+      "text": "We think we can make a dent in that."
+    },
+    {
+      "time": "00:45:19",
+      "end": "00:45:23",
+      "text": "This revolutionised all electronics."
+    },
+    {
+      "time": "00:45:23",
+      "end": "00:45:29",
+      "text": "Technology like this is part of what will accelerate the capabilities of the future."
+    },
+    {
+      "time": "00:45:29",
+      "end": "00:45:31",
+      "text": "We're developing and commercialising space based solar power."
+    },
+    {
+      "time": "00:45:31",
+      "end": "00:45:37",
+      "text": "We expect. To have biocomputers consume hundreds times less energy."
+    },
+    {
+      "time": "00:45:37",
+      "end": "00:45:41",
+      "text": "Part of something really major here that's never been done in video games."
+    },
+    {
+      "time": "00:45:41",
+      "end": "00:45:45",
+      "text": "Tech now. Watch on BBC i Player."
+    },
+    {
+      "time": "00:45:45",
+      "end": "00:45:59",
+      "text": "Here at BBC Verify we use forensic investigative techniques and tools to fact check stories, verify information and counter disinformation using data analysis and the latest technology."
+    },
+    {
+      "time": "00:45:59",
+      "end": "00:46:02",
+      "text": "Our journalists examine the evidence and get to the facts."
+    },
+    {
+      "time": "00:46:02",
+      "end": "00:46:08",
+      "text": "Watch our BBC Verify reports on the BBC News channel or go online to find out more."
+    },
+    {
+      "time": "00:46:08",
+      "end": "00:46:15",
+      "text": "This is BBC News."
+    },
+    {
+      "time": "00:46:15",
+      "end": "00:46:25",
+      "text": "The headlines. Israel's Prime Minister says the US-Israeli war with Iran has achieved more than half its aims, but declines to give a timeline for ending the conflict."
+    },
+    {
+      "time": "00:46:25",
+      "end": "00:46:33",
+      "text": "Iranian drone and missile attacks continue across the Gulf, with a giant Kuwaiti oil tanker struck near Dubai's port."
+    },
+    {
+      "time": "00:46:33",
+      "end": "00:46:42",
+      "text": "Prime Minister Keir Starmer is to meet with senior ministers to discuss the ongoing economic impact of the Iran war here in the UK."
+    },
+    {
+      "time": "00:46:42",
+      "end": "00:46:54",
+      "text": "Sacked Radio 2 presenter Scott Mills was questioned by police in 2018 in relation to allegations of serious sexual offences against a teenage boy."
+    },
+    {
+      "time": "00:46:54",
+      "end": "00:46:59",
+      "text": "I'm Helena Humphrey good to have you with us."
+    },
+    {
+      "time": "00:46:59",
+      "end": "00:47:10",
+      "text": "Israel's Prime Minister Benjamin Netanyahu says that more than half of his military aims over Iran have been achieved, but that he doesn't want to put a schedule on a timeline for ending the conflict."
+    },
+    {
+      "time": "00:47:10",
+      "end": "00:47:21",
+      "text": "The Israeli leader told US media that the attacks by the US and Israel were weakening Iran's leadership by degrading the country's military, missile and nuclear capacity."
+    },
+    {
+      "time": "00:47:21",
+      "end": "00:47:28",
+      "text": "Meanwhile, new strikes have been reported in Israel and Iran, with parts of Tehran losing power temporarily."
+    },
+    {
+      "time": "00:47:28",
+      "end": "00:47:36",
+      "text": "Well, we can speak now to Ali Taranssari, a British-Iranian whose parents and friends are still in Iran."
+    },
+    {
+      "time": "00:47:36",
+      "end": "00:47:40",
+      "text": "Ali, thank you very much for taking the time to be with us here on BBC News."
+    },
+    {
+      "time": "00:47:40",
+      "end": "00:47:53",
+      "text": "So I understand that you move from Iran to the UK when you were 23, but you've still got friends and family in the country when they can get messages out because of course there have been continued internet blackouts."
+    },
+    {
+      "time": "00:47:53",
+      "end": "00:47:55",
+      "text": "What are they telling you?"
+    },
+    {
+      "time": "00:47:55",
+      "end": "00:47:58",
+      "text": "Good morning. Thanks for having me."
+    },
+    {
+      "time": "00:47:58",
+      "end": "00:48:05",
+      "text": "I actually moved here when I was 17, so it was 23 years ago that I moved to this country."
+    },
+    {
+      "time": "00:48:05",
+      "end": "00:48:17",
+      "text": "And more recently, obviously as I managed to speak with my family and friends, which is, by the way, extremely difficult, we're now past 30 days of internet blackout."
+    },
+    {
+      "time": "00:48:17",
+      "end": "00:48:21",
+      "text": "And it's not just internet blackout, but it's also the normal phone lines, landlines."
+    },
+    {
+      "time": "00:48:21",
+      "end": "00:48:25",
+      "text": "So it's impossible for us to make contact."
+    },
+    {
+      "time": "00:48:25",
+      "end": "00:48:26",
+      "text": "And that's extremely worrying."
+    },
+    {
+      "time": "00:48:26",
+      "end": "00:48:34",
+      "text": "But on the other occasions that we receive calls from inside Iran, obviously people are anxious over what's coming."
+    },
+    {
+      "time": "00:48:34",
+      "end": "00:48:59",
+      "text": "They're hopeful they still the morale is quite up and the only thing that makes them anxious and worried is if this war ends without achieving the objective that Iranians are after, which is regime change and a regime change that actually leads to a complete transition under the transitional leadership of Crown Prince Reza Pahlavi."
+    },
+    {
+      "time": "00:48:59",
+      "end": "00:49:04",
+      "text": "Anything short of that is what makes them really worried and anxious."
+    },
+    {
+      "time": "00:49:04",
+      "end": "00:49:11",
+      "text": "So they are paying the high price a very high price of, you know, being under these bombings."
+    },
+    {
+      "time": "00:49:11",
+      "end": "00:49:19",
+      "text": "But they're only paying this price to ultimately achieve the freedom that they want and the regime change."
+    },
+    {
+      "time": "00:49:19",
+      "end": "00:49:20",
+      "text": "That's how they have been chanting for."
+    },
+    {
+      "time": "00:49:20",
+      "end": "00:49:25",
+      "text": "You mentioned that they are anxious but also hopeful at the same time."
+    },
+    {
+      "time": "00:49:25",
+      "end": "00:49:30",
+      "text": "We've had President Trump, for example, saying that he could seize Kharg Island."
+    },
+    {
+      "time": "00:49:30",
+      "end": "00:49:38",
+      "text": "He also has said that he could obliterate desalination plants, civilian infrastructure, things necessary for drinking water."
+    },
+    {
+      "time": "00:49:38",
+      "end": "00:49:44",
+      "text": "When people you speak to hear that, how do they feel?"
+    },
+    {
+      "time": "00:49:44",
+      "end": "00:49:50",
+      "text": "I think people have learned that President Trump says something and then does something different."
+    },
+    {
+      "time": "00:49:50",
+      "end": "00:49:53",
+      "text": "So that is part of his tactic."
+    },
+    {
+      "time": "00:49:53",
+      "end": "00:49:58",
+      "text": "And I think everybody has learned this now that we have to wait and see."
+    },
+    {
+      "time": "00:49:58",
+      "end": "00:50:22",
+      "text": "Obviously, if as part of this military operation to be successful and lead to the regime change that people have, Iran have been asking for, if that is a requirement for President Trump to actually have boots on the ground in Kharg Island or any other means necessary to achieve that objective, then it's something that, you know, we have to pay the price for."
+    },
+    {
+      "time": "00:50:22",
+      "end": "00:50:30",
+      "text": "And it may be necessary because Kharg Island is actually responsible for 90% of the oil exports from Iran."
+    },
+    {
+      "time": "00:50:30",
+      "end": "00:50:51",
+      "text": "And this may be part of the operation that they have to choke the regime from being able to actually export any oil from that island which will affect them financially significantly, and it will slow them down from being able to continue with this war and shooting missiles at all the Arab countries in the region."
+    },
+    {
+      "time": "00:50:51",
+      "end": "00:50:52",
+      "text": "OK. Ali Taranssari there."
+    },
+    {
+      "time": "00:50:52",
+      "end": "00:50:56",
+      "text": "British-Iranian, whose parents and friends are still in Iran."
+    },
+    {
+      "time": "00:50:56",
+      "end": "00:50:57",
+      "text": "Thank you for speaking to us."
+    },
+    {
+      "time": "00:50:57",
+      "end": "00:51:08",
+      "text": "Thank you. Now Ukraine launched another drone attack on Russia's ballistic oil terminal at Ust-Luga, damaging the site despite most drones being shot down."
+    },
+    {
+      "time": "00:51:08",
+      "end": "00:51:11",
+      "text": "It marks the fifth strike in a week."
+    },
+    {
+      "time": "00:51:11",
+      "end": "00:51:19",
+      "text": "President Zelensky said that allies urged restraint amid a global fuel crisis, but that he would only scale back if Russia stops targeting civilians."
+    },
+    {
+      "time": "00:51:19",
+      "end": "00:51:24",
+      "text": "Well, joining us now from Kyiv is BBC Monitoring's chief analyst Vitaly Shevchenko."
+    },
+    {
+      "time": "00:51:24",
+      "end": "00:51:27",
+      "text": "Very good to have you with us."
+    },
+    {
+      "time": "00:51:27",
+      "end": "00:51:28",
+      "text": "What more do we know about this attack?"
+    },
+    {
+      "time": "00:51:28",
+      "end": "00:51:35",
+      "text": "What does it say about Ukraine's broader strategy at this point in the conflict?"
+    },
+    {
+      "time": "00:51:35",
+      "end": "00:51:39",
+      "text": "Well, it shows that Ukraine can do it."
+    },
+    {
+      "time": "00:51:39",
+      "end": "00:51:48",
+      "text": "And this has been one of the most successful strategies pursued by Ukraine within the past half hour."
+    },
+    {
+      "time": "00:51:48",
+      "end": "00:52:25",
+      "text": "Helena, we've heard from the government's centre for disinformation here in here in Kyiv, and they're saying that such Ukrainian attacks have disabled 45% of Russia's oil exports and 40% of Russia's monthly missile production, so that explains why Volodymyr Zelensky is unwilling to agree to this request that he says he has received from Ukraine's allies to scale down such attacks."
+    },
+    {
+      "time": "00:52:25",
+      "end": "00:52:43",
+      "text": "We've seen videos emerging from Ust-Luga over the past week or so showing huge plumes of smoke, fire, and that is really bad news for Russia's wartime economy, which relies heavily on oil and gas exports."
+    },
+    {
+      "time": "00:52:43",
+      "end": "00:52:50",
+      "text": "And Vitaly, how is President Zelensky going about navigating his calls for support at a time?"
+    },
+    {
+      "time": "00:52:50",
+      "end": "00:52:58",
+      "text": "Of course, when we talk about the broader context in all of this, the world's attention focused on the events in the Middle East right now."
+    },
+    {
+      "time": "00:52:58",
+      "end": "00:53:20",
+      "text": "Well, I think we'll find out today because the Ukrainian capital is hosting a meeting of EU foreign ministers and one one key subject they will be discussing is this massive 90 billion loan to Ukraine, which is crucial for the Ukrainian economy."
+    },
+    {
+      "time": "00:53:20",
+      "end": "00:53:24",
+      "text": "But it was blocked by Hungary ten days ago."
+    },
+    {
+      "time": "00:53:24",
+      "end": "00:53:34",
+      "text": "I've seen reports suggesting that without this money, Ukraine may quite simply run out of funds within the next two months."
+    },
+    {
+      "time": "00:53:34",
+      "end": "00:53:36",
+      "text": "So this is what they will be talking about."
+    },
+    {
+      "time": "00:53:36",
+      "end": "00:53:57",
+      "text": "And also the Ukrainian president last week and over the weekend he visited a number of Gulf states and Jordan trying to offer Ukraine's drones, drone expertise and technology in exchange for things like oil, diesel and also air defence missiles."
+    },
+    {
+      "time": "00:53:57",
+      "end": "00:54:17",
+      "text": "So at a time when America's assistance to Ukraine has has all but dried up, Volodymyr Zelensky is trying to find new partners, be it in the Middle East or in Europe, just to fill this enormous gap left by Donald Trump's Donald Trump's administration."
+    },
+    {
+      "time": "00:54:17",
+      "end": "00:54:19",
+      "text": "You mentioned there the search for partners."
+    },
+    {
+      "time": "00:54:19",
+      "end": "00:54:22",
+      "text": "I do just want to briefly dip into some live pictures that we have."
+    },
+    {
+      "time": "00:54:22",
+      "end": "00:54:31",
+      "text": "This is of the European Union's foreign policy chief who is in the Ukrainian capital there."
+    },
+    {
+      "time": "00:54:31",
+      "end": "00:54:38",
+      "text": "She'll be meeting and she is meeting with her Ukrainian foreign policy counterpart, the foreign minister."
+    },
+    {
+      "time": "00:54:38",
+      "end": "00:54:41",
+      "text": "What do you expect to be the focus of discussions?"
+    },
+    {
+      "time": "00:54:41",
+      "end": "00:54:44",
+      "text": "Realistically, what can Europe give?"
+    },
+    {
+      "time": "00:54:44",
+      "end": "00:54:48",
+      "text": "It's money. It's reassurances."
+    },
+    {
+      "time": "00:54:48",
+      "end": "00:55:34",
+      "text": "Of course they will be talking about how to navigate their rather complicated relationship with the Americans, because the feeling here in Kyiv is that the Americans are so firmly focused on the Gulf right now and they're so friendly towards Vladimir Putin that it's easy for the government in Ukraine to feel abandoned by by the Americans and the Ukrainian officials will be trying to find out ways of replacing America with new partners such as those countries from the EU, which are represented in talks here in Kyiv today."
+    },
+    {
+      "time": "00:55:34",
+      "end": "00:55:40",
+      "text": "Vitaly Shevchenko there in Kyiv, the BBC Monitoring's Chief Analyst Always good to talk to you, Vitaly."
+    },
+    {
+      "time": "00:55:40",
+      "end": "00:55:42",
+      "text": "Thanks a lot."
+    },
+    {
+      "time": "00:55:42",
+      "end": "00:55:56",
+      "text": "Now, human rights advocates and Palestinian leaders have condemned Israel's parliament approving a law which would make the death penalty a default sentence for Palestinians convicted of fatal attacks on Israelis."
+    },
+    {
+      "time": "00:55:56",
+      "end": "00:56:07",
+      "text": "While countries including the UK, Germany, France and Italy have also expressed deep concern about the bill supported by Prime Minister Benjamin Netanyahu and his far right allies."
+    },
+    {
+      "time": "00:56:07",
+      "end": "00:56:23",
+      "text": "Now it stipulates that Palestinians convicted in Israeli military courts of carrying out deadly attacks deemed to be acts of terrorism would be executed by hanging within 90 days with a possible postponement of up to 180 days."
+    },
+    {
+      "time": "00:56:23",
+      "end": "00:56:32",
+      "text": "Well, we can discuss this now with Karen Saar, director of international relations at the Association for Civil Rights in Israel, which opposes the new legislation."
+    },
+    {
+      "time": "00:56:32",
+      "end": "00:56:37",
+      "text": "Karen, thank you very much for coming on BBC News to discuss this with us."
+    },
+    {
+      "time": "00:56:37",
+      "end": "00:56:39",
+      "text": "Just tell us about this new legislation."
+    },
+    {
+      "time": "00:56:39",
+      "end": "00:56:49",
+      "text": "Some who remember the execution of Eichmann in 1962, one of the architects of the Holocaust might be asking, you know, doesn't this exist already?"
+    },
+    {
+      "time": "00:56:49",
+      "end": "00:56:52",
+      "text": "Just run us through what this entails."
+    },
+    {
+      "time": "00:56:52",
+      "end": "00:56:55",
+      "text": "So thank you for having me."
+    },
+    {
+      "time": "00:56:55",
+      "end": "00:57:05",
+      "text": "Basically, Israel did have a possibility of a death penalty in the law book during its almost 80 years of existence."
+    },
+    {
+      "time": "00:57:05",
+      "end": "00:57:21",
+      "text": "It was used only once on Adolf Eichmann as you said in and but in the past few years we saw that the far right have decided that the law is insufficient."
+    },
+    {
+      "time": "00:57:21",
+      "end": "00:57:22",
+      "text": "It called it a dead."
+    },
+    {
+      "time": "00:57:22",
+      "end": "00:57:29",
+      "text": "The dead letter of the law and decided that they need to revise the law."
+    },
+    {
+      "time": "00:57:29",
+      "end": "00:57:46",
+      "text": "So basically this new bill or the new law now is meant mandates that there are actually two court system that that it applies to."
+    },
+    {
+      "time": "00:57:46",
+      "end": "00:57:56",
+      "text": "One is the one in the West Bank, which is in the military court, the military court tries only Palestinians there."
+    },
+    {
+      "time": "00:57:56",
+      "end": "00:58:05",
+      "text": "The law, the death penalty is mandatory with very, very few exceptions in the."
+    },
+    {
+      "time": "00:58:05",
+      "end": "00:58:12",
+      "text": "And also what they did was to lower the safeguard for imposing such a sentence."
+    },
+    {
+      "time": "00:58:12",
+      "end": "00:58:15",
+      "text": "So if in the original law."
+    },
+    {
+      "time": "00:58:15",
+      "end": "00:58:17",
+      "text": "A the. The."
+    },
+    {
+      "time": "00:58:17",
+      "end": "00:58:36",
+      "text": "You had to have a unanimous vote to impose the death penalty is now a simple majority is enough and they lowered the rank of the military officer that is allowed to impose such a sentence."
+    },
+    {
+      "time": "00:58:36",
+      "end": "00:58:42",
+      "text": "OK. In the civilian court which is inside of Israel, it is."
+    },
+    {
+      "time": "00:58:42",
+      "end": "00:58:45",
+      "text": "The death penalty is not mandatory."
+    },
+    {
+      "time": "00:58:45",
+      "end": "00:58:49",
+      "text": "It can be replaced with life imprisonment."
+    },
+    {
+      "time": "00:58:49",
+      "end": "00:58:53",
+      "text": "Current. But it is."
+    },
+    {
+      "time": "00:58:53",
+      "end": "00:59:00",
+      "text": "It can be only imposed for acts of terrorism negating the existence of the State of Israel."
+    },
+    {
+      "time": "00:59:00",
+      "end": "00:59:03",
+      "text": "And talk us briefly through the human rights concerns here."
+    },
+    {
+      "time": "00:59:03",
+      "end": "00:59:20",
+      "text": "So the human rights concern what this law does is make it very easy to impose a very dangerous with huge with a huge implication on human life."
+    },
+    {
+      "time": "00:59:20",
+      "end": "00:59:23",
+      "text": "So they make it very, very easy."
+    },
+    {
+      "time": "00:59:23",
+      "end": "00:59:30",
+      "text": "This law is contradicts Israel very own basic law of human rights and dignity."
+    },
+    {
+      "time": "00:59:30",
+      "end": "00:59:34",
+      "text": "It is a unconstitutional it is racist."
+    },
+    {
+      "time": "00:59:34",
+      "end": "00:59:46",
+      "text": "It is discriminatory and it didn't have any due process in, in the process of the legislation."
+    },
+    {
+      "time": "00:59:46",
+      "end": "00:59:49",
+      "text": "It is unequal."
+    },
+    {
+      "time": "00:59:49",
+      "end": "00:59:55",
+      "text": "Basically the most extreme punishment that you can give someone is to take their lives."
+    },
+    {
+      "time": "00:59:55",
+      "end": "01:00:05",
+      "text": "And so with such a severe punishment needs to have a very, very strong case of, of reasoning to do that."
+    },
+    {
+      "time": "01:00:05",
+      "end": "01:00:18",
+      "text": "And instead of hiring this level, as many other countries, definitely democratic countries in the world have done, they are pulling away from the death penalty, even revoking it altogether."
+    },
+    {
+      "time": "01:00:18",
+      "end": "01:00:22",
+      "text": "Israel is moving the other way towards the death penalty."
+    },
+    {
+      "time": "01:00:22",
+      "end": "01:00:32",
+      "text": "So instead of giving more reasons, a more safeguards, they have lowered it all down."
+    },
+    {
+      "time": "01:00:32",
+      "end": "01:00:34",
+      "text": "All right. And sorry."
+    },
+    {
+      "time": "01:00:34",
+      "end": "01:00:36",
+      "text": "Karen Saar we have to leave it there."
+    },
+    {
+      "time": "01:00:36",
+      "end": "01:00:40",
+      "text": "But many thanks indeed for joining us here on BBC News."
+    },
+    {
+      "time": "01:00:40",
+      "end": "01:00:46",
+      "text": "Karen there, the Director of International Relations Association for Civil Rights in Israel."
+    },
+    {
+      "time": "01:00:46",
+      "end": "01:01:03",
+      "text": "Thank you. Now here in the UK, the Prime Minister has given the British Medical Association 48 hours to call off a six day strike planned for next week, threatening to withdraw his offer of creating extra training places for resident doctors if they've failed to do so."
+    },
+    {
+      "time": "01:01:03",
+      "end": "01:01:05",
+      "text": "Our health editor, Hugh Pym, has more."
+    },
+    {
+      "time": "01:01:05",
+      "end": "01:01:07",
+      "text": "What do we want?"
+    },
+    {
+      "time": "01:01:07",
+      "end": "01:01:08",
+      "text": "When do we want it?"
+    },
+    {
+      "time": "01:01:08",
+      "end": "01:01:20",
+      "text": "Now. Exchanges between the doctors union and ministers have tended to get more acrimonious as a strike gets nearer and the Prime Minister has intervened before to criticise the BMA for staging walkouts."
+    },
+    {
+      "time": "01:01:20",
+      "end": "01:01:26",
+      "text": "This time there's a threat to ditch part of a proposed pay deal if the strike isn't called off."
+    },
+    {
+      "time": "01:01:26",
+      "end": "01:01:31",
+      "text": "Writing in The Times, Sir Keir Starmer said walking away from this deal is the wrong decision."
+    },
+    {
+      "time": "01:01:31",
+      "end": "01:01:49",
+      "text": "It's a reckless decision and doing so without even giving resident doctors themselves the chance to vote on it makes it even worse because the truth is this no one benefits from rejecting this deal as well as an average 4.9% pay increase, including changes to pay scales."
+    },
+    {
+      "time": "01:01:49",
+      "end": "01:01:55",
+      "text": "The government promised to create extra training places for doctors to advance their careers."
+    },
+    {
+      "time": "01:01:55",
+      "end": "01:02:02",
+      "text": "Implementation of 1000 of these was due to start in April, but the Prime Minister says this won't happen if the strike goes ahead."
+    },
+    {
+      "time": "01:02:02",
+      "end": "01:02:06",
+      "text": "The British Medical Association gave its reaction."
+    },
+    {
+      "time": "01:02:06",
+      "end": "01:02:17",
+      "text": "What we want to see as a deal that brings together jobs as well as pay and fixes those two problems together, and I don't think that threatening to cut jobs is the right way to go about it."
+    },
+    {
+      "time": "01:02:17",
+      "end": "01:02:26",
+      "text": "We still believe that we could get a negotiated settlement, and we'd encourage the government to come back to the table to talk to us about what that would look like."
+    },
+    {
+      "time": "01:02:26",
+      "end": "01:02:32",
+      "text": "If the strike takes place, it'll be one of the longest staged in this three-year dispute."
+    },
+    {
+      "time": "01:02:32",
+      "end": "01:02:34",
+      "text": "The last walkout was in December."
+    },
+    {
+      "time": "01:02:34",
+      "end": "01:02:38",
+      "text": "Since then, there have been several weeks of talks but still no agreement."
+    },
+    {
+      "time": "01:02:38",
+      "end": "01:02:40",
+      "text": "Hugh Pym, BBC News."
+    },
+    {
+      "time": "01:02:40",
+      "end": "01:02:49",
+      "text": "A BBC investigation has spoken to the parents of multiple children who believe the wrong sperm or egg donors were used during IVF treatments."
+    },
+    {
+      "time": "01:02:49",
+      "end": "01:02:58",
+      "text": "All of the cases are linked to clinics in northern Cyprus, which has become one of the most popular destinations for British people seeking fertility treatment abroad."
+    },
+    {
+      "time": "01:02:58",
+      "end": "01:03:07",
+      "text": "Now the British Fertility Society says that incidents like this should never happen and that this is an appalling situation for families to be in."
+    },
+    {
+      "time": "01:03:07",
+      "end": "01:03:08",
+      "text": "Is that when I took my first steps."
+    },
+    {
+      "time": "01:03:08",
+      "end": "01:03:11",
+      "text": "James and his sister were born from IVF."
+    },
+    {
+      "time": "01:03:11",
+      "end": "01:03:15",
+      "text": "Their two mums used an anonymous sperm donor as part of their treatment."
+    },
+    {
+      "time": "01:03:15",
+      "end": "01:03:16",
+      "text": "Oh, my God, look my little hat."
+    },
+    {
+      "time": "01:03:16",
+      "end": "01:03:19",
+      "text": "When did. You feel like something wasn't quite right."
+    },
+    {
+      "time": "01:03:19",
+      "end": "01:03:25",
+      "text": "When James was born, we expected him to have blue eyes and he didn't."
+    },
+    {
+      "time": "01:03:25",
+      "end": "01:03:29",
+      "text": "So that kind of rung a bit of an alarm bell."
+    },
+    {
+      "time": "01:03:29",
+      "end": "01:03:32",
+      "text": "Laura is Kate's biological mum and gave birth to her."
+    },
+    {
+      "time": "01:03:32",
+      "end": "01:03:40",
+      "text": "Beth is James's biological mum and gave birth to him a few years later to ensure the children were biologically related."
+    },
+    {
+      "time": "01:03:40",
+      "end": "01:03:44",
+      "text": "Their parents wanted the same sperm donor to be used."
+    },
+    {
+      "time": "01:03:44",
+      "end": "01:03:45",
+      "text": "The profile was called Finn."
+    },
+    {
+      "time": "01:03:45",
+      "end": "01:03:50",
+      "text": "We had. His health history but also the history of the family."
+    },
+    {
+      "time": "01:03:50",
+      "end": "01:03:53",
+      "text": "So it was just all together really reassuring, wasn't it?"
+    },
+    {
+      "time": "01:03:53",
+      "end": "01:03:57",
+      "text": "Yeah. They found their anonymous donor on a Danish sperm bank's website."
+    },
+    {
+      "time": "01:03:57",
+      "end": "01:04:02",
+      "text": "Finn was healthy and clever and had light eyes and brown hair like Beth and Laura."
+    },
+    {
+      "time": "01:04:02",
+      "end": "01:04:06",
+      "text": "It was really important that they had some sense."
+    },
+    {
+      "time": "01:04:06",
+      "end": "01:04:08",
+      "text": "Of who he is."
+    },
+    {
+      "time": "01:04:08",
+      "end": "01:04:09",
+      "text": "Because that's half of them."
+    },
+    {
+      "time": "01:04:09",
+      "end": "01:04:13",
+      "text": "Yes, half their genetics, their sense of self, who they are."
+    },
+    {
+      "time": "01:04:13",
+      "end": "01:04:18",
+      "text": "The couple paid their fertility clinic in northern Cyprus to import donor Finn's sperm."
+    },
+    {
+      "time": "01:04:18",
+      "end": "01:04:26",
+      "text": "They were told it would be used in both of their IVF procedures, but became increasingly suspicious that didn't happen."
+    },
+    {
+      "time": "01:04:26",
+      "end": "01:04:28",
+      "text": "I've got your results here."
+    },
+    {
+      "time": "01:04:28",
+      "end": "01:04:29",
+      "text": "They're exactly the same."
+    },
+    {
+      "time": "01:04:29",
+      "end": "01:04:34",
+      "text": "They decided to do a series of DNA tests to find out the truth."
+    },
+    {
+      "time": "01:04:34",
+      "end": "01:04:44",
+      "text": "The results provide very strong support to the proposition that Kate's and James are unrelated."
+    },
+    {
+      "time": "01:04:44",
+      "end": "01:04:49",
+      "text": "Is there any possibility whatsoever in your mind that there might be related?"
+    },
+    {
+      "time": "01:04:49",
+      "end": "01:04:57",
+      "text": "No. This genetics expert who's analysed the family's tests says it's unlikely either Kate or James are related to donor Finn."
+    },
+    {
+      "time": "01:04:57",
+      "end": "01:05:04",
+      "text": "Beth and Laura have gone from feeling like they knew their children's donor to knowing nothing at all."
+    },
+    {
+      "time": "01:05:04",
+      "end": "01:05:06",
+      "text": "So where they've got the donor from, what."
+    },
+    {
+      "time": "01:05:06",
+      "end": "01:05:12",
+      "text": "Screening have they done for the donor in terms of health checks and also how many donations have they done?"
+    },
+    {
+      "time": "01:05:12",
+      "end": "01:05:25",
+      "text": "Beth and Laura had IVF in northern Cyprus, one of the most popular destinations for British people seeking fertility treatment clinics promise high success rates, low costs and a sunny holiday, and many patients report positive experiences."
+    },
+    {
+      "time": "01:05:25",
+      "end": "01:05:38",
+      "text": "But we've discovered a more disturbing side so the families of seven children have told me they believe they were given the wrong sperm or egg donors after having fertility treatment in northern Cyprus."
+    },
+    {
+      "time": "01:05:38",
+      "end": "01:05:41",
+      "text": "Most of them have now completed DNA tests."
+    },
+    {
+      "time": "01:05:41",
+      "end": "01:05:47",
+      "text": "We've uncovered possible wrongdoing at a handful of clinics, but could this problem be more widespread?"
+    },
+    {
+      "time": "01:05:47",
+      "end": "01:05:50",
+      "text": "That's an absolutely appalling position to be in."
+    },
+    {
+      "time": "01:05:50",
+      "end": "01:05:52",
+      "text": "That should never, ever happen."
+    },
+    {
+      "time": "01:05:52",
+      "end": "01:05:55",
+      "text": "There is nothing inherently wrong with what's called cross-border medicine."
+    },
+    {
+      "time": "01:05:55",
+      "end": "01:06:04",
+      "text": "However, the moment you exit the shores of this country, you rely on the local regulation of wherever you're having treatment."
+    },
+    {
+      "time": "01:06:04",
+      "end": "01:06:09",
+      "text": "Northern Cyprus is only legally recognised by Turkey and has its own fertility laws."
+    },
+    {
+      "time": "01:06:09",
+      "end": "01:06:14",
+      "text": "Unlike the UK, it does not have an independent regulator monitoring its clinics."
+    },
+    {
+      "time": "01:06:14",
+      "end": "01:06:22",
+      "text": "Beth and Laura's doctor denies any wrongdoing and the clinic where they had their treatment has not responded to our questions."
+    },
+    {
+      "time": "01:06:22",
+      "end": "01:06:27",
+      "text": "At the heart of this story is a family coming to terms with what they've discovered."
+    },
+    {
+      "time": "01:06:27",
+      "end": "01:06:30",
+      "text": "How did you feel when you both saw your DNA results."
+    },
+    {
+      "time": "01:06:30",
+      "end": "01:06:37",
+      "text": "Upset? Because like, you can't just say someone's this and then they're not identity."
+    },
+    {
+      "time": "01:06:37",
+      "end": "01:06:40",
+      "text": "It is the main thing."
+    },
+    {
+      "time": "01:06:40",
+      "end": "01:06:42",
+      "text": "It's who you are as a person."
+    },
+    {
+      "time": "01:06:42",
+      "end": "01:06:44",
+      "text": "Really. Guys. Yeah."
+    },
+    {
+      "time": "01:06:44",
+      "end": "01:06:51",
+      "text": "It has been a difficult journey and will probably continue to be in some ways, but we have two amazing children."
+    },
+    {
+      "time": "01:06:51",
+      "end": "01:06:53",
+      "text": "At the end of it, everyone will be OK."
+    },
+    {
+      "time": "01:06:53",
+      "end": "01:06:57",
+      "text": "Anna Collinson, BBC News."
+    },
+    {
+      "time": "01:06:57",
+      "end": "01:07:02",
+      "text": "And Anna, they're who you heard in that report joins me in the studio."
+    },
+    {
+      "time": "01:07:02",
+      "end": "01:07:05",
+      "text": "Anna, a brilliant investigation and reporting there."
+    },
+    {
+      "time": "01:07:05",
+      "end": "01:07:06",
+      "text": "What went wrong?"
+    },
+    {
+      "time": "01:07:06",
+      "end": "01:07:07",
+      "text": "Do we know?"
+    },
+    {
+      "time": "01:07:07",
+      "end": "01:07:08",
+      "text": "It's a really."
+    },
+    {
+      "time": "01:07:08",
+      "end": "01:07:18",
+      "text": "Good question. And at this point we are at the very start of this story really we've uncovered something brand new that fertility specialists in this country weren't even where I was going on."
+    },
+    {
+      "time": "01:07:18",
+      "end": "01:07:22",
+      "text": "So at the moment our investigation has focused on a handful of clinics."
+    },
+    {
+      "time": "01:07:22",
+      "end": "01:07:28",
+      "text": "However, we have heard from patients from other clinics in northern Cyprus who've reported similar concerns, which we haven't been able to stand up yet."
+    },
+    {
+      "time": "01:07:28",
+      "end": "01:07:45",
+      "text": "But we've also heard from lawyers and activists who live in northern Cyprus who say that the lack of regulation or the poor regulation in northern Cyprus means there's not a lot of pressure for clinics to behave in a certain way and that there's no they're not really held to account if they push the boundaries too far."
+    },
+    {
+      "time": "01:07:45",
+      "end": "01:07:55",
+      "text": "Unlike in the UK where we've got the fertility regulator, the Hfea, and they say basically it's down to an individual clinic's owners good conscience of whether they treat patients and families well or not."
+    },
+    {
+      "time": "01:07:55",
+      "end": "01:08:06",
+      "text": "I think also it's important to point out that we are focusing on northern Cyprus, but while working on this story, we've also heard concerns about the wider global trade of egg and sperm donors."
+    },
+    {
+      "time": "01:08:06",
+      "end": "01:08:12",
+      "text": "So we're looking at northern Cyprus right now, but I'm, you know, pretty certain it's going to be going on elsewhere as well."
+    },
+    {
+      "time": "01:08:12",
+      "end": "01:08:14",
+      "text": "So I mean, it must be difficult to quantify at the moment."
+    },
+    {
+      "time": "01:08:14",
+      "end": "01:08:19",
+      "text": "But do we have any indications as to how potentially widespread this could be."
+    },
+    {
+      "time": "01:08:19",
+      "end": "01:08:21",
+      "text": "Well it's really hard to know."
+    },
+    {
+      "time": "01:08:21",
+      "end": "01:08:31",
+      "text": "I mean we've shared our findings with a range of fertility experts and specialists from across Europe, and they all suspect that what we've touched on is, is just the beginning, that it's likely that more people are affected."
+    },
+    {
+      "time": "01:08:31",
+      "end": "01:08:38",
+      "text": "This story only went out this morning, and we're already hearing from people who are saying they had concerns with their fertility treatment in northern Cyprus."
+    },
+    {
+      "time": "01:08:38",
+      "end": "01:08:43",
+      "text": "So, you know, I think it's going to be something that we're going to continue to explore over the coming weeks and months."
+    },
+    {
+      "time": "01:08:43",
+      "end": "01:08:46",
+      "text": "So interesting that you have put this investigation out already."
+    },
+    {
+      "time": "01:08:46",
+      "end": "01:08:51",
+      "text": "You're seeing reaction from people who are perhaps worried that they have been impacted."
+    },
+    {
+      "time": "01:08:51",
+      "end": "01:08:56",
+      "text": "Is there any advice for people who are worried that they're affected or are considering fertility treatments abroad?"
+    },
+    {
+      "time": "01:08:56",
+      "end": "01:09:14",
+      "text": "Yeah, absolutely. I mean, the Donor Conception Network, which is a charity which supports donor conceived children and people, says it's always important to be transparent with donor conceived people from the very beginning about how they came to be that we all we all have a foundation of our understanding of our identity."
+    },
+    {
+      "time": "01:09:14",
+      "end": "01:09:16",
+      "text": "And so it's important from the very beginning, we know the truth."
+    },
+    {
+      "time": "01:09:16",
+      "end": "01:09:21",
+      "text": "So we can build up around that to then have a key building block of that foundation pulled away."
+    },
+    {
+      "time": "01:09:21",
+      "end": "01:09:28",
+      "text": "For example, finding out that information about your donor was wrong or incorrect can have a significant psychological impact on people."
+    },
+    {
+      "time": "01:09:28",
+      "end": "01:09:35",
+      "text": "So the advice would be from experts that if you are concerned, it's important to find out the truth as soon as possible."
+    },
+    {
+      "time": "01:09:35",
+      "end": "01:09:43",
+      "text": "But also if you are a parent that's concerned, if you do find out that your worst fears are confirmed, it's important that you deal with that information yourself."
+    },
+    {
+      "time": "01:09:43",
+      "end": "01:09:48",
+      "text": "You process that before you then, you know, talk to your children because it's important that you're there for them."
+    },
+    {
+      "time": "01:09:48",
+      "end": "01:09:52",
+      "text": "I think ultimately this story does have a positive element to it."
+    },
+    {
+      "time": "01:09:52",
+      "end": "01:09:59",
+      "text": "We followed an amazing family who love their children more than anything, and they've shown that you can have these really difficult conversations."
+    },
+    {
+      "time": "01:09:59",
+      "end": "01:10:06",
+      "text": "You can have really a really awful thing thrown into your life and you can come out the other end and still be a loving family who, you know, love each other."
+    },
+    {
+      "time": "01:10:06",
+      "end": "01:10:10",
+      "text": "Well, Anna, thank you very much for bringing that story to us here on BBC News."
+    },
+    {
+      "time": "01:10:10",
+      "end": "01:10:15",
+      "text": "And just to say, you can of course watch that full investigation right now."
+    },
+    {
+      "time": "01:10:15",
+      "end": "01:10:19",
+      "text": "Sunshine and Secrets: The Hidden Side of IVF."
+    },
+    {
+      "time": "01:10:19",
+      "end": "01:10:29",
+      "text": "It's on BBC i Player or of course you can listen to file on four investigates on BBC Sounds now or on radio four at 8pm tonight."
+    },
+    {
+      "time": "01:10:29",
+      "end": "01:10:36",
+      "text": "Well, a deal between the UK and France, which aims to reduce migrant crossings in the channel, is set to expire tonight."
+    },
+    {
+      "time": "01:10:36",
+      "end": "01:10:38",
+      "text": "So far there's no agreement to renew it."
+    },
+    {
+      "time": "01:10:38",
+      "end": "01:10:43",
+      "text": "Negotiations are said to be ongoing between the two countries, but they are yet to agree."
+    },
+    {
+      "time": "01:10:43",
+      "end": "01:10:44",
+      "text": "A new arrangement."
+    },
+    {
+      "time": "01:10:44",
+      "end": "01:10:55",
+      "text": "The current scheme has seen the UK pay French authorities almost \u00a3500 million to carry out beach patrols in northern France."
+    },
+    {
+      "time": "01:10:55",
+      "end": "01:11:04",
+      "text": "Australia's internet regulator says that it's investigating the world's biggest social media companies for allegedly failing to keep children off their platforms."
+    },
+    {
+      "time": "01:11:04",
+      "end": "01:11:07",
+      "text": "That's despite a law that came into effect late last year."
+    },
+    {
+      "time": "01:11:07",
+      "end": "01:11:12",
+      "text": "The legislation bans all under the age of 16 from ten platforms."
+    },
+    {
+      "time": "01:11:12",
+      "end": "01:11:26",
+      "text": "The regulator said that it had significant concerns about the compliance of the social media companies, and they could face fines of over 30 million USD if they are found to have breached regulations."
+    },
+    {
+      "time": "01:11:26",
+      "end": "01:11:46",
+      "text": "Now a supermarket in Orkney has been giving away bananas after accidentally ordering an estimated 38,000 of them, almost double the entire population of the island's Tesco in Kirkwall had intended to order 380kg of the fruit, which is around 2000 bananas."
+    },
+    {
+      "time": "01:11:46",
+      "end": "01:11:49",
+      "text": "But a mistake led to them ordering a lot more than that."
+    },
+    {
+      "time": "01:11:49",
+      "end": "01:11:56",
+      "text": "The store has been giving the boxes away to communities and schools across the area."
+    },
+    {
+      "time": "01:11:56",
+      "end": "01:11:58",
+      "text": "That's something that you don't want to do."
+    },
+    {
+      "time": "01:11:58",
+      "end": "01:12:01",
+      "text": "Of course, when it comes to your online shop you are watching BBC News."
+    },
+    {
+      "time": "01:12:01",
+      "end": "01:12:03",
+      "text": "I'm Helena Humphrey in London."
+    },
+    {
+      "time": "01:12:03",
+      "end": "01:12:05",
+      "text": "I'll have more on the way very shortly."
+    },
+    {
+      "time": "01:12:05",
+      "end": "01:12:06",
+      "text": "Stay with me if you can."
+    },
+    {
+      "time": "01:12:06",
+      "end": "01:12:08",
+      "text": "Bye for now."
+    },
+    {
+      "time": "01:12:08",
+      "end": "01:12:15",
+      "text": "Hello again today."
+    },
+    {
+      "time": "01:12:15",
+      "end": "01:12:17",
+      "text": "There's quite a bit of cloud around."
+    },
+    {
+      "time": "01:12:17",
+      "end": "01:12:28",
+      "text": "Thick enough for some patchy light rain and drizzle, but we will see some breaks in that cloud and where we do, temperatures could reach 16 or 17 degrees, but it's going to be mild wherever you are."
+    },
+    {
+      "time": "01:12:28",
+      "end": "01:12:37",
+      "text": "We've got this weather front, this warm front pulling away, a ridge of high pressure coming in behind it, and that's pulling in the milder air."
+    },
+    {
+      "time": "01:12:37",
+      "end": "01:12:42",
+      "text": "Now a lot of cloud around the brighter breaks are likely to be to the east of high ground."
+    },
+    {
+      "time": "01:12:42",
+      "end": "01:12:50",
+      "text": "So eastern Scotland, northeast England and also east Wales temperatures 10 to 16 quite widely locally."
+    },
+    {
+      "time": "01:12:50",
+      "end": "01:12:58",
+      "text": "Summer could see 17 degrees through the evening and overnight the cloud will break up across England and Wales where we hang on to it."
+    },
+    {
+      "time": "01:12:58",
+      "end": "01:13:05",
+      "text": "It will be thick enough for some drizzle, mist and fog patches forming and then by the end of the night a cold front is going to bring in wet and windy weather to northwest Scotland."
+    },
+    {
+      "time": "01:13:05",
+      "end": "01:13:12",
+      "text": "These are overnight lows six to about nine degrees tomorrow the cold front sinks southwards with its rain."
+    },
+    {
+      "time": "01:13:12",
+      "end": "01:13:14",
+      "text": "Cold air digs in behind it."
+    },
+    {
+      "time": "01:13:14",
+      "end": "01:13:16",
+      "text": "We could see snow down to 300m."
+    },
+    {
+      "time": "01:13:16",
+      "end": "01:13:19",
+      "text": "The rain pushes through Northern Ireland for England and Wales."
+    },
+    {
+      "time": "01:13:19",
+      "end": "01:13:26",
+      "text": "Quite a bit of cloud but some bright or sunny intervals developing and ahead of this weather front we still are in the mild air now."
+    },
+    {
+      "time": "01:13:26",
+      "end": "01:13:32",
+      "text": "Beyond that, as we head on into the Easter weekend, the weather turns a little bit more unsettled."
+    },
+    {
+      "time": "01:13:32",
+      "end": "01:13:41",
+      "text": "Temperatures will be that bit lower and it looks especially in the north and west, that we could see some strong winds, possibly gales."
+    },
+    {
+      "time": "01:13:41",
+      "end": "01:13:48",
+      "text": "The calm before the storm."
+    },
+    {
+      "time": "01:13:48",
+      "end": "01:13:54",
+      "text": "Liam Reece cut a relaxed figure ahead of the biggest night and biggest test of his career so far."
+    },
+    {
+      "time": "01:13:54",
+      "end": "01:14:06",
+      "text": "He's up against Rolando De, who's attempting to make his own little bit of history by becoming the first fighter from the Philippines to win a world title."
+    },
+    {
+      "time": "01:14:06",
+      "end": "01:14:09",
+      "text": "Everyone says like, oh, how do you manage on the fight night?"
+    },
+    {
+      "time": "01:14:09",
+      "end": "01:14:11",
+      "text": "And like, that part is easy for me."
+    },
+    {
+      "time": "01:14:11",
+      "end": "01:14:12",
+      "text": "I love that part."
+    },
+    {
+      "time": "01:14:12",
+      "end": "01:14:18",
+      "text": "Fighters at this show will earn a purse in the low thousands of pounds."
+    },
+    {
+      "time": "01:14:18",
+      "end": "01:14:20",
+      "text": "The world champ you can't get any higher than that."
+    },
+    {
+      "time": "01:14:20",
+      "end": "01:14:25",
+      "text": "I love the full-time job, but the money's just still not good enough."
+    },
+    {
+      "time": "01:14:25",
+      "end": "01:14:28",
+      "text": "Is that the reason why you're not scared when you fight?"
+    },
+    {
+      "time": "01:14:28",
+      "end": "01:14:30",
+      "text": "Because he's won a bigger fight, if you like."
+    },
+    {
+      "time": "01:14:30",
+      "end": "01:14:34",
+      "text": "Yeah, I think you know, me and his friends always say before you've even gone there."
+    },
+    {
+      "time": "01:14:34",
+      "end": "01:14:37",
+      "text": "It doesn't matter if he wins or lose like he's won anyway."
+    },
+    {
+      "time": "01:14:37",
+      "end": "01:14:41",
+      "text": "You know, just him being where he is."
+    },
+    {
+      "time": "01:14:41",
+      "end": "01:14:43",
+      "text": "Watch on BBC i Player."
+    },
+    {
+      "time": "01:14:43",
+      "end": "01:14:45",
+      "text": "This is incredible."
+    },
+    {
+      "time": "01:14:45",
+      "end": "01:14:46",
+      "text": "He's looking at us."
+    },
+    {
+      "time": "01:14:46",
+      "end": "01:14:48",
+      "text": "What does his foot mean?"
+    },
+    {
+      "time": "01:14:48",
+      "end": "01:14:50",
+      "text": "Did you see that?"
+    },
+    {
+      "time": "01:14:50",
+      "end": "01:14:52",
+      "text": "That means charge."
+    },
+    {
+      "time": "01:14:52",
+      "end": "01:14:54",
+      "text": "No. Not yet."
+    },
+    {
+      "time": "01:14:54",
+      "end": "01:15:03",
+      "text": "With every beat and whistle, these orbs pulse and vibrate, letting deaf audiences feel the rhythm and emotion."
+    },
+    {
+      "time": "01:15:03",
+      "end": "01:15:09",
+      "text": "Well, this is the view I've woken up to this morning."
+    },
+    {
+      "time": "01:15:09",
+      "end": "01:15:18",
+      "text": "The Gissar Reserve in the south of Uzbekistan showing me the ropes is Mehmet Booster, a baklava master."
+    },
+    {
+      "time": "01:15:18",
+      "end": "01:15:25",
+      "text": "Oh, my goodness, why have I spent years kneading my own dough when I could have just stood on it in my kitchen?"
+    },
+    {
+      "time": "01:15:25",
+      "end": "01:15:27",
+      "text": "You can try, I."
+    },
+    {
+      "time": "01:15:27",
+      "end": "01:15:32",
+      "text": "Can try. I haven't even come that far yet and it's quite physical work, I've got to say."
+    },
+    {
+      "time": "01:15:32",
+      "end": "01:15:37",
+      "text": "And the most scary thing is when you first put your weight fully in the harness."
+    },
+    {
+      "time": "01:15:37",
+      "end": "01:15:42",
+      "text": "Inspiring travel. Watch now on BBC i Player."
+    },
+    {
+      "time": "01:15:42",
+      "end": "01:16:13",
+      "text": "Live from London."
+    },
+    {
+      "time": "01:16:13",
+      "end": "01:16:14",
+      "text": "This is BBC News."
+    },
+    {
+      "time": "01:16:14",
+      "end": "01:16:23",
+      "text": "Israel's Prime Minister says the US-Israeli war with Iran has achieved more than half its aims, but declines to give a timeline for ending the conflict."
+    },
+    {
+      "time": "01:16:23",
+      "end": "01:16:30",
+      "text": "Israel's Defence Minister has said Israel will establish a buffer zone inside southern Lebanon."
+    },
+    {
+      "time": "01:16:30",
+      "end": "01:16:37",
+      "text": "Iranian drone and missile attacks continue across the Gulf, with a giant Kuwaiti oil tanker struck near Dubai's port."
+    },
+    {
+      "time": "01:16:37",
+      "end": "01:16:45",
+      "text": "Prime Minister Keir Starmer is to meet with senior ministers to discuss the ongoing economic impact of the Iran war."
+    },
+    {
+      "time": "01:16:45",
+      "end": "01:16:57",
+      "text": "Here in the UK, sacked Radio 2 presenter Scott Mills was questioned by police in 2018 in relation to allegations of serious sexual offences against a teenage boy."
+    },
+    {
+      "time": "01:16:57",
+      "end": "01:17:05",
+      "text": "And after four years, Celine Dion will return to the stage with ten shows in Paris in September."
+    },
+    {
+      "time": "01:17:05",
+      "end": "01:17:17",
+      "text": "I'm Helena Humphrey good to have you with us."
+    },
+    {
+      "time": "01:17:17",
+      "end": "01:17:24",
+      "text": "Israel's Prime Minister has laid out his assessment of the war with Iran as strikes across the region continue."
+    },
+    {
+      "time": "01:17:24",
+      "end": "01:17:31",
+      "text": "There's also breaking news this hour about Israel's plans to establish what it calls a buffer zone inside southern Lebanon."
+    },
+    {
+      "time": "01:17:31",
+      "end": "01:17:33",
+      "text": "We'll have more on that in a moment."
+    },
+    {
+      "time": "01:17:33",
+      "end": "01:17:36",
+      "text": "But first, here are the other main developments."
+    },
+    {
+      "time": "01:17:36",
+      "end": "01:17:45",
+      "text": "The Israeli leader says that more than half of his military aims have been achieved, but that he doesn't want to put a schedule on the timeline for ending the conflict."
+    },
+    {
+      "time": "01:17:45",
+      "end": "01:17:52",
+      "text": "Meanwhile, a Kuwaiti oil tanker carrying millions of barrels caught fire after being hit while docked in Dubai."
+    },
+    {
+      "time": "01:17:52",
+      "end": "01:17:57",
+      "text": "Officials have blamed Iran and explosions have been heard in Dubai."
+    },
+    {
+      "time": "01:17:57",
+      "end": "01:17:59",
+      "text": "People there have been told to seek shelter."
+    },
+    {
+      "time": "01:17:59",
+      "end": "01:18:06",
+      "text": "Now Iran is also moving forward with its plans to toll ships passing through the Strait of Hormuz."
+    },
+    {
+      "time": "01:18:06",
+      "end": "01:18:13",
+      "text": "And here in the UK, the Prime Minister will hold an emergency meeting on the economic impact of the war this afternoon."
+    },
+    {
+      "time": "01:18:13",
+      "end": "01:18:27",
+      "text": "But let's get more now on that breaking news from Lebanon, where Israel's Defence Minister has said that Israel will establish a buffer zone inside southern Lebanon and maintain control over the entire area up to the Litani River."
+    },
+    {
+      "time": "01:18:27",
+      "end": "01:18:33",
+      "text": "Israel Katz also said that all of the homes and villages near the border in Lebanon would be destroyed."
+    },
+    {
+      "time": "01:18:33",
+      "end": "01:18:36",
+      "text": "Well, we can go straight now to Lebanon."
+    },
+    {
+      "time": "01:18:36",
+      "end": "01:18:40",
+      "text": "We can bring in our correspondent Lina Sinjab, who is in Beirut."
+    },
+    {
+      "time": "01:18:40",
+      "end": "01:18:47",
+      "text": "Lina, just tell us more about the potential establishment of this buffer zone in southern Lebanon."
+    },
+    {
+      "time": "01:18:47",
+      "end": "01:18:50",
+      "text": "And what would it mean for people there in the region?"
+    },
+    {
+      "time": "01:18:50",
+      "end": "01:19:08",
+      "text": "Well, I think this is something that the Israelis have been preparing for gradually since they've started their you know, what they described limited ground operation advancing into the south of Lebanon."
+    },
+    {
+      "time": "01:19:08",
+      "end": "01:19:10",
+      "text": "And every now and then they expand the operation."
+    },
+    {
+      "time": "01:19:10",
+      "end": "01:19:19",
+      "text": "Only on Sunday we've heard the Israeli Prime Minister saying that they will, you know, expand the presence."
+    },
+    {
+      "time": "01:19:19",
+      "end": "01:19:22",
+      "text": "And they've had another division."
+    },
+    {
+      "time": "01:19:22",
+      "end": "01:19:25",
+      "text": "You know, now there are three divisions operating in South Lebanon."
+    },
+    {
+      "time": "01:19:25",
+      "end": "01:19:32",
+      "text": "The situation has been alerting the government and the citizens of the South."
+    },
+    {
+      "time": "01:19:32",
+      "end": "01:19:41",
+      "text": "The government already described this operation prior to this announcement as a violation of the country's sovereignty."
+    },
+    {
+      "time": "01:19:41",
+      "end": "01:19:51",
+      "text": "Fearing that this will end towards, you know, an establishment of control over the situation, which is what we heard being announced today."
+    },
+    {
+      "time": "01:19:51",
+      "end": "01:20:09",
+      "text": "For the Lebanese, for the residents of the South, most of whom have been pushed and forced to leave, this is a worrying for them because it constitutes an occupation according to them, an occupation by the Israeli forces to the south of Lebanon."
+    },
+    {
+      "time": "01:20:09",
+      "end": "01:20:23",
+      "text": "Now they are saying towards the river and the Litani River, but also we are having evacuation orders towards north of Litani, so probably they will even reach further areas in the south."
+    },
+    {
+      "time": "01:20:23",
+      "end": "01:20:34",
+      "text": "And you know, that constitutes a threat for the residents in the South that they will lose control over their land."
+    },
+    {
+      "time": "01:20:34",
+      "end": "01:20:51",
+      "text": "It's really hard to see how the Lebanese government is going to react to this, since they don't have the power to either push the Israelis out of Lebanon nor stop Hezbollah from continuing attacks over northern northern Israel."
+    },
+    {
+      "time": "01:20:51",
+      "end": "01:20:58",
+      "text": "But the situation as it is right now prompts the expectation of more ground."
+    },
+    {
+      "time": "01:20:58",
+      "end": "01:21:01",
+      "text": "You know, fights ground war with Hezbollah."
+    },
+    {
+      "time": "01:21:01",
+      "end": "01:21:19",
+      "text": "Probably Hezbollah doesn't have the military power that Israel has, but they have the knowledge and the power on the ground to create what they describe as a guerrilla war against the Israelis to prevent any stabilisation of the powers there."
+    },
+    {
+      "time": "01:21:19",
+      "end": "01:21:26",
+      "text": "But in short, that means that this is not a war that's going to end soon."
+    },
+    {
+      "time": "01:21:26",
+      "end": "01:21:32",
+      "text": "Right. It appears that we have lost Lina Sinjab there."
+    },
+    {
+      "time": "01:21:32",
+      "end": "01:21:34",
+      "text": "But she was reporting, of course, from Beirut."
+    },
+    {
+      "time": "01:21:34",
+      "end": "01:21:43",
+      "text": "In the meantime, let's return to those comments from Israel's Prime Minister Benjamin Netanyahu has said that the war is, quote, definitely beyond the half way point."
+    },
+    {
+      "time": "01:21:43",
+      "end": "01:21:46",
+      "text": "We can hear now from our correspondent in Jerusalem, Yolande Knell."
+    },
+    {
+      "time": "01:21:46",
+      "end": "01:21:52",
+      "text": "He looks like he's choosing his words very carefully, not wanting to contradict things that might be said by the US administration."
+    },
+    {
+      "time": "01:21:52",
+      "end": "01:22:00",
+      "text": "Just yesterday, the US Secretary of State, Marco Rubio, said that the war would be finished in weeks and not months."
+    },
+    {
+      "time": "01:22:00",
+      "end": "01:22:15",
+      "text": "So here the Israeli Prime Minister, speaking to the US cable channel Newsmax, knowing, of course, that there is growing domestic opposition in the US to the war in Iran, he said, it's definitely beyond the halfway point."
+    },
+    {
+      "time": "01:22:15",
+      "end": "01:22:17",
+      "text": "But I wouldn't want to put a schedule on it."
+    },
+    {
+      "time": "01:22:17",
+      "end": "01:22:28",
+      "text": "And then he went on to clarify that he meant that the war was more than halfway in terms of the missions that it had carried out, not necessarily in terms of the timing."
+    },
+    {
+      "time": "01:22:28",
+      "end": "01:22:43",
+      "text": "And he listed what he said were the goals of the war that were being achieved when it came to the Iranian Revolutionary Guards, he said thousands of their members had been killed by the joint US and Israeli operations."
+    },
+    {
+      "time": "01:22:43",
+      "end": "01:23:02",
+      "text": "He said that basically when it comes to the arms industry, they're close to finishing the arms industry in Iran that they were tackling the ballistic missile sites and wiping out the nuclear programme, which has of course, been seen as an existential threat by Israel."
+    },
+    {
+      "time": "01:23:02",
+      "end": "01:23:12",
+      "text": "Although Iran said it had only peaceful intentions for its programme, the Israeli Prime Minister said that regime change was not necessarily the goal."
+    },
+    {
+      "time": "01:23:12",
+      "end": "01:23:22",
+      "text": "But he did say that he thought that because of the pressure that was now being put on the Iranian regime, that it was weakening it internally and that it would collapse internally."
+    },
+    {
+      "time": "01:23:22",
+      "end": "01:23:30",
+      "text": "When you learned you have on one hand those comments from the Israeli Prime Minister saying that he believes half of those war aims have been achieved."
+    },
+    {
+      "time": "01:23:30",
+      "end": "01:23:38",
+      "text": "At the same time in southern Lebanon, he's been ordering an expansion of the invasion there."
+    },
+    {
+      "time": "01:23:38",
+      "end": "01:24:21",
+      "text": "Yes. On Sunday he ordered this expansion going deep into southern Lebanon, saying that already that Israeli forces had penetrated deep into three areas of the south of Lebanon where they are fighting against the Iran-backed Hezbollah, which came into this war a day after Israel and the US launched their attacks on Tehran, he said, really, that what they're aiming for there is they are trying to stop the possibility of a Hezbollah invasion of northern Israel in the same way that Hamas attacked southern Israel in the 7th of October."
+    },
+    {
+      "time": "01:24:21",
+      "end": "01:24:31",
+      "text": "And also the aim of Israel is to stop what could be sort of anti-tank fire across the border into the north of Israel."
+    },
+    {
+      "time": "01:24:31",
+      "end": "01:24:35",
+      "text": "But there is a bit of a contradiction in terms of what the military is suggesting."
+    },
+    {
+      "time": "01:24:35",
+      "end": "01:24:44",
+      "text": "Its aims are and the aims of the Israeli Prime Minister and Defence Minister, as they've outlined, they're suggesting that they want to hold for a longer period."
+    },
+    {
+      "time": "01:24:44",
+      "end": "01:24:47",
+      "text": "That's occupation of southern Lebanon."
+    },
+    {
+      "time": "01:24:47",
+      "end": "01:24:59",
+      "text": "The military have been suggesting it's more of a sort of temporary situation, and there has been, again, overnight more soldiers who have been killed."
+    },
+    {
+      "time": "01:24:59",
+      "end": "01:25:12",
+      "text": "Four Israeli soldiers killed in close contact with Hezbollah in fighting that's going on in southern Lebanon, a reminder of the costs of this war for Israel as it widens its offensive against Hezbollah."
+    },
+    {
+      "time": "01:25:12",
+      "end": "01:25:25",
+      "text": "And we've also had three Unifil peacekeepers who have been killed in the past couple of days, you know, just showing the dangers of this of this operation."
+    },
+    {
+      "time": "01:25:25",
+      "end": "01:25:28",
+      "text": "The very latest there from Jerusalem."
+    },
+    {
+      "time": "01:25:28",
+      "end": "01:25:46",
+      "text": "With Yolande Knell we can get some analysis now from Jiyar Gol from BBC Persian, BBC Persian is the Persian language service of BBC News used by 24 million people around the world, the majority in Iran, despite being blocked and routinely jammed by Iranian authorities."
+    },
+    {
+      "time": "01:25:46",
+      "end": "01:25:48",
+      "text": "Always good to have you with us here in the studio."
+    },
+    {
+      "time": "01:25:48",
+      "end": "01:25:53",
+      "text": "So firstly, those explosions overnight which have continued."
+    },
+    {
+      "time": "01:25:53",
+      "end": "01:25:56",
+      "text": "At one point we heard that power was knocked out in Tehran."
+    },
+    {
+      "time": "01:25:56",
+      "end": "01:25:58",
+      "text": "What more can you tell us?"
+    },
+    {
+      "time": "01:25:58",
+      "end": "01:26:01",
+      "text": "What we know part of Tehran power is out."
+    },
+    {
+      "time": "01:26:01",
+      "end": "01:26:02",
+      "text": "People don't have electricity."
+    },
+    {
+      "time": "01:26:02",
+      "end": "01:26:14",
+      "text": "And also we know in the city of Isfahan there was a massive attack and also there was a secondary explosion, which means most likely it was a missile depot or ammunition depot."
+    },
+    {
+      "time": "01:26:14",
+      "end": "01:26:22",
+      "text": "Also in Tehran there was some places has been targeted and in the city of Zanjan, one of the religious plays has been targeted."
+    },
+    {
+      "time": "01:26:22",
+      "end": "01:26:28",
+      "text": "We know in the past few weeks many of security forces, police, they don't stay in their station or barracks."
+    },
+    {
+      "time": "01:26:28",
+      "end": "01:26:31",
+      "text": "They afraid of being targeted by air strikes."
+    },
+    {
+      "time": "01:26:31",
+      "end": "01:26:39",
+      "text": "That's why many of them are staying in mosques, schools and even in their cars, in the streets and alleys around the cities."
+    },
+    {
+      "time": "01:26:39",
+      "end": "01:26:44",
+      "text": "I think some of those places also have been the target in the in the past few weeks."
+    },
+    {
+      "time": "01:26:44",
+      "end": "01:26:47",
+      "text": "Let's talk a little bit about the Strait of Hormuz."
+    },
+    {
+      "time": "01:26:47",
+      "end": "01:26:51",
+      "text": "Still a huge question in this conflict."
+    },
+    {
+      "time": "01:26:51",
+      "end": "01:26:59",
+      "text": "We're also hearing that Iran is planning to move ahead on this idea of having a toll for commercial shipping in the Strait."
+    },
+    {
+      "time": "01:26:59",
+      "end": "01:27:00",
+      "text": "What more do we know about that?"
+    },
+    {
+      "time": "01:27:00",
+      "end": "01:27:02",
+      "text": "The likelihood of that going ahead?"
+    },
+    {
+      "time": "01:27:02",
+      "end": "01:27:11",
+      "text": "We knew some of the hard line inside Iran in the past few weeks have been talking about we have to impose toll on those ships passing through Strait of Hormuz."
+    },
+    {
+      "time": "01:27:11",
+      "end": "01:27:16",
+      "text": "We should own this strait just the way the Swiss channel for Egyptian."
+    },
+    {
+      "time": "01:27:16",
+      "end": "01:27:24",
+      "text": "And today the national security of Iran has has confirmed that they are going ahead with this plan."
+    },
+    {
+      "time": "01:27:24",
+      "end": "01:27:28",
+      "text": "And obviously it must go to the Parliament to see whether it will get a vote."
+    },
+    {
+      "time": "01:27:28",
+      "end": "01:27:35",
+      "text": "And most definitely if they say if the national security approve this, the Parliament follow, follow them as well."
+    },
+    {
+      "time": "01:27:35",
+      "end": "01:27:44",
+      "text": "I think at this point of time the question is whether they are able to impose that kind of tolls or whether the international community, the US and its allies will accept that."
+    },
+    {
+      "time": "01:27:44",
+      "end": "01:27:52",
+      "text": "I mean, talking about the US President Trump has continued his threats on Iran, including on civilian infrastructure."
+    },
+    {
+      "time": "01:27:52",
+      "end": "01:27:57",
+      "text": "He's spoken not just about energy infrastructure but also these water desalination plants."
+    },
+    {
+      "time": "01:27:57",
+      "end": "01:28:02",
+      "text": "And of course, it is difficult to reach people in Iran to assess how they feel about this."
+    },
+    {
+      "time": "01:28:02",
+      "end": "01:28:10",
+      "text": "But when they hear threats, warnings about civilian infrastructure, how alarmed, how concerned does that make them?"
+    },
+    {
+      "time": "01:28:10",
+      "end": "01:28:12",
+      "text": "I think it's very, extremely difficult for them."
+    },
+    {
+      "time": "01:28:12",
+      "end": "01:28:25",
+      "text": "They all they all they feel the impact of this war in terms of food shortage, in terms of not to be able to pay for their bills and also taking out infrastructure."
+    },
+    {
+      "time": "01:28:25",
+      "end": "01:28:29",
+      "text": "Definitely people will be affected, but we know people are conflicted."
+    },
+    {
+      "time": "01:28:29",
+      "end": "01:28:41",
+      "text": "Iranian people overall, particularly in diaspora, many people believe they have tried every possible way to bring change to the country, but it failed and the regime suppress any dissent."
+    },
+    {
+      "time": "01:28:41",
+      "end": "01:28:44",
+      "text": "That's why they believe the only way is is military action."
+    },
+    {
+      "time": "01:28:44",
+      "end": "01:28:54",
+      "text": "But there are many people who are opposing the regime, but they say it is not the way because the infrastructure of the country is being destroyed and taking back the country by decades."
+    },
+    {
+      "time": "01:28:54",
+      "end": "01:29:03",
+      "text": "If these kind of attacks and obviously there is a group of people who are supporting the regime no matter what, and they are loyal to the regime and they are willing to stick to them."
+    },
+    {
+      "time": "01:29:03",
+      "end": "01:29:05",
+      "text": "But the ordinary people in Iran are suffering."
+    },
+    {
+      "time": "01:29:05",
+      "end": "01:29:11",
+      "text": "We know more than 3500 people have been killed, and around 1500 of them are civilians."
+    },
+    {
+      "time": "01:29:11",
+      "end": "01:29:16",
+      "text": "I mean, you talk about that huge crackdown, brutal crackdown on dissent in Iran."
+    },
+    {
+      "time": "01:29:16",
+      "end": "01:29:30",
+      "text": "So when you have comments from the like of the Israeli Prime Minister, Benjamin Netanyahu, for example, saying, look, we will carry out some actions in Iran, ultimately it will be up to the Iranian people to rise up and fully topple the regime."
+    },
+    {
+      "time": "01:29:30",
+      "end": "01:29:38",
+      "text": "You know, what kind of appetite can there possibly be for that when there has been this incredibly brutal, as you say, crackdown in recent months?"
+    },
+    {
+      "time": "01:29:38",
+      "end": "01:29:59",
+      "text": "We know in January, obviously thousands of people have been killed and the regime, even right now, they don't hesitate to go on national TV without any if and but to say anybody who comes to the street who oppose the regime, they consider it as an enemy and they will deal with them as they deal with the US and Israelis, which means they will kill them."
+    },
+    {
+      "time": "01:29:59",
+      "end": "01:30:02",
+      "text": "That's why so many people are afraid to come to the street."
+    },
+    {
+      "time": "01:30:02",
+      "end": "01:30:18",
+      "text": "And we know in the past few weeks in a surgical way, many of the police station paramilitary those institutions and police forces who are responsible for riots and cracking down on protests have been killed, eliminated, even their commanders."
+    },
+    {
+      "time": "01:30:18",
+      "end": "01:30:24",
+      "text": "The commander of Basij paramilitary who was loyal to Supreme Leader of Iran, has been targeted."
+    },
+    {
+      "time": "01:30:24",
+      "end": "01:30:32",
+      "text": "But despite this, I think many people, they have seen what happened two months ago in January, how the regime without mercy killed so many people."
+    },
+    {
+      "time": "01:30:32",
+      "end": "01:30:36",
+      "text": "I think many people are afraid at this point of time to rise up."
+    },
+    {
+      "time": "01:30:36",
+      "end": "01:30:40",
+      "text": "Very, very interesting to speak to you Jiyar Gol from BBC Persian."
+    },
+    {
+      "time": "01:30:40",
+      "end": "01:30:42",
+      "text": "Many thanks indeed."
+    },
+    {
+      "time": "01:30:42",
+      "end": "01:30:48",
+      "text": "Now around the world and across the UK you're watching BBC News."
+    },
+    {
+      "time": "01:30:48",
+      "end": "01:32:00",
+      "text": "You're live with BBC News will missile attacks are continuing across the Gulf."
+    },
+    {
+      "time": "01:32:00",
+      "end": "01:32:11",
+      "text": "This image just into the newsroom showing a Kuwaiti oil tanker in the Port of Dubai, which has been hit in an air attack, sparking a huge fire, with local officials blaming Iran."
+    },
+    {
+      "time": "01:32:11",
+      "end": "01:32:16",
+      "text": "It was carrying millions of barrels of oil and the vessel was reportedly en route to China."
+    },
+    {
+      "time": "01:32:16",
+      "end": "01:32:22",
+      "text": "Now all 24 crew members are reported to be safe and the blaze is under control."
+    },
+    {
+      "time": "01:32:22",
+      "end": "01:32:26",
+      "text": "Well, our correspondent Lorna Gordon is in Dubai and has been giving us the latest updates."
+    },
+    {
+      "time": "01:32:26",
+      "end": "01:32:28",
+      "text": "Following that attack."
+    },
+    {
+      "time": "01:32:28",
+      "end": "01:32:30",
+      "text": "That was a drone attack overnight."
+    },
+    {
+      "time": "01:32:30",
+      "end": "01:32:41",
+      "text": "The authorities here say it occurred just after midnight on a very large oil tanker at Anchorage in the waters off of Dubai."
+    },
+    {
+      "time": "01:32:41",
+      "end": "01:32:47",
+      "text": "As you said, none of the crew on board the 24 strong crew were injured in that attack."
+    },
+    {
+      "time": "01:32:47",
+      "end": "01:33:00",
+      "text": "There were initially concerns of a potential oil spill in the Gulf, but the authorities here say that has been averted within the last hour here in Dubai."
+    },
+    {
+      "time": "01:33:00",
+      "end": "01:33:06",
+      "text": "We've heard a number of explosions, perhaps as many as half a dozen."
+    },
+    {
+      "time": "01:33:06",
+      "end": "01:33:17",
+      "text": "When that happens, alerts are sent out to the phones of everybody here in the area warning them to seek shelter and stay inside."
+    },
+    {
+      "time": "01:33:17",
+      "end": "01:33:19",
+      "text": "The all clear has now been given."
+    },
+    {
+      "time": "01:33:19",
+      "end": "01:33:31",
+      "text": "The authorities generally say that most of the explosions heard are interceptions and they said of this last attack that their defence systems were responding to a missile threat."
+    },
+    {
+      "time": "01:33:31",
+      "end": "01:33:35",
+      "text": "As I said, they say most of the attacks are intercepted."
+    },
+    {
+      "time": "01:33:35",
+      "end": "01:33:45",
+      "text": "But of course that drone attack on that tanker in the waters off of Dubai is evidence that some of them do get through."
+    },
+    {
+      "time": "01:33:45",
+      "end": "01:33:50",
+      "text": "Lordy, you were just mentioning there that people receive alerts on their phones."
+    },
+    {
+      "time": "01:33:50",
+      "end": "01:33:51",
+      "text": "What do all of this mean for."
+    },
+    {
+      "time": "01:33:51",
+      "end": "01:33:54",
+      "text": "People going about their daily lives?"
+    },
+    {
+      "time": "01:33:54",
+      "end": "01:33:58",
+      "text": "How much of a consideration is it for them?"
+    },
+    {
+      "time": "01:33:58",
+      "end": "01:34:12",
+      "text": "Well. Those alerts tell people to seek shelter and stay inside for the most part, the alerts appear to come at night time rather than during the day."
+    },
+    {
+      "time": "01:34:12",
+      "end": "01:34:18",
+      "text": "And certainly if you look around this part of Dubai to a degree, life is continuing as normal."
+    },
+    {
+      "time": "01:34:18",
+      "end": "01:34:25",
+      "text": "There is building work, continuing, there are people heading out in and out of their offices."
+    },
+    {
+      "time": "01:34:25",
+      "end": "01:34:38",
+      "text": "The traffic in and out of Dubai Airport is also continuing, albeit at a reduced level compared to normal, but it has picked up since this situation."
+    },
+    {
+      "time": "01:34:38",
+      "end": "01:34:41",
+      "text": "These attacks started just over a month ago."
+    },
+    {
+      "time": "01:34:41",
+      "end": "01:34:57",
+      "text": "If evidence was needed of how busy the airport is starting to become, the flight I took in was almost completely full a couple of days ago, so a lot of people still transiting through Dubai Airport, albeit at a much reduced level."
+    },
+    {
+      "time": "01:34:57",
+      "end": "01:34:59",
+      "text": "And life here is continuing."
+    },
+    {
+      "time": "01:34:59",
+      "end": "01:35:05",
+      "text": "Although people who know the city well say it is far from normal and much quieter than usual."
+    },
+    {
+      "time": "01:35:05",
+      "end": "01:35:07",
+      "text": "Lorna Gordon there in Dubai."
+    },
+    {
+      "time": "01:35:07",
+      "end": "01:35:22",
+      "text": "While the war is having a huge impact on oil and gas prices around the world and in Egypt, it has severely strained the economy and president al-Sisi is warning that a prolonged war in the Middle East threatens the Suez Canal, the country's key economic lifeline."
+    },
+    {
+      "time": "01:35:22",
+      "end": "01:35:28",
+      "text": "He's urged Donald Trump to stop, saying that he is capable of ending the war."
+    },
+    {
+      "time": "01:35:28",
+      "end": "01:35:33",
+      "text": "Well, we can speak now to BBC Arabic's Abdelbassir Hassan, who is in Cairo."
+    },
+    {
+      "time": "01:35:33",
+      "end": "01:35:43",
+      "text": "Abdul Bashir, you are of course close to the theatre of conflict and I know that some shops, some restaurants in Egypt have been closing early due to fuel concerns."
+    },
+    {
+      "time": "01:35:43",
+      "end": "01:35:50",
+      "text": "Just talk to us about the impact everyday impact from the war there in Egypt."
+    },
+    {
+      "time": "01:35:50",
+      "end": "01:37:05",
+      "text": "Yes. After the Egyptian government has already taken three sets of measures to contain what it called exceptional crisis in global market of energy, Egypt has already, on March a raised the price of fuel and on last Friday it raised the price of tickets and for Metro and trains and on the same week Egypt has already imposed an early closing hours for shops and it has decided to give the employees at the public and private sectors the chance to work remotely from home on each Sunday, starting from this April, and it cut down the allocations for fuel for government vehicles by 30%, while at the same time it said it can take more tough measures in the future if the war continued, the implications was that almost the late shift workers, gig workers here in Cairo and throughout across the country, their income, their income was reduced."
+    },
+    {
+      "time": "01:37:05",
+      "end": "01:37:14",
+      "text": "And of course, people now look at it as if it is similar or experience it similar to the Covid-19 lockdowns."
+    },
+    {
+      "time": "01:37:14",
+      "end": "01:37:20",
+      "text": "People are now go home by 9am Cairo local time."
+    },
+    {
+      "time": "01:37:20",
+      "end": "01:37:24",
+      "text": "Sorry. 9pm Cairo local time."
+    },
+    {
+      "time": "01:37:24",
+      "end": "01:37:31",
+      "text": "While Cairo has been like a city that never sleeps, it's working around the clock."
+    },
+    {
+      "time": "01:37:31",
+      "end": "01:37:38",
+      "text": "The expectations is that remittances from Egyptians working in the Gulf could be affected."
+    },
+    {
+      "time": "01:37:38",
+      "end": "01:37:46",
+      "text": "Tourism should be affected, of course, because now Egypt is no longer receiving any planes or tourists from the Gulf states."
+    },
+    {
+      "time": "01:37:46",
+      "end": "01:37:52",
+      "text": "Similarly, you know, small businesses could be affected."
+    },
+    {
+      "time": "01:37:52",
+      "end": "01:38:03",
+      "text": "And I have to remind you that Israel has already suspended the supplies of gas to Egypt from the day one of the war, which has already put stress on the Egyptian economy."
+    },
+    {
+      "time": "01:38:03",
+      "end": "01:38:09",
+      "text": "But the government has promised that it will raise salaries of civil servants and other workers."
+    },
+    {
+      "time": "01:38:09",
+      "end": "01:38:20",
+      "text": "And in order to try to contain a little bit of the crisis while at the same time the Egyptian president, as you said, have already appealed for President Trump to try to stop the war."
+    },
+    {
+      "time": "01:38:20",
+      "end": "01:38:35",
+      "text": "And at the same time, the Egyptian foreign minister has already talked to his US counterpart, saying Egypt is a need for assistance in order to meet or to try to help contain the effects of this situation."
+    },
+    {
+      "time": "01:38:35",
+      "end": "01:38:39",
+      "text": "BBC Arabic's Abdelbassir Hassan in Cairo for us."
+    },
+    {
+      "time": "01:38:39",
+      "end": "01:38:40",
+      "text": "Very good to talk to you."
+    },
+    {
+      "time": "01:38:40",
+      "end": "01:38:52",
+      "text": "Thank you. Now here in the UK, the British Prime Minister will chair a Cobra meeting later with senior ministers to discuss the ongoing economic impact of the Iran war."
+    },
+    {
+      "time": "01:38:52",
+      "end": "01:38:57",
+      "text": "It comes after he told energy bosses that tackling the cost of living crisis must be a joint effort."
+    },
+    {
+      "time": "01:38:57",
+      "end": "01:39:02",
+      "text": "Our chief political correspondent, Henry Zeffman told me what we can expect from that Cobra meeting."
+    },
+    {
+      "time": "01:39:02",
+      "end": "01:39:05",
+      "text": "I'm not sure we are going to find out much about today's meeting."
+    },
+    {
+      "time": "01:39:05",
+      "end": "01:39:17",
+      "text": "In that sense, it's like yesterday's meeting where the Prime Minister convened various business leaders and their representatives in Downing Street, but it wasn't a prelude to some big public announcement."
+    },
+    {
+      "time": "01:39:17",
+      "end": "01:39:22",
+      "text": "It was more an opportunity for the Prime Minister to hear from them about their take on the situation."
+    },
+    {
+      "time": "01:39:22",
+      "end": "01:39:30",
+      "text": "It's kind of the same today, except this time it's the Prime Minister convening ministers whose briefs are relevant to the situation."
+    },
+    {
+      "time": "01:39:30",
+      "end": "01:39:36",
+      "text": "So in particular the Chancellor Rachel Reeves, because sure, the Prime Minister is spending plenty of time on the diplomatic side of this."
+    },
+    {
+      "time": "01:39:36",
+      "end": "01:39:48",
+      "text": "But I think when it comes to the domestic politics, what concerns the government most is the economic impact of this conflict, the fact that it's a Cobra meeting, by the way, we should just explain what that means."
+    },
+    {
+      "time": "01:39:48",
+      "end": "01:39:52",
+      "text": "I mean, actually Cobra is a mundane acronym."
+    },
+    {
+      "time": "01:39:52",
+      "end": "01:39:56",
+      "text": "It stands for Cabinet Office Briefing Room A, which is where these meetings take place."
+    },
+    {
+      "time": "01:39:56",
+      "end": "01:39:59",
+      "text": "But it has come to be a signifier of a crisis meeting."
+    },
+    {
+      "time": "01:39:59",
+      "end": "01:40:06",
+      "text": "So calling this a Cobra is the government essentially knowing that we will describe this as a crisis meeting."
+    },
+    {
+      "time": "01:40:06",
+      "end": "01:40:09",
+      "text": "So it is a signifier that they see it in those terms."
+    },
+    {
+      "time": "01:40:09",
+      "end": "01:40:16",
+      "text": "But it's unusual in that it's a crisis that the government still does not know the full extent of, or perhaps even close to it."
+    },
+    {
+      "time": "01:40:16",
+      "end": "01:40:22",
+      "text": "As you point out, Henry, this is a meeting which will be taking place behind closed doors."
+    },
+    {
+      "time": "01:40:22",
+      "end": "01:40:28",
+      "text": "The UK could take one of the biggest economic hits of any G7 countries from the war in Iran."
+    },
+    {
+      "time": "01:40:28",
+      "end": "01:40:34",
+      "text": "I just wonder how is that playing out when it comes to how voters feel about all of this?"
+    },
+    {
+      "time": "01:40:34",
+      "end": "01:40:35",
+      "text": "I think it's too soon to say."
+    },
+    {
+      "time": "01:40:35",
+      "end": "01:40:47",
+      "text": "But the omens aren't great in history for governments who have been in government during periods of economic crisis and in particular inflation."
+    },
+    {
+      "time": "01:40:47",
+      "end": "01:40:50",
+      "text": "That is that's just a historical fact."
+    },
+    {
+      "time": "01:40:50",
+      "end": "01:40:58",
+      "text": "I mean, you know, you can have a debate about the reasons why the UK might or might not be better or worse prepared than other countries."
+    },
+    {
+      "time": "01:40:58",
+      "end": "01:41:08",
+      "text": "And I think, you know, from what I've seen, there's a kind of spread of economic opinion on whether the UK is better prepared or worse prepared, and the reasons why that might be."
+    },
+    {
+      "time": "01:41:08",
+      "end": "01:41:22",
+      "text": "But fundamentally no government would be feeling good in this scenario and speaking to people around this government, you know, they are pretty gloomy about the economic impact and what that could mean politically for them."
+    },
+    {
+      "time": "01:41:22",
+      "end": "01:41:36",
+      "text": "Well, we have some breaking news to bring you now regarding the BBC Two presenter Scott Mills, who has been sacked by the BBC Noor Nanji our culture correspondent with us."
+    },
+    {
+      "time": "01:41:36",
+      "end": "01:41:37",
+      "text": "Nor what more can you tell us?"
+    },
+    {
+      "time": "01:41:37",
+      "end": "01:41:57",
+      "text": "Well, we. Still don't know the reasons for Scott Mills sacking, but it has now emerged that he was questioned by police back in 2018 about allegations of serious sexual offences against a teenage boy, and the Metropolitan Police have now confirmed that the boy was under the age of 16."
+    },
+    {
+      "time": "01:41:57",
+      "end": "01:42:10",
+      "text": "So in a statement, it said that a man who was in his 40s at the time of that interview was investigated over allegations reported to have happened between 1997 and the year 2000."
+    },
+    {
+      "time": "01:42:10",
+      "end": "01:42:19",
+      "text": "No charges were brought and the case was then dropped because the CPS deemed that there was insufficient evidence in order to bring charges."
+    },
+    {
+      "time": "01:42:19",
+      "end": "01:42:26",
+      "text": "Now, as I say, it's not clear what, if any, role that police investigation had in Scott Mills sacking."
+    },
+    {
+      "time": "01:42:26",
+      "end": "01:42:33",
+      "text": "But of course, Scott Mills was one of the most familiar faces on TV and radio in a career here at the BBC."
+    },
+    {
+      "time": "01:42:33",
+      "end": "01:42:35",
+      "text": "Spanning almost 30 years."
+    },
+    {
+      "time": "01:42:35",
+      "end": "01:42:46",
+      "text": "His sacking, the news of the sacking that emerged yesterday, initially broken by the mirror that caused shock among audiences and also here at the BBC, we have approached Scott Mills for comment."
+    },
+    {
+      "time": "01:42:46",
+      "end": "01:42:55",
+      "text": "We haven't yet heard back but I think in all of this there are now growing questions about the BBC and what it may or may not have known at the time as well."
+    },
+    {
+      "time": "01:42:55",
+      "end": "01:42:58",
+      "text": "Our culture correspondent there Noor Nanji bringing us the very latest."
+    },
+    {
+      "time": "01:42:58",
+      "end": "01:43:00",
+      "text": "Many thanks indeed."
+    },
+    {
+      "time": "01:43:00",
+      "end": "01:43:01",
+      "text": "You're watching BBC News."
+    },
+    {
+      "time": "01:43:01",
+      "end": "01:43:04",
+      "text": "I'll have more for you in a few moments time."
+    },
+    {
+      "time": "01:43:04",
+      "end": "01:43:06",
+      "text": "Do stay with us if you can."
+    },
+    {
+      "time": "01:43:06",
+      "end": "01:43:07",
+      "text": "Bye for now."
+    },
+    {
+      "time": "01:43:07",
+      "end": "01:43:13",
+      "text": "Hello again a few moments time."
+    },
+    {
+      "time": "01:43:13",
+      "end": "01:43:13",
+      "text": "Do stay with usif you can."
+    },
+    {
+      "time": "01:43:13",
+      "end": "01:43:13",
+      "text": "Bye for now."
+    },
+    {
+      "time": "01:43:13",
+      "end": "01:43:13",
+      "text": "Hello again today."
+    },
+    {
+      "time": "01:43:13",
+      "end": "01:43:26",
+      "text": "There's quite a bit of cloud around, thick enough for some patchy light rain and drizzle, but we will see some breaks in that cloud and where we do, temperatures could reach 16 or 17 degrees, but it's going to be mild wherever you are."
+    },
+    {
+      "time": "01:43:26",
+      "end": "01:43:35",
+      "text": "We've got this weather front, this warm front pulling away, a ridge of high pressure coming in behind it, and that's pulling in the milder air."
+    },
+    {
+      "time": "01:43:35",
+      "end": "01:43:40",
+      "text": "Now a lot of cloud around the brighter breaks are likely to be to the east of high ground."
+    },
+    {
+      "time": "01:43:40",
+      "end": "01:43:44",
+      "text": "So eastern Scotland, northeast England and also east Wales."
+    },
+    {
+      "time": "01:43:44",
+      "end": "01:43:56",
+      "text": "Temperatures 10 to 16 quite widely locally, summer could see 17 degrees through the evening and overnight the cloud will break up across England and Wales where we hang on to it."
+    },
+    {
+      "time": "01:43:56",
+      "end": "01:44:03",
+      "text": "It will be thick enough for some drizzle, mist and fog patches forming and then by the end of the night a cold front is going to bring in wet and windy weather to northwest Scotland."
+    },
+    {
+      "time": "01:44:03",
+      "end": "01:44:10",
+      "text": "These are overnight lows six to about nine degrees tomorrow the cold front sinks southwards with its rain."
+    },
+    {
+      "time": "01:44:10",
+      "end": "01:44:12",
+      "text": "Cold air digs in behind it."
+    },
+    {
+      "time": "01:44:12",
+      "end": "01:44:14",
+      "text": "We could see snow down to 300m."
+    },
+    {
+      "time": "01:44:14",
+      "end": "01:44:17",
+      "text": "The rain pushes through Northern Ireland for England and Wales."
+    },
+    {
+      "time": "01:44:17",
+      "end": "01:44:25",
+      "text": "Quite a bit of cloud but some bright or sunny intervals developing and ahead of this weather front we still are in the mild air now."
+    },
+    {
+      "time": "01:44:25",
+      "end": "01:44:30",
+      "text": "Beyond that, as we head on into the Easter weekend, the weather turns a little bit more unsettled."
+    },
+    {
+      "time": "01:44:30",
+      "end": "01:44:39",
+      "text": "Temperatures will be that bit lower and it looks especially in the north and west, that we could see some strong winds, possibly gales."
+    },
+    {
+      "time": "01:44:39",
+      "end": "01:45:00",
+      "text": "Here in the US., pressure is continuing to mount on President Donald Trump to explain his reasons for launching strikes on Iran and, crucially, to say how he plans to end the war as the casualty count rises and oil prices spike."
+    },
+    {
+      "time": "01:45:00",
+      "end": "01:45:05",
+      "text": "Join me Caitriona Perry here in Washington for the latest here on BBC News."
+    },
+    {
+      "time": "01:45:05",
+      "end": "01:45:15",
+      "text": "From California talkie movies looks back at the 98th Annual Academy Awards One Battle After Another won six Oscar trophies more than any other film."
+    },
+    {
+      "time": "01:45:15",
+      "end": "01:45:21",
+      "text": "What does? It's Oscar night triumph mean for the wider film industry and the future of Hollywood?"
+    },
+    {
+      "time": "01:45:21",
+      "end": "01:45:25",
+      "text": "Join me Tom Brook for Talking Movies on BBC i Player."
+    },
+    {
+      "time": "01:45:25",
+      "end": "01:45:34",
+      "text": "We're in Edinburgh meeting the innovators, finding new ways to detect and treat cancer."
+    },
+    {
+      "time": "01:45:34",
+      "end": "01:45:38",
+      "text": "But how do they go from an idea into something that could revolutionise healthcare around the world?"
+    },
+    {
+      "time": "01:45:38",
+      "end": "01:45:42",
+      "text": "Join me Alasdair Keane for tech now on BBC News."
+    },
+    {
+      "time": "01:45:42",
+      "end": "01:45:52",
+      "text": "Did it feel that the X-Files somehow restricted your career as an actor?"
+    },
+    {
+      "time": "01:45:52",
+      "end": "01:45:57",
+      "text": "It certainly did when I was filming."
+    },
+    {
+      "time": "01:45:57",
+      "end": "01:46:06",
+      "text": "You know, we had such short hiatuses and I had a small child by the time we were in our second season, even."
+    },
+    {
+      "time": "01:46:06",
+      "end": "01:46:14",
+      "text": "And so, you know, doing anything at all during that period of time was madness."
+    },
+    {
+      "time": "01:46:14",
+      "end": "01:46:28",
+      "text": "And yet I was approached by Terence Davies to do the House of Mirth and the opportunity was so great that I said yes to that."
+    },
+    {
+      "time": "01:46:28",
+      "end": "01:46:43",
+      "text": "I knew that I wanted my career to have that scope, and I knew that it was important to show myself and other people that I could do something other than Scully."
+    },
+    {
+      "time": "01:46:43",
+      "end": "01:46:46",
+      "text": "Watch on i Player."
+    },
+    {
+      "time": "01:46:46",
+      "end": "01:47:07",
+      "text": "On BBC News, the latest business news from across the globe."
+    },
+    {
+      "time": "01:47:07",
+      "end": "01:47:27",
+      "text": "Business Today. EU energy ministers hold urgent talks in Brussels with the European Commission calling on citizens to drive less and fly less to save fuel."
+    },
+    {
+      "time": "01:47:27",
+      "end": "01:47:30",
+      "text": "Here's the UK running out of jet fuel."
+    },
+    {
+      "time": "01:47:30",
+      "end": "01:47:33",
+      "text": "Just one tanker is now heading for British shores this week."
+    },
+    {
+      "time": "01:47:33",
+      "end": "01:47:35",
+      "text": "No more are due."
+    },
+    {
+      "time": "01:47:35",
+      "end": "01:47:37",
+      "text": "So what does it mean for British travellers?"
+    },
+    {
+      "time": "01:47:37",
+      "end": "01:47:50",
+      "text": "And with estimates that 20,000 seafarers are stranded in or around the Persian Gulf, we will hear from the federation that's negotiating with Gulf states on their behalf."
+    },
+    {
+      "time": "01:47:50",
+      "end": "01:47:52",
+      "text": "Hello. Welcome along."
+    },
+    {
+      "time": "01:47:52",
+      "end": "01:47:53",
+      "text": "This is Business Today."
+    },
+    {
+      "time": "01:47:53",
+      "end": "01:48:01",
+      "text": "I'm Ben Thompson and of course we will look at the impact of the war in Iran and what it means right around the world, because investors are on edge."
+    },
+    {
+      "time": "01:48:01",
+      "end": "01:48:07",
+      "text": "After Kuwait said Iran hit one of its giant crude oil tankers that was docked at a port in Dubai."
+    },
+    {
+      "time": "01:48:07",
+      "end": "01:48:10",
+      "text": "The tanker was fully loaded at the time."
+    },
+    {
+      "time": "01:48:10",
+      "end": "01:48:18",
+      "text": "It's caused a huge fire on board, while Dubai authorities say there was some damage to the ship and an initial fear of an oil spill."
+    },
+    {
+      "time": "01:48:18",
+      "end": "01:48:22",
+      "text": "But all 24 crew members are reported safe and uninjured."
+    },
+    {
+      "time": "01:48:22",
+      "end": "01:48:33",
+      "text": "Elsewhere, US President Donald Trump has threatened to obliterate Iran's power plants, oil wells and possibly, he says water desalination plants if a deal is not reached shortly."
+    },
+    {
+      "time": "01:48:33",
+      "end": "01:48:42",
+      "text": "While in the past few hours there are reports that such a plant has been struck on the Iranian island in the Strait of Hormuz."
+    },
+    {
+      "time": "01:48:42",
+      "end": "01:48:52",
+      "text": "Now in Europe, where EU energy ministers will hold talks in Brussels today, they are looking to plan a response to energy disruption triggered by that war."
+    },
+    {
+      "time": "01:48:52",
+      "end": "01:48:57",
+      "text": "It comes as the European Commission has asked member countries to consider cutting back on oil and gas use."
+    },
+    {
+      "time": "01:48:57",
+      "end": "01:49:04",
+      "text": "Well, according to Politico, a letter has been sent to energy ministers asking governments to consider voluntary demand saving measures."
+    },
+    {
+      "time": "01:49:04",
+      "end": "01:49:12",
+      "text": "They include asking citizens to maybe drive or fly less, with fuel being saved for more critical purposes."
+    },
+    {
+      "time": "01:49:12",
+      "end": "01:49:17",
+      "text": "Let's talk some more with Julien Mathonniere, who's energy economist at Energy Intelligence."
+    },
+    {
+      "time": "01:49:17",
+      "end": "01:49:19",
+      "text": "Julian, good to have you here."
+    },
+    {
+      "time": "01:49:19",
+      "end": "01:49:27",
+      "text": "And so therefore, the first real signs of the impact on Europe asking citizens to basically do less will it work?"
+    },
+    {
+      "time": "01:49:27",
+      "end": "01:49:34",
+      "text": "Hiya, Ben. Well, it seems to be an attempt to do what Europe did in 2022."
+    },
+    {
+      "time": "01:49:34",
+      "end": "01:49:45",
+      "text": "In 2022. It worked because it was primarily about pipeline gas from Russia, but the target was specific and measurable and governments backed it up with price signals and fiscal support."
+    },
+    {
+      "time": "01:49:45",
+      "end": "01:49:48",
+      "text": "I think right now it's not serious."
+    },
+    {
+      "time": "01:49:48",
+      "end": "01:49:49",
+      "text": "It won't be enough."
+    },
+    {
+      "time": "01:49:49",
+      "end": "01:49:55",
+      "text": "You know, voluntary demand reduction measures asking citizens to drive less, to fly less adjust thermostat."
+    },
+    {
+      "time": "01:49:55",
+      "end": "01:50:02",
+      "text": "Whatever you have are essentially a demand management tool which is dressed up as an energy security response."
+    },
+    {
+      "time": "01:50:02",
+      "end": "01:50:08",
+      "text": "It's largely irrelevant in the face of a brutal sudden shock caused by, you know, almost closure."
+    },
+    {
+      "time": "01:50:08",
+      "end": "01:50:14",
+      "text": "And in the meantime, such measures are largely anticipating behaviour that would happen anyway."
+    },
+    {
+      "time": "01:50:14",
+      "end": "01:50:18",
+      "text": "You know, one, prices spike, people will indeed fly less and drive less."
+    },
+    {
+      "time": "01:50:18",
+      "end": "01:50:22",
+      "text": "And you know, when prices become prohibitively expensive."
+    },
+    {
+      "time": "01:50:22",
+      "end": "01:50:27",
+      "text": "So calling about a policy response conflates, I think a market outcome with strategic intervention."
+    },
+    {
+      "time": "01:50:27",
+      "end": "01:50:38",
+      "text": "Now overwhelmingly the narrative from Europe and for politicians in Europe has been that this is not their war, that they are reluctant to get involved because they didn't start it."
+    },
+    {
+      "time": "01:50:38",
+      "end": "01:50:47",
+      "text": "But fundamentally, when we look at that impact of things like a shortage of oil or jet fuel or other energy commodities, it has become their war, hasn't it?"
+    },
+    {
+      "time": "01:50:47",
+      "end": "01:50:49",
+      "text": "You're perfectly right, Ben."
+    },
+    {
+      "time": "01:50:49",
+      "end": "01:50:51",
+      "text": "And the rhyme sounds familiar."
+    },
+    {
+      "time": "01:50:51",
+      "end": "01:50:54",
+      "text": "We've heard that again in 2022."
+    },
+    {
+      "time": "01:50:54",
+      "end": "01:51:00",
+      "text": "You know, Ukraine war was not Europe's war and it led to the worst energy energy shock in Europe history."
+    },
+    {
+      "time": "01:51:00",
+      "end": "01:51:06",
+      "text": "So, you know, the war does not need to be Europe's war to trigger Europe's energy crisis."
+    },
+    {
+      "time": "01:51:06",
+      "end": "01:51:08",
+      "text": "Hormuz is not a European problem."
+    },
+    {
+      "time": "01:51:08",
+      "end": "01:51:10",
+      "text": "It's a global infrastructure chokepoint."
+    },
+    {
+      "time": "01:51:10",
+      "end": "01:51:16",
+      "text": "20% of global oil and gas flows and Europe is one of the most exposed price takers."
+    },
+    {
+      "time": "01:51:16",
+      "end": "01:51:18",
+      "text": "At the other end of it."
+    },
+    {
+      "time": "01:51:18",
+      "end": "01:51:22",
+      "text": "So, you know, I can understand the outrage the US once again stirred the earnestness."
+    },
+    {
+      "time": "01:51:22",
+      "end": "01:51:29",
+      "text": "You know, everyone was having a nice picnic and now they have to deal with the stinging with honest thinking all around."
+    },
+    {
+      "time": "01:51:29",
+      "end": "01:51:30",
+      "text": "But you know what?"
+    },
+    {
+      "time": "01:51:30",
+      "end": "01:51:45",
+      "text": "The US struggles to adapt to is that in a multi-polar world where threats are coming at you non-stop, you cannot have a rigid ideological anchor about your energy supply because Europe is not a belligerent, doesn't mean it's insulated from consequences."
+    },
+    {
+      "time": "01:51:45",
+      "end": "01:51:47",
+      "text": "Julian, always good to talk to you."
+    },
+    {
+      "time": "01:51:47",
+      "end": "01:51:49",
+      "text": "Thank you for being with us."
+    },
+    {
+      "time": "01:51:49",
+      "end": "01:51:51",
+      "text": "Julien Mathonniere with the very latest."
+    },
+    {
+      "time": "01:51:51",
+      "end": "01:51:59",
+      "text": "And it's worth saying actually at this stage, oil once again rising today, not least as a result of what we saw in the Gulf in Dubai as well."
+    },
+    {
+      "time": "01:51:59",
+      "end": "01:52:00",
+      "text": "We touched on it there."
+    },
+    {
+      "time": "01:52:00",
+      "end": "01:52:05",
+      "text": "That tanker that was hit now $115 a barrel."
+    },
+    {
+      "time": "01:52:05",
+      "end": "01:52:07",
+      "text": "We'll keep a close eye on that for you."
+    },
+    {
+      "time": "01:52:07",
+      "end": "01:52:15",
+      "text": "Well, here the UK's expected to receive its last shipment of aviation fuel this week, at least until new supplies can be arranged."
+    },
+    {
+      "time": "01:52:15",
+      "end": "01:52:17",
+      "text": "That is on its way from Saudi Arabia."
+    },
+    {
+      "time": "01:52:17",
+      "end": "01:52:25",
+      "text": "It's due Thursday or thereabouts, but there's no other jet fuel cargoes that are on the water destined for British ports."
+    },
+    {
+      "time": "01:52:25",
+      "end": "01:52:28",
+      "text": "That's because of the ongoing blockage of the region."
+    },
+    {
+      "time": "01:52:28",
+      "end": "01:52:33",
+      "text": "Well, the government here hopes to ease supply fears, but there is growing concern in the industry."
+    },
+    {
+      "time": "01:52:33",
+      "end": "01:52:38",
+      "text": "Let's talk to Anita Mendiratta, who's the independent aviation and tourism analyst."
+    },
+    {
+      "time": "01:52:38",
+      "end": "01:52:39",
+      "text": "Anita, good to have you with us."
+    },
+    {
+      "time": "01:52:39",
+      "end": "01:52:44",
+      "text": "And when we get a sense of that, there's one ship on the water coming here, nothing else."
+    },
+    {
+      "time": "01:52:44",
+      "end": "01:52:46",
+      "text": "What are the implications of that?"
+    },
+    {
+      "time": "01:52:46",
+      "end": "01:52:50",
+      "text": "Indeed. Lovely to see you, Ben, and thank you for the invitation back."
+    },
+    {
+      "time": "01:52:50",
+      "end": "01:53:04",
+      "text": "The implications are significant because I think what's really important in this conversation is separating raw crude oil supplies for fuel, which is about 45% of a barrel from jet fuel, which is already arriving into the UK ready for usage."
+    },
+    {
+      "time": "01:53:04",
+      "end": "01:53:09",
+      "text": "It needs to be managed at specialised refineries around the world."
+    },
+    {
+      "time": "01:53:09",
+      "end": "01:53:16",
+      "text": "So it comes in just in time to be able to fly into the airport systems for usage by the airlines."
+    },
+    {
+      "time": "01:53:16",
+      "end": "01:53:18",
+      "text": "It's naturally again a just in time delivery system."
+    },
+    {
+      "time": "01:53:18",
+      "end": "01:53:23",
+      "text": "We only use about 2 to 4 weeks in terms of the management of supply."
+    },
+    {
+      "time": "01:53:23",
+      "end": "01:53:32",
+      "text": "So a shortage coming through, especially the Strait of Hormuz, which is 60% of the UK supply of jet fuel, puts massive pressures."
+    },
+    {
+      "time": "01:53:32",
+      "end": "01:53:36",
+      "text": "And this is at a time when we're going into the peak travel season as summer nears."
+    },
+    {
+      "time": "01:53:36",
+      "end": "01:53:40",
+      "text": "Yeah. I mean, the government is insisting that people shouldn't worry about shortages."
+    },
+    {
+      "time": "01:53:40",
+      "end": "01:53:43",
+      "text": "They should book their summer holidays as normal."
+    },
+    {
+      "time": "01:53:43",
+      "end": "01:53:48",
+      "text": "And yet the industry saying this is going to be a real problem."
+    },
+    {
+      "time": "01:53:48",
+      "end": "01:53:49",
+      "text": "It's not even just about price."
+    },
+    {
+      "time": "01:53:49",
+      "end": "01:53:52",
+      "text": "This is about availability entirely."
+    },
+    {
+      "time": "01:53:52",
+      "end": "01:53:55",
+      "text": "Who is right here?"
+    },
+    {
+      "time": "01:53:55",
+      "end": "01:53:57",
+      "text": "It's a it's no one is right."
+    },
+    {
+      "time": "01:53:57",
+      "end": "01:54:05",
+      "text": "Everyone is quite honestly working on hypothesis at this point in time because we don't know how long the military action will continue and then the collateral damage."
+    },
+    {
+      "time": "01:54:05",
+      "end": "01:54:08",
+      "text": "What's vital about this is that on a good day."
+    },
+    {
+      "time": "01:54:08",
+      "end": "01:54:17",
+      "text": "So before the war started and we were looking at about $70 a barrel, effectively 30% of the operating cost for an airline comes from the cost of fuel."
+    },
+    {
+      "time": "01:54:17",
+      "end": "01:54:19",
+      "text": "It was already very high."
+    },
+    {
+      "time": "01:54:19",
+      "end": "01:54:22",
+      "text": "When you add on top of that now the fuel increases."
+    },
+    {
+      "time": "01:54:22",
+      "end": "01:54:27",
+      "text": "It's incredibly difficult for airlines to operate and they already had very low margins."
+    },
+    {
+      "time": "01:54:27",
+      "end": "01:54:49",
+      "text": "So what's important now is people looking at summer travel in terms of where they want to go, the airline they want to utilise and how they're travelling because airlines need to make choices if they're not making any money out of the flying with the leisure holidays, the short hops, etc, they're going to reallocate the fuel to where they know the margins are going to come through."
+    },
+    {
+      "time": "01:54:49",
+      "end": "01:54:50",
+      "text": "And if anyone."
+    },
+    {
+      "time": "01:54:50",
+      "end": "01:54:51",
+      "text": "Sorry to interrupt."
+    },
+    {
+      "time": "01:54:51",
+      "end": "01:54:53",
+      "text": "There's a lot to fit in, in this programme."
+    },
+    {
+      "time": "01:54:53",
+      "end": "01:54:56",
+      "text": "I'm sorry to jump in there, but Anita, really good to talk to you."
+    },
+    {
+      "time": "01:54:56",
+      "end": "01:55:04",
+      "text": "Thank you. We're going to keep a close eye on this and I'm sure we'll talk again as we start to get a clearer indication of exactly what is happening and whether there will be availability of that jet fuel."
+    },
+    {
+      "time": "01:55:04",
+      "end": "01:55:06",
+      "text": "As Anita was telling us."
+    },
+    {
+      "time": "01:55:06",
+      "end": "01:55:07",
+      "text": "Thank you to her."
+    },
+    {
+      "time": "01:55:07",
+      "end": "01:55:13",
+      "text": "Now, elsewhere, Sri Lanka has raised its power tariffs by over 8% as the war drives up energy costs."
+    },
+    {
+      "time": "01:55:13",
+      "end": "01:55:22",
+      "text": "Colombo is spending $600 million on fuel imports for April alone, and it's seeking emergency fuel supplies from Russia, India and the US."
+    },
+    {
+      "time": "01:55:22",
+      "end": "01:55:26",
+      "text": "With the details, here's our Asia business correspondent Archana Shukla."
+    },
+    {
+      "time": "01:55:26",
+      "end": "01:55:32",
+      "text": "Power bills go up for everyone from tomorrow 7 to 10% on an average in 25% for heavy users."
+    },
+    {
+      "time": "01:55:32",
+      "end": "01:55:37",
+      "text": "And government is clear if global energy prices keep rising, more hikes could come."
+    },
+    {
+      "time": "01:55:37",
+      "end": "01:55:45",
+      "text": "Now, like much of South Asia, Sri Lanka is heavily dependent on oil imports and in fact right now is struggling to get enough crude to keep its only refinery running."
+    },
+    {
+      "time": "01:55:45",
+      "end": "01:55:51",
+      "text": "Without that, the power plants are at risk and you can see the desperation in the measures."
+    },
+    {
+      "time": "01:55:51",
+      "end": "01:55:57",
+      "text": "Government officers have been asked to switch off air conditioning at 3pm Street lights will go off for four hours every evening."
+    },
+    {
+      "time": "01:55:57",
+      "end": "01:56:04",
+      "text": "Wednesdays are already declared a public holiday and petrol pump prices are up 35% and is already being rationed."
+    },
+    {
+      "time": "01:56:04",
+      "end": "01:56:14",
+      "text": "Now the West Asia crisis is straining foreign reserves for Sri Lanka and the cost of living fuel bills are high $600 million just for the month of April."
+    },
+    {
+      "time": "01:56:14",
+      "end": "01:56:24",
+      "text": "And with tourism, which is the country's critical foreign exchange earner, that has seen a sharp hit this year, the room to absorb any more shocks for Sri Lanka is really running out."
+    },
+    {
+      "time": "01:56:24",
+      "end": "01:56:28",
+      "text": "So we've talked about some of the financial and economic impact."
+    },
+    {
+      "time": "01:56:28",
+      "end": "01:56:38",
+      "text": "There's also a human impact, of course, of this war, not least for the 20,000 seafarers stranded in conditions of fear and uncertainty because of the challenges around the Strait of Hormuz."
+    },
+    {
+      "time": "01:56:38",
+      "end": "01:56:45",
+      "text": "That is a concern raised by the International Chamber of Shipping and the International Transport Workers' Federation."
+    },
+    {
+      "time": "01:56:45",
+      "end": "01:56:52",
+      "text": "They have met with Gulf state officials to address the ongoing impact to shipping and commercial sailors in the Persian Gulf."
+    },
+    {
+      "time": "01:56:52",
+      "end": "01:56:58",
+      "text": "Let's talk to Stephen Cotton, who's the general secretary of the International Transport Workers' Federation."
+    },
+    {
+      "time": "01:56:58",
+      "end": "01:56:59",
+      "text": "Stephen, good to have you here."
+    },
+    {
+      "time": "01:56:59",
+      "end": "01:57:04",
+      "text": "And when I put that number there, 20,000 seafarers stuck at sea."
+    },
+    {
+      "time": "01:57:04",
+      "end": "01:57:06",
+      "text": "What conditions are they in right now?"
+    },
+    {
+      "time": "01:57:06",
+      "end": "01:57:09",
+      "text": "Good morning Ben."
+    },
+    {
+      "time": "01:57:09",
+      "end": "01:57:13",
+      "text": "So the situation is a high sense of anxiety."
+    },
+    {
+      "time": "01:57:13",
+      "end": "01:57:18",
+      "text": "It's quite clear that as we kind of enter the second month, the stress levels are quite high."
+    },
+    {
+      "time": "01:57:18",
+      "end": "01:57:22",
+      "text": "If you look at all the statistics, a lot of the vessels have been at anchor."
+    },
+    {
+      "time": "01:57:22",
+      "end": "01:57:26",
+      "text": "So that means they're offshore waiting for instruction."
+    },
+    {
+      "time": "01:57:26",
+      "end": "01:57:38",
+      "text": "Some ships are having challenges with supplies, food, water, but I think it's clear to us and the communications we're getting, there's a high level of anxiety."
+    },
+    {
+      "time": "01:57:38",
+      "end": "01:57:42",
+      "text": "Yes. And there's also big questions around who is responsible for those workers."
+    },
+    {
+      "time": "01:57:42",
+      "end": "01:57:53",
+      "text": "And I know we've talked before about sailors that have been stranded for other economic reasons who ultimately has the responsibility for the welfare of these sailors."
+    },
+    {
+      "time": "01:57:53",
+      "end": "01:58:00",
+      "text": "I have to say we're working very closely with the International Chamber of Shipping, which is the Shipowners National associations."
+    },
+    {
+      "time": "01:58:00",
+      "end": "01:58:08",
+      "text": "We're also directly involved with a number of the ship owners who, again, I would say, are treating their responsibilities very seriously."
+    },
+    {
+      "time": "01:58:08",
+      "end": "01:58:10",
+      "text": "There's a questions about flag."
+    },
+    {
+      "time": "01:58:10",
+      "end": "01:58:13",
+      "text": "Of course, you can see multiple different flags."
+    },
+    {
+      "time": "01:58:13",
+      "end": "01:58:32",
+      "text": "We're hearing some concerning issues about some flag states transitioning the Strait of Hormuz, the reality for us is ship owner primary responsibility, but also flag states and how we can tackle some of those issues."
+    },
+    {
+      "time": "01:58:32",
+      "end": "01:58:34",
+      "text": "But most of the ship owners we deal with being quite responsible."
+    },
+    {
+      "time": "01:58:34",
+      "end": "01:58:45",
+      "text": "And Stephen, what would help look like because if we are to believe that this is not going to be resolved any time soon, that those ships will not be moving out of the Strait of Hormuz any time soon, what help can you get them again?"
+    },
+    {
+      "time": "01:58:45",
+      "end": "01:58:52",
+      "text": "So as you can see from your own pictures, the ships are at anchor."
+    },
+    {
+      "time": "01:58:52",
+      "end": "01:58:56",
+      "text": "The reality is we've been talking to the Gulf states governments."
+    },
+    {
+      "time": "01:58:56",
+      "end": "01:59:01",
+      "text": "They are very keen to ensure that the seafarers don't suffer any hardship."
+    },
+    {
+      "time": "01:59:01",
+      "end": "01:59:12",
+      "text": "So they're basically have set up a network together with us, the chamber and the employers to be able to highlight the problems, make sure they've got food, make sure they've got water."
+    },
+    {
+      "time": "01:59:12",
+      "end": "01:59:21",
+      "text": "Obviously medical health, the longer you stay, you know, we all for those that have to take prescription drugs need to make sure they're available."
+    },
+    {
+      "time": "01:59:21",
+      "end": "01:59:22",
+      "text": "So we're building a network."
+    },
+    {
+      "time": "01:59:22",
+      "end": "01:59:29",
+      "text": "We're also talking to the governments of the labour supply countries, the two of the biggest nations,"
+    }
+  ]
+}

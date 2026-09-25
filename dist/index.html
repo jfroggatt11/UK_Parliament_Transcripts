@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A live reading of what is being said across parliamentary broadcasts.">
+  <title>Parliamentary Pulse</title>
+  <style>
+    :root { --ink:#101c2b; --muted:#637287; --line:#dbe2ea; --paper:#f5f7fa; --card:#fff; --navy:#102c46; --lime:#d8f26a; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.5 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    header { background:var(--navy); color:#f8fbff; padding:24px clamp(20px,4vw,64px) 28px; }
+    .topbar { max-width:1320px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:12px; letter-spacing:-.03em; font-size:1.35rem; font-weight:760; }
+    .mark { width:30px; height:30px; border-radius:8px 8px 11px 3px; background:var(--lime); position:relative; display:inline-block; }
+    .mark:after { content:""; position:absolute; width:12px; height:12px; background:var(--navy); border-radius:50%; top:8px; left:9px; }
+    .live { display:flex; align-items:center; gap:8px; color:#d5e2ed; font-size:.84rem; }
+    .live i { width:8px; height:8px; background:var(--lime); border-radius:50%; box-shadow:0 0 0 4px rgba(216,242,106,.14); }
+    .hero { max-width:1320px; margin:48px auto 0; display:grid; grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr); gap:52px; align-items:end; }
+    h1 { margin:0; font-size:clamp(2.4rem,5vw,5.4rem); line-height:.98; letter-spacing:-.065em; max-width:760px; }
+    .lede { margin:20px 0 0; max-width:600px; color:#b9c9d8; font-size:1.07rem; }
+    .session-box { border:1px solid rgba(255,255,255,.16); border-radius:16px; padding:20px; background:rgba(255,255,255,.05); }
+    .session-box .eyebrow { color:#99b3c9; }
+    .session-title { margin:8px 0 4px; font-size:1.1rem; font-weight:700; }
+    .session-meta { color:#c2d0dc; font-size:.88rem; }
+    main { max-width:1320px; margin:0 auto; padding:28px clamp(20px,4vw,64px) 72px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.14em; font-size:.7rem; font-weight:760; color:var(--muted); }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:28px; }
+    .stat { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; min-height:102px; }
+    .stat strong { display:block; margin-top:8px; font-size:1.55rem; letter-spacing:-.04em; }
+    .stat span { color:var(--muted); font-size:.84rem; }
+    .grid { display:grid; grid-template-columns:minmax(0,.9fr) minmax(0,1.5fr); gap:18px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; min-width:0; }
+    .card-head { display:flex; justify-content:space-between; gap:20px; align-items:start; margin-bottom:18px; }
+    h2 { margin:4px 0 0; font-size:1.12rem; letter-spacing:-.02em; }
+    .subtle { color:var(--muted); font-size:.85rem; }
+    .cloud { height:340px; position:relative; overflow:hidden; border-radius:12px; background:linear-gradient(140deg,#f7fafc,#edf3f6); }
+    .cloud span { position:absolute; transform:translate(-50%,-50%); white-space:nowrap; font-weight:740; letter-spacing:-.04em; }
+    .legend { display:flex; flex-wrap:wrap; gap:8px 15px; margin:4px 0 8px; }
+    .legend span { font-size:.76rem; color:var(--muted); display:flex; align-items:center; gap:6px; }
+    .legend i { width:8px; height:8px; border-radius:50%; }
+    svg { width:100%; height:auto; overflow:visible; }
+    .axis { stroke:#dfe6ed; stroke-width:1; }
+    .axis-label { fill:#8592a2; font-size:11px; }
+    .topic-line,.word-line { fill:none; stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    .frequency { margin-top:18px; }
+    select { border:1px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); padding:8px 30px 8px 10px; font:inherit; font-size:.85rem; }
+    .transcript { margin-top:18px; }
+    .transcript-list { max-height:560px; overflow:auto; border-top:1px solid var(--line); }
+    .line { display:grid; grid-template-columns:76px minmax(0,1fr); gap:18px; padding:15px 4px; border-bottom:1px solid #edf0f4; }
+    .line time { color:#5e78a0; font-variant-numeric:tabular-nums; font-size:.82rem; padding-top:2px; }
+    .line p { margin:0; }
+    footer { max-width:1320px; margin:auto; padding:0 clamp(20px,4vw,64px) 28px; color:var(--muted); font-size:.78rem; }
+    @media (max-width:900px) { .hero,.grid { grid-template-columns:1fr; } .hero { margin-top:36px; gap:28px; } .stats { grid-template-columns:repeat(2,1fr); } }
+    @media (max-width:560px) { h1 { font-size:2.8rem; } .stats { grid-template-columns:1fr 1fr; } .stat { padding:14px; } .card { padding:16px; } .line { grid-template-columns:64px minmax(0,1fr); gap:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="topbar"><div class="brand"><span class="mark" aria-hidden="true"></span> Parliamentary Pulse</div><div class="live"><i></i><span id="capture-state">Waiting for capture</span></div></div>
+    <div class="hero">
+      <div><div class="eyebrow" style="color:#99b3c9">Live subtitle intelligence</div><h1>What Parliament is saying, in motion.</h1><p class="lede">A readable view of the latest broadcast, its vocabulary, and the subjects rising through the day.</p></div>
+      <div class="session-box"><div class="eyebrow">Current capture</div><div class="session-title" id="session-title">Loading session…</div><div class="session-meta" id="session-meta">Loading transcript metadata</div></div>
+    </div>
+  </header>
+  <main>
+    <section class="stats" aria-label="Capture summary">
+      <div class="stat"><div class="eyebrow">Words</div><strong id="stat-words">—</strong><span>after cleanup</span></div>
+      <div class="stat"><div class="eyebrow">Coverage</div><strong id="stat-duration">—</strong><span>of subtitle capture</span></div>
+      <div class="stat"><div class="eyebrow">Detected chamber</div><strong id="stat-parliament">—</strong><span id="stat-confidence">Inference confidence —</span></div>
+      <div class="stat"><div class="eyebrow">Leading signal</div><strong id="stat-topic">—</strong><span>from the topic model</span></div>
+    </section>
+    <section class="grid">
+      <article class="card"><div class="card-head"><div><div class="eyebrow">Today’s language</div><h2>Word cloud</h2></div><div class="subtle">weighted by frequency</div></div><div class="cloud" id="word-cloud" aria-label="Word cloud"></div></article>
+      <article class="card"><div class="card-head"><div><div class="eyebrow">Topic signals</div><h2>What is rising over time</h2></div><div class="subtle">15-minute bins</div></div><div class="legend" id="topic-legend"></div><svg id="topic-chart" viewBox="0 0 760 300" role="img" aria-label="Topic occurrence over time"></svg></article>
+    </section>
+    <article class="card frequency"><div class="card-head"><div><div class="eyebrow">Word occurrence</div><h2>Follow a word through the capture</h2></div><select id="word-select" aria-label="Choose a word"></select></div><svg id="word-chart" viewBox="0 0 1100 280" role="img" aria-label="Word occurrence over time"></svg></article>
+    <article class="card transcript"><div class="card-head"><div><div class="eyebrow">Full transcript</div><h2>Captured subtitles</h2></div><div class="subtle" id="transcript-count">— lines</div></div><div class="transcript-list" id="transcript-list"></div></article>
+  </main>
+  <footer>Generated from BBC iPlayer subtitle segments. Topic labels and chamber detection are local inferences; the transcript remains the source record.</footer>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const fmt = (n) => new Intl.NumberFormat('en-GB').format(n);
+    const fallback = {meta:{session_id:'demo',channel_label:'BBC Parliament',parliament:'UK Parliament',parliament_confidence:.86,generated_at:new Date().toISOString(),method:'Local lexical topic signals'},summary:{words:0,chunks:0,duration_minutes:0,top_topic:'—'},word_cloud:[],topic_series:[],word_series:[],topics:[],transcript:[]};
+    function render(data) {
+      const m=data.meta||fallback.meta, s=data.summary||fallback.summary;
+      $('capture-state').textContent = m.end_time ? 'Latest capture ready' : 'Capture in progress';
+      $('session-title').textContent = `${m.channel_label || 'BBC Parliament'} · ${m.session_id || 'current'}`;
+      $('session-meta').textContent = `${m.parliament || 'Chamber unknown'} · refreshed ${new Date(m.generated_at).toLocaleString('en-GB',{dateStyle:'medium',timeStyle:'short'})}`;
+      $('stat-words').textContent=fmt(s.words||0); $('stat-duration').textContent=`${s.duration_minutes||0} min`;
+      $('stat-parliament').textContent=m.parliament||'—'; $('stat-confidence').textContent=`Inference confidence ${Math.round((m.parliament_confidence||0)*100)}%`;
+      $('stat-topic').textContent=s.top_topic||'—'; $('transcript-count').textContent=`${fmt((data.transcript||[]).length)} lines`;
+      renderCloud(data.word_cloud||[]); renderTopics(data); renderWordControls(data); renderTranscript(data.transcript||[]);
+    }
+    function renderCloud(words){ const box=$('word-cloud'); box.innerHTML=''; if(!words.length){box.innerHTML='<span style="left:50%;top:50%;font-size:1rem;color:#637287">Waiting for subtitle data</span>';return;} const max=words[0].count||1; const colours=['#183d5c','#387a85','#ae7d1e','#c45d45','#526bb5']; words.slice(0,28).forEach((item,i)=>{const el=document.createElement('span'); const angle=i*2.399; const radius=26+(i%6)*7; el.textContent=item.word; el.title=`${item.word}: ${item.count}`; el.style.left=`${50+Math.cos(angle)*radius}%`; el.style.top=`${50+Math.sin(angle)*radius*.62}%`; el.style.fontSize=`${.82+Math.max(.1,Math.sqrt(item.count/max)*1.7)}rem`; el.style.color=colours[i%colours.length]; box.appendChild(el);}); }
+    function scalePoints(series, accessor, w=760,h=300){const vals=series.flatMap((d,i)=>[accessor(d,i)]); const max=Math.max(1,...vals); const x=(i)=>series.length===1?w/2:42+i*(w-62)/(series.length-1); const y=(v)=>h-34-(v/max)*(h-70); return {max,x,y};}
+    function renderTopics(data){const svg=$('topic-chart'); svg.innerHTML=''; const series=data.topic_series||[], topics=data.topics||[]; if(!series.length)return; const {max,x,y}=scalePoints(series,d=>Math.max(...topics.map(t=>d.values[t.name]||0))); [0,.5,1].forEach((r)=>{const yy=y(max*r); svg.insertAdjacentHTML('beforeend',`<line class="axis" x1="42" x2="760" y1="${yy}" y2="${yy}"/><text class="axis-label" x="0" y="${yy+4}">${Math.round(max*r)}</text>`)}); topics.forEach(t=>{const points=series.map((d,i)=>`${x(i)},${y(d.values[t.name]||0)}`).join(' '); svg.insertAdjacentHTML('beforeend',`<polyline class="topic-line" stroke="${t.colour}" points="${points}"/>`); series.forEach((d,i)=>svg.insertAdjacentHTML('beforeend',`<circle cx="${x(i)}" cy="${y(d.values[t.name]||0)}" r="3.5" fill="${t.colour}"/>`));}); series.forEach((d,i)=>svg.insertAdjacentHTML('beforeend',`<text class="axis-label" text-anchor="middle" x="${x(i)}" y="292">${d.label}</text>`)); $('topic-legend').innerHTML=topics.map(t=>`<span><i style="background:${t.colour}"></i>${t.name}</span>`).join(''); }
+    function renderWordControls(data){const select=$('word-select'), words=(data.word_cloud||[]).slice(0,12).map(w=>w.word); select.innerHTML=words.map(w=>`<option>${w}</option>`).join(''); select.onchange=()=>renderWordChart(data,select.value); renderWordChart(data,words[0]||'parliament'); }
+    function renderWordChart(data,word){const svg=$('word-chart'); svg.innerHTML=''; const series=data.word_series||[]; if(!series.length)return; const {max,x,y}=scalePoints(series,d=>d.values[word]||0,1100,280); [0,.5,1].forEach(r=>{const yy=y(max*r); svg.insertAdjacentHTML('beforeend',`<line class="axis" x1="42" x2="1100" y1="${yy}" y2="${yy}"/><text class="axis-label" x="0" y="${yy+4}">${Math.round(max*r)}</text>`)}); const points=series.map((d,i)=>`${x(i)},${y(d.values[word]||0)}`).join(' '); svg.insertAdjacentHTML('beforeend',`<polyline class="word-line" stroke="#183d5c" points="${points}"/>`); series.forEach((d,i)=>svg.insertAdjacentHTML('beforeend',`<circle cx="${x(i)}" cy="${y(d.values[word]||0)}" r="4" fill="#d8f26a" stroke="#183d5c" stroke-width="2"/>`)); series.forEach((d,i)=>svg.insertAdjacentHTML('beforeend',`<text class="axis-label" text-anchor="middle" x="${x(i)}" y="272">${d.label}</text>`)); }
+    function renderTranscript(rows){$('transcript-list').innerHTML=rows.map(r=>`<div class="line"><time>${r.time}</time><p>${escapeHtml(r.text)}</p></div>`).join('')||'<div class="line"><p>No transcript available yet.</p></div>';}
+    function escapeHtml(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+    fetch('data/dashboard.json').then(r=>r.ok?r.json():Promise.reject()).then(render).catch(()=>render(fallback));
+  </script>
+</body>
+</html>

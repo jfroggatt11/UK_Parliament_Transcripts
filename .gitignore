@@ -1,0 +1,7 @@
+work/
+__pycache__/
+*.pyc
+.DS_Store
+vendor/Live_Subtitle_Scraper/.browser_profile*/
+vendor/Live_Subtitle_Scraper/output/
+vendor/Live_Subtitle_Scraper/analysis/

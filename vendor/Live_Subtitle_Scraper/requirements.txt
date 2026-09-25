@@ -1,0 +1,6 @@
+httpx>=0.27
+lxml>=5.0
+playwright>=1.40
+yt-dlp>=2026.0
+# Private repo — install manually: pip install -e /path/to/SubLQ
+sublq>=0.1.0
