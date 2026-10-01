@@ -13,6 +13,40 @@ python3 -m http.server 4173 --directory dist
 
 Open <http://localhost:4173>.
 
+## Local live mode
+
+Run the local continuous collector and dashboard with:
+
+```bash
+./scripts/run_local.sh --browser
+```
+
+Open <http://127.0.0.1:4173>. On the first run, Chromium opens BBC iPlayer. Sign in if prompted, start BBC Parliament, and turn subtitles on. The saved browser profile is kept under `vendor/Live_Subtitle_Scraper/.browser_profile/`; later runs can use `--browser --headless` after the first interactive setup.
+
+The local app stores data in `work/local/pulse.sqlite3` (ignored by git). It exposes:
+
+- live words at `/api/live`;
+- today’s cloud and recurring phrases at `/api/analytics?days=7`;
+- longer-running daily, hourly, and topic signals at `/api/analytics?days=30` or `days=90`;
+- a health view at `/api/health`.
+
+The core app uses Python’s standard library. The browser bootstrap requires the vendored scraper dependencies and Playwright Chromium:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install playwright
+playwright install chromium
+```
+
+If you already have a completed scraper session, load it without contacting BBC:
+
+```bash
+./scripts/run_local.sh --no-capture --import-session /path/to/session
+```
+
+The dashboard then remains available locally while the imported history is analysed.
+
 ## Automated capture
 
 The vendored scraper already includes the `bbc_parliament` channel entry in `src/config.py`. If you point `SCRAPER_DIR` at your original checkout, add this entry there:
