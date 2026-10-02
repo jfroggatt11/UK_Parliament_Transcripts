@@ -1,8 +1,8 @@
 name: Refresh parliamentary pulse
 
 on:
-  schedule:
-    - cron: "17 * * * *"
+  # Keep cloud capture manual only. The player bootstrap below is required
+  # because BBC CDN parameters are session-specific.
   workflow_dispatch:
 
 concurrency:
@@ -25,10 +25,12 @@ jobs:
       - name: Install scraper dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install httpx lxml
+          python -m pip install httpx lxml playwright
+          python -m playwright install --with-deps chromium
       - name: Capture and build data
         env:
           CAPTURE_MINUTES: "12"
+          AUTO_CAPTURE: "1"
           SCRAPER_DIR: "./vendor/Live_Subtitle_Scraper"
         run: ./scripts/run_pipeline.sh
       - name: Commit refreshed data

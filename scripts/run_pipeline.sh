@@ -5,16 +5,28 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SCRAPER_DIR="${SCRAPER_DIR:-${ROOT_DIR}/vendor/Live_Subtitle_Scraper}"
 CAPTURE_MINUTES="${CAPTURE_MINUTES:-15}"
 OUTPUT_DIR="${OUTPUT_DIR:-${SCRAPER_DIR}/output}"
+AUTO_CAPTURE="${AUTO_CAPTURE:-0}"
 
 if [[ ! -f "${SCRAPER_DIR}/main.py" ]]; then
   echo "Scraper not found at ${SCRAPER_DIR}" >&2
   exit 1
 fi
 
-python3 "${SCRAPER_DIR}/main.py" \
-  --channel bbc_parliament \
-  --duration "${CAPTURE_MINUTES}" \
+SCRAPER_ARGS=(
+  --channel bbc_parliament
+  --duration "${CAPTURE_MINUTES}"
   --output-dir "${OUTPUT_DIR}"
+)
+if [[ "${AUTO_CAPTURE}" == "1" ]]; then
+  # The BBC CDN parameters are session-specific. Discover them from the
+  # iPlayer player instead of relying on a stale x= value.
+  SCRAPER_ARGS+=(
+    --auto
+    --headless
+    --live-url "https://www.bbc.co.uk/iplayer/live/bbcparliament"
+  )
+fi
+python3 "${SCRAPER_DIR}/main.py" "${SCRAPER_ARGS[@]}"
 
 SESSION_DIR="$(python3 - "${OUTPUT_DIR}" <<'PY'
 from pathlib import Path

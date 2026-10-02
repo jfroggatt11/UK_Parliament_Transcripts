@@ -17,6 +17,7 @@ log = logging.getLogger(__name__)
 
 from src.config import BBC_CHANNELS, ITV_CHANNELS, C4_CHANNELS, AMAZON_CHANNELS, DEFAULT_OUTPUT_DIR, SessionConfig
 from src.scrapers.amazon import AmazonScraper
+from src.scrapers.base import SubtitleAccessError
 from src.scrapers.bbc import BBCScraper
 from src.scrapers.channel4 import Channel4Scraper
 from src.scrapers.itv import ITVScraper
@@ -445,6 +446,9 @@ async def main() -> None:
     except (KeyboardInterrupt, asyncio.CancelledError):
         print("\n\nInterrupted — saving collected data...")
         records = scraper._records
+    except SubtitleAccessError as exc:
+        log.error("%s", exc)
+        raise SystemExit(1) from None
     finally:
         # Stop audio recording and save if active.
         # Shield from further cancellation so the audio is always saved.
@@ -485,7 +489,7 @@ async def main() -> None:
                 except Exception:
                     pass
 
-    logger.finalise(len(records))
+        logger.finalise(len(scraper._records))
     print_summary(records)
 
 

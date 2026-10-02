@@ -18,6 +18,10 @@ from src.storage import SessionLogger
 log = logging.getLogger(__name__)
 
 
+class SubtitleAccessError(RuntimeError):
+    """The subtitle endpoint repeatedly refused access from this session."""
+
+
 @dataclass(frozen=True, slots=True)
 class LatencyRecord:
     """A single latency measurement tied to a subtitle cue."""
@@ -46,6 +50,7 @@ class BaseScraper(ABC):
         self._stop = False
         self._last_segment_id: str | None = None
         self._records: list[LatencyRecord] = []
+        self._forbidden_responses = 0
         self.audio_start_unix: float | None = None  # set when audio recording begins
 
     @property
@@ -122,6 +127,10 @@ class BaseScraper(ABC):
             cycle_start = time.monotonic()
             try:
                 await self._poll_cycle(client)
+            except SubtitleAccessError:
+                # Repeating the same denied request cannot repair access.
+                # Propagate to the CLI so it reports the real capture failure.
+                raise
             except Exception:
                 log.exception("Error in poll cycle")
 
@@ -152,12 +161,22 @@ class BaseScraper(ABC):
         fetch_time = await get_akamai_time(client)
 
         if resp.status_code == 403:
+            self._forbidden_responses += 1
             log.warning(
                 "403 Forbidden for segment %s — session may need refresh "
                 "(re-open iPlayer and copy a fresh base URL with --base-url)",
                 segment_id,
             )
+            if self._forbidden_responses >= 3:
+                raise SubtitleAccessError(
+                    "Subtitle capture stopped after 3 consecutive HTTP 403 responses. "
+                    "The server refused access; no transcript can be built from denied requests. "
+                    "Possible causes include stale stream settings or restrictions on this "
+                    "network/runner. For local capture, run ./scripts/run_local.sh --browser "
+                    "and check that BBC Parliament plays with subtitles on this computer."
+                )
             return
+        self._forbidden_responses = 0
         if resp.status_code == 404:
             log.debug("Segment %s not yet available", segment_id)
             return
