@@ -19,13 +19,19 @@ python3 "${SCRAPER_DIR}/main.py" \
 SESSION_DIR="$(python3 - "${OUTPUT_DIR}" <<'PY'
 from pathlib import Path
 import sys
-root = Path(sys.argv[1]) / "bbc"
-sessions = [p.parent for p in root.rglob("transcript_chunks.txt")]
+root = Path(sys.argv[1]).resolve() / "bbc"
+if not root.exists():
+    raise SystemExit(f"BBC output directory was not created: {root}")
+sessions = [p for p in root.iterdir() if p.is_dir() and (p / "session.json").exists()]
 if not sessions:
-    raise SystemExit("No completed BBC session found")
+    raise SystemExit("No BBC session was created")
 print(max(sessions, key=lambda p: p.stat().st_mtime))
 PY
 )"
+
+# The scraper writes subtitle cues incrementally under subs/. Build the
+# transcript after capture so the dashboard can consume the completed session.
+(cd "${SCRAPER_DIR}" && python3 -m src.transcript "${SESSION_DIR}")
 
 python3 "${ROOT_DIR}/scripts/build_dashboard.py" \
   --session "${SESSION_DIR}" \

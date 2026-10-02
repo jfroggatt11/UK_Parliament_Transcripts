@@ -16,7 +16,6 @@ import httpx
 log = logging.getLogger(__name__)
 
 from src.config import BBC_CHANNELS, ITV_CHANNELS, C4_CHANNELS, AMAZON_CHANNELS, DEFAULT_OUTPUT_DIR, SessionConfig
-from src.metrics import compute_all
 from src.scrapers.amazon import AmazonScraper
 from src.scrapers.bbc import BBCScraper
 from src.scrapers.channel4 import Channel4Scraper
@@ -136,6 +135,15 @@ def print_summary(records: list) -> None:
     """Print final session summary with metrics from the paper framework."""
     if not records:
         print("\nNo records collected.")
+        return
+
+    # SubLQ is an optional research dependency. Capturing subtitles and
+    # building the public dashboard must still work when it is unavailable
+    # (for example in the lightweight GitHub Actions job).
+    try:
+        from src.metrics import compute_all
+    except ImportError:
+        print("\nSubLQ metrics unavailable; capture data was saved without latency summary.")
         return
 
     # Per-segment: take first record per segment
