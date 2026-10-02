@@ -1,14 +1,13 @@
 # Parliamentary Pulse
 
-A small dashboard for live BBC Parliament subtitles. It shows the full captured transcript, a daily word cloud, cheap local topic signals, and word/topic occurrence over time.
+A local dashboard for live BBC Parliament subtitles, a daily word cloud, recurring phrases, and longer-term vocabulary and topic signals.
 
 ## Run locally
 
-Build data from an existing scraper session, then serve `dist/`:
+Start the local server and continuous collector:
 
 ```bash
-python3 scripts/build_dashboard.py --session /path/to/session
-python3 -m http.server 4173 --directory dist
+./scripts/run_local.sh --browser
 ```
 
 Open <http://localhost:4173>.
@@ -30,7 +29,7 @@ The local app stores data in `work/local/pulse.sqlite3` (ignored by git). It exp
 - longer-running daily, hourly, and topic signals at `/api/analytics?days=30` or `days=90`;
 - a health view at `/api/health`.
 
-The core app uses Python’s standard library. The browser bootstrap requires the vendored scraper dependencies and Playwright Chromium:
+The core app uses Python’s standard library. The optional browser bootstrap requires Playwright Chromium:
 
 ```bash
 python3 -m venv .venv
@@ -60,10 +59,14 @@ The live iPlayer page is `https://www.bbc.co.uk/iplayer/live/bbcparliament`.
 After adding that entry, run:
 
 ```bash
-CAPTURE_MINUTES=12 ./scripts/run_pipeline.sh
+AUTO_CAPTURE=1 CAPTURE_MINUTES=12 ./scripts/run_pipeline.sh
 ```
 
-The included GitHub Actions workflow runs the same pipeline hourly and commits the refreshed `dist/data/dashboard.json`. The analysis uses local lexical topic signals, so the refresh has no per-run model cost. A later upgrade can replace that step with local NMF/BERTopic or an API model without changing the dashboard contract.
+GitHub Actions capture is manual only. It now bootstraps the BBC player in headless Chromium to discover the current session-specific CDN parameters before collecting subtitles. Repeated 403s stop the batch scraper after three denied responses and report the access failure directly, rather than spending 12 minutes producing an empty session. A GitHub runner may still be refused if BBC playback is unavailable from that runner’s network or region.
+
+Use `./scripts/run_local.sh --browser` for the local live dashboard. The batch pipeline produces the legacy `dist/data/dashboard.json`; the current dashboard uses the local `/api/` endpoints instead. Running a static file server alone will not provide those endpoints.
+
+If local capture also receives 403s, check whether BBC Parliament plays normally in iPlayer with subtitles enabled on this computer, then use the browser setup to discover current stream settings. A browser session cannot guarantee access on a network where playback is refused. Local lexical analytics have no per-run model cost.
 
 ## Parliament detection
 
